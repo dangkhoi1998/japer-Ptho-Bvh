@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-10-08T11:59:17 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_40" pageWidth="595" pageHeight="842" columnWidth="469" leftMargin="70" rightMargin="56" topMargin="56" bottomMargin="56" uuid="22a40bbf-8ec0-423e-b36a-ffa97752ac9c">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="text1" class="java.lang.String">
+		<fieldDescription><![CDATA[text1]]></fieldDescription>
+	</field>
+	<field name="text2" class="java.lang.String">
+		<fieldDescription><![CDATA[text2]]></fieldDescription>
+	</field>
+	<field name="text3" class="java.lang.String">
+		<fieldDescription><![CDATA[text3]]></fieldDescription>
+	</field>
+	<field name="text4" class="java.lang.String">
+		<fieldDescription><![CDATA[text4]]></fieldDescription>
+	</field>
+	<field name="text5" class="java.lang.String">
+		<fieldDescription><![CDATA[text5]]></fieldDescription>
+	</field>
+	<field name="text6" class="java.lang.String">
+		<fieldDescription><![CDATA[text6]]></fieldDescription>
+	</field>
+	<field name="text7" class="java.lang.String">
+		<fieldDescription><![CDATA[text7]]></fieldDescription>
+	</field>
+	<field name="text8" class="java.lang.String">
+		<fieldDescription><![CDATA[text8]]></fieldDescription>
+	</field>
+	<field name="text9" class="java.lang.String">
+		<fieldDescription><![CDATA[text9]]></fieldDescription>
+	</field>
+	<field name="text10" class="java.lang.String">
+		<fieldDescription><![CDATA[text10]]></fieldDescription>
+	</field>
+	<field name="text11" class="java.lang.String">
+		<fieldDescription><![CDATA[text11]]></fieldDescription>
+	</field>
+	<field name="text12" class="java.lang.String">
+		<fieldDescription><![CDATA[text12]]></fieldDescription>
+	</field>
+	<field name="textarea1" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea1]]></fieldDescription>
+	</field>
+	<field name="textarea2" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea2]]></fieldDescription>
+	</field>
+	<field name="textarea3" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea3]]></fieldDescription>
+	</field>
+	<field name="textarea4" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea4]]></fieldDescription>
+	</field>
+	<field name="textarea5" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea5]]></fieldDescription>
+	</field>
+	<field name="text13" class="java.lang.String">
+		<fieldDescription><![CDATA[text13]]></fieldDescription>
+	</field>
+	<field name="text14" class="java.lang.String">
+		<fieldDescription><![CDATA[text14]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="730" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="2" width="470" height="18" uuid="a42502f3-747c-49ab-a356-1622f2eecffa"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc<br>.............................."]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="29" width="470" height="18" uuid="c9e5ab43-d481-455f-b96f-7521bd7304f1"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ĐƠN ĐĂNG KÝ CÔNG NHẬN<br>CÂY ĐẦU DÒNG/VƯỜN CÂY ĐẦU DÒNG<br>CÂY CÔNG NGHIỆP, CÂY ĂN QUẢ LÂU NĂM"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="67" width="470" height="18" uuid="8a52fbe7-b45e-4a6c-b5d8-933d3caf9582"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kính gửi: Sở Nông nghiệp và PTNT tỉnh/TP"+($F{text1} !=null ? $F{text1}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="85" width="470" height="18" uuid="1d471b2e-7372-454b-b87c-e849d302d884"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.Tên tổ chức, cá nhân:"+($F{text2} !=null ? $F{text2}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="103" width="79" height="18" uuid="82cc2ab4-e10f-4a92-9f9e-7b746c9f109d"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. Địa chỉ:"+($F{text3} !=null ? $F{text3}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="79" y="103" width="79" height="18" uuid="812a24f9-c00b-40af-a937-b26ab279a695"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Điện thoại"+($F{text4} !=null ? $F{text4}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="158" y="103" width="31" height="18" uuid="3dd3f4de-673d-4e37-8696-02c619b7361d"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Fax:"+($F{text5} !=null ? $F{text5}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="200" y="103" width="79" height="18" uuid="17a28c54-7deb-4e5e-8532-1cb626b09447"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["E-mail:"+($F{text6} !=null ? $F{text6}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="121" width="470" height="18" uuid="592c09b4-960f-4de0-96c0-11ec4896b71a"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3. Tên giống: "+($F{text7} !=null ? $F{text7}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="139" width="470" height="18" uuid="169020ed-7d3c-4ccb-a92c-bd189e322d30"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["4. Vị trí hành chính và địa lý của cây đầu dòng/vườn cây đầu dòng"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="157" width="39" height="18" uuid="085c3be6-f4f2-4a11-9994-5fcbad393e93"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Thôn:"+($F{text8} !=null ? $F{text8}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="51" y="157" width="39" height="18" uuid="5850596b-5201-4bc1-b275-605b78ed94ea"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["xã"+($F{text9} !=null ? $F{text9}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="90" y="157" width="59" height="18" uuid="1b168aa2-d6c4-430a-814f-04a47b96c802"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["huyện"+($F{text10} !=null ? $F{text10}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="149" y="157" width="71" height="18" uuid="efb3c601-a198-4705-9ead-d7e0a3a40599"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["tỉnh/TP"+($F{text11} !=null ? $F{text11}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="175" width="470" height="18" uuid="b7d77064-8063-49dc-8ec4-f2bbcc142404"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["5. Các thông tin chi tiết về cây đầu dòng/vườn cây đầu dòng đăng ký công nhận:"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="193" width="470" height="18" uuid="fbddc8af-7d8f-4d9e-b4f0-501614f360f2"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Năm trồng:"+($F{text12} !=null ? $F{text12}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="211" width="470" height="18" uuid="a75a6008-12d3-4f95-ba56-1d1e01626b4f"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Nguồn vật liệu giống trồng ban đầu (cây ghép, cây giâm hom, cây chiết cành và vật liệu nhân giống khác):"+($F{textarea1} !=null ? $F{textarea1}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="229" width="470" height="18" uuid="db9bd421-2fd4-4bcc-b20f-e3e186ef5461"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Tình hình sinh trưởng (chiều cao, đường kính tán cây, tình hình sâu bệnh hại và một số chỉ tiêu liên quan đến sinh trưởng):"+($F{textarea2} !=null ? $F{textarea2}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="247" width="470" height="18" uuid="33caa931-2302-4b3b-808b-8b38ef7d8842"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Năng suất, chất lượng của giống (nêu những chỉ tiêu chủ yếu): "+($F{textarea3} !=null ? $F{textarea3}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="265" width="470" height="18" uuid="aa59b8d9-1bd1-4a19-a0e3-446e8c173ec3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Đối với vườn cây đầu dòng, cần có thêm những thông tin sau:"+($F{textarea4} !=null ? $F{textarea4}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="283" width="470" height="18" uuid="ff4b8d86-db05-4e23-a846-562eb32579bd"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["6. Các tài liệu liên quan khác kèm theo:"+($F{textarea5} !=null ? $F{textarea5}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="301" width="470" height="18" uuid="e6e37418-8d61-47b1-8cdc-86211992fe0b"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chúng tôi xin cam kết thực hiện nộp phí bình tuyển, thẩm định theo đúng quy định./."]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="330" width="219" height="18" uuid="51f0ac8a-461a-4a8d-bdd0-71af7a2fcd24"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ngày&nbsp"+($F{text13} !=null ? $F{text13}:"")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="348" width="219" height="18" uuid="b981d7a2-6617-4726-8e83-8e5c2ffff1f4"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Đại diện đơn vị"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="366" width="219" height="18" uuid="3421d3be-4b42-4042-9f45-1b3269a67221"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["(ký tên, đóng dấu)"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="384" width="219" height="18" uuid="6c3136ef-c663-46ee-9ad1-9131be0113e6"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text14} !=null ? $F{text14}:"")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

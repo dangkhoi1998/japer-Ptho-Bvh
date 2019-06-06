@@ -1,0 +1,245 @@
+{
+    "schema": {
+        "properties": {
+            "fax": {
+                "type": "object",
+                "required": false
+            },
+            "muc_dich": {
+                "type": "object",
+                "required": false
+            },
+            "thoi_gian_viet_don": {
+                "type": "object",
+                "required": false
+            },
+            "dien_thoai": {
+                "type": "object",
+                "required": false
+            },
+            "dia_diem": {
+                "type": "object",
+                "required": false
+            },
+            "ky_ten": {
+                "type": "object",
+                "required": false
+            },
+            "thoi_gian1": {
+                "type": "object",
+                "required": false
+            },
+            "thoi_gian2": {
+                "type": "object",
+                "required": false
+            },
+            "ten_dai_hoi": {
+                "type": "object",
+                "required": false
+            },
+            "kinh_gui": {
+                "type": "object",
+                "required": false
+            },
+            "noi_viet_don": {
+                "type": "object",
+                "required": false
+            },
+            "dia_chi": {
+                "type": "object",
+                "required": false
+            },
+            "noi_dung": {
+                "type": "object",
+                "required": false
+            },
+            "ten_to_chuc_ca_nhan": {
+                "type": "object",
+                "required": false
+            },
+            "nguon_tai_chinh": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "fax": {
+                "id": "fax",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "fax",
+                "label": "",
+                "type": "text"
+            },
+            "muc_dich": {
+                "id": "muc_dich",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "muc_dich",
+                "label": "",
+                "type": "textarea"
+            },
+            "thoi_gian_viet_don": {
+                "id": "thoi_gian_viet_don",
+                "type": "date",
+                "placeholder": "ngày",
+                "fieldClass": "form-input-100",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "events" : {
+                    "ready" : function(){
+                        var date = new Date();
+                        var dd = date.getDate();
+                        var mm = date.getMonth()+1;
+                        var yy = date.getFullYear();
+                        $('#thoi_gian_viet_don').val(dd + "/" + mm + "/" + yy);
+                    }
+                }
+            },
+            "dien_thoai": {
+                "id": "dien_thoai",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dien_thoai",
+                "label": "",
+                "type": "text"
+            },
+            "dia_diem": {
+                "id": "dia_diem",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dia_diem",
+                "label": "",
+                "type": "text"
+            },
+            "ky_ten": {
+                "id": "ky_ten",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "ký tên",
+                "name": "ky_ten",
+                "label": "",
+                "type": "text"
+            },
+            "thoi_gian1": {
+                "id": "thoi_gian1",
+                "type": "date",
+                "fieldClass": "form-input-100",
+                "placeholder": "ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "thoi_gian2": {
+                "id": "thoi_gian2",
+                "type": "date",
+                "fieldClass": "form-input-100",
+                "placeholder": "ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "ten_dai_hoi": {
+                "id": "ten_dai_hoi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ten_dai_hoi",
+                "label": "",
+                "type": "text"
+            },
+            "kinh_gui": {
+                "id": "kinh_gui",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "kinh_gui",
+                "label": "",
+                "type": "text"
+            },
+            "noi_viet_don": {
+                "id": "noi_viet_don",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "định danh",
+                "name": "noi_viet_don",
+                "label": "",
+                "type": "text"
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dia_chi",
+                "label": "",
+                "type": "text"
+            },
+            "noi_dung": {
+                "id": "noi_dung",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "noi_dung",
+                "label": "",
+                "type": "textarea"
+            },
+            "ten_to_chuc_ca_nhan": {
+                "id": "ten_to_chuc_ca_nhan",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ten_to_chuc_ca_nhan",
+                "label": "",
+                "type": "text"
+            },
+            "nguon_tai_chinh": {
+                "id": "nguon_tai_chinh",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "nguon_tai_chinh",
+                "label": "",
+                "type": "textarea"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family: Times New Roman; font-weight:bold}#thoi_gian_viet_don{width:85px!important}#thoi_gian2{width:85px!important}#thoi_gian1{width:85px!important}#noi_viet_don{width:90px!important}#kinh_gui{width:500px!important}#ten_dai_hoi{width:725px!important}#dia_diem{width:707px!important}#nguon_tai_chinh{width:780px!important}#noi_dung{width:780px!important}#muc_dich{width:780px!important}#fax{width:273px!important}#dien_thoai{width:337px!important}#dia_chi{width:713px!important}#ten_to_chuc_ca_nhan{width:587px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;} textarea.form-control{height: 80px;}</style><table border='0' cellpadding='0' cellspacing='0' style='border:none;margin:auto!important;width:800px!important'><tbody><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></strong></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>Độc lập - Tự do - Hạnh phúc</span></span></strong></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;margin-top:-20px!important'><span style='font-family:times new roman,serif;'><span style=''>_________________________</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''><br><br>ĐƠN ĐỀ NGHỊ</span></span></strong></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:0in;margin-right:22.95pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>Đăng cai tổ chức đại hội thể thao khu vực, châu lục và thế giới/giải vô địch từng môn thể thao khu vực, châu lục và thế giới tổ chức tại Việt Nam /đại hội thể dục thể thao toàn quốc</span></span></strong></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><span style='font-family:times new roman,serif;'><span style=''>Kính gửi: - Thủ tướng Chính phủ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Bộ trưởng Bộ Văn hóa, Thể thao và Du Lịch</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>1. Tên tổ chức/cá nhân đề nghị:</span></span> <span style='display: inline-table;' id='column-ten_to_chuc_ca_nhan' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>2. Địa chỉ:</span></span> <span style='display: inline-table;' id='column-dia_chi' ></span></p></td></tr><tr><td colspan='2' style='width:300px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>3. Điện thoại:</span></span> <span style='display: inline-table;' id='column-dien_thoai' ></span></p></td><td style='width:324px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>Fax:</span></span> <span style='display: inline-table;' id='column-fax' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>Đề nghị: Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch xem xét, đề nghị Thủ tướng Chính phủ cho phép đăng cai tổ chức (đại hội/giải</span></span><span style='font-family:times new roman,serif;'><span style=''>) </span></span><span style='display: inline-table;' id='column-ten_dai_hoi' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>- Mục đích đăng cai tổ chức:</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='display: inline-table;' id='column-muc_dich' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''><br />- Nội dung đại hội/giải:</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='display: inline-table;' id='column-noi_dung' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''><br />- Thời gian tổ chức đại hội/giải: từ ngày</span></span> <span style='display: inline-table;' id='column-thoi_gian1' ></span><span style='font-family:times new roman,serif;'><span style=''> đến ngày </span></span><span style='display: inline-table;' id='column-thoi_gian2' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>- Địa điểm</span></span>: <span style='display: inline-table;' id='column-dia_diem' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''>- Nguồn tài chính, cơ sở vật chất, trang thiết bị kỹ thuật:</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='display: inline-table;' id='column-nguon_tai_chinh' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='font-family:times new roman,serif;'><span style=''><br />4. Cam kết:</span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='position:relative;top:-3.0pt;letter-spacing:.3pt;'><span style='font-family:times new roman,serif;'><span style=''>- Thực hiện đúng các quy định về tổ chức đại hội/giải theo quy định của pháp luật;</span></span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='position:relative;top:-4.0pt;letter-spacing:.4pt;'><span style='font-family:times new roman,serif;'><span style=''>- Chịu trách nhiệm về tính chính xác, trung thực của nội dung hồ sơ đề nghị./.</span></span></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;margin-left:80px!important'><span style='display: inline-table;' id='column-noi_viet_don' ></span><span style='font-family:times new roman,serif;'><span style=''>, <em>ngày</em> </span></span><span style='display: inline-table;' id='column-thoi_gian_viet_don' ></span></p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;margin-left:80px!important'><strong><span style='font-family:times new roman,serif;'><span style=''>ĐẠI DIỆN THEO PHÁP LUẬT CỦA<br />TỔ CHỨC/CÁ NHÂN ĐỀ NGHỊ</span></span></strong></p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:0in;margin-right:16.55pt;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;text-indent:8.3pt;margin-left:80px!important'><em><span style='font-family:times new roman,serif;'><span style=''>Ký, đóng dấu, họ tên, chức vụ (nếu là tổ chức);</span></span></em></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;margin-left:80px!important'><em><span style='font-family:times new roman,serif;'><span style=''>ký, ghi rõ họ tên (nếu là cá nhân)</span></span></em></p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'>&nbsp;</p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'>&nbsp;</p></td></tr><tr><td style='width:246px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td colspan='2' style='width:378px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;margin-left:80px!important'><span style='display: inline-table;' id='column-ky_ten' ></span></p></td></tr><tr><td colspan='3' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'>&nbsp;</p></td></tr><tr height='0'><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td></tr></tbody></table><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "fax": "column-fax",
+                "muc_dich": "column-muc_dich",
+                "thoi_gian_viet_don": "column-thoi_gian_viet_don",
+                "dien_thoai": "column-dien_thoai",
+                "ky_ten": "column-ky_ten",
+                "dia_diem": "column-dia_diem",
+                "thoi_gian1": "column-thoi_gian1",
+                "thoi_gian2": "column-thoi_gian2",
+                "ten_dai_hoi": "column-ten_dai_hoi",
+                "noi_viet_don": "column-noi_viet_don",
+                "kinh_gui": "column-kinh_gui",
+                "dia_chi": "column-dia_chi",
+                "noi_dung": "column-noi_dung",
+                "ten_to_chuc_ca_nhan": "column-ten_to_chuc_ca_nhan",
+                "nguon_tai_chinh": "column-nguon_tai_chinh"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

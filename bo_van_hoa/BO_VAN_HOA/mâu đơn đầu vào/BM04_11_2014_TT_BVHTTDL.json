@@ -1,0 +1,287 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "cv": {
+                "required": true,
+                "type": "object"
+            },
+            "dantoc": {
+                "required": true,
+                "type": "object"
+            },
+            "date11": {
+                "required": true,
+                "type": "object"
+            },
+            "date2": {
+                "required": true,
+                "type": "object"
+            },
+            "diadiem": {
+                "required": true,
+                "type": "object"
+            },
+            "gt": {
+                "required": true,
+                "type": "object"
+            },
+            "ky": {
+                "required": true,
+                "type": "object"
+            },
+            "nam": {
+                "required": true,
+                "type": "object"
+            },
+            "ng": {
+                "required": false,
+                "type": "object"
+            },
+            "ngkh": {
+                "required": true,
+                "type": "object"
+            },
+            "quoctich": {
+                "required": false,
+                "type": "object"
+            },
+            "shk": {
+                "required": true,
+                "type": "object"
+            },
+            "sodt": {
+                "required": false,
+                "type": "object"
+            },
+            "table1": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "thoigian": {
+                            "type": "string",
+                            "title": "Thời gian"
+                        },
+                        "chuc_vu": {
+                            "type": "string",
+                            "title": "Chức vụ, đơn vị công tác"
+                        },
+                    }
+                }
+            },
+            "ten": {
+                "required": true,
+                "type": "object"
+            },
+            "tomtat": {
+                "required": false,
+                "type": "object"
+            },
+            "tt": {
+                "required": true,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "cv": {
+                "id": "cv",
+                "name": "cv",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dantoc": {
+                "id": "dantoc",
+                "name": "dantoc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "date11": {
+                "placeholder": "ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "date11",
+                "name": "date11",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "date2": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "date2",
+                "name": "date2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "diadiem": {
+                "id": "diadiem",
+                "name": "diadiem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "gt": {
+                "noneLabel": "— Chọn —",
+                "multiple": false,
+                "removeDefaultNone": false,
+                "id": "gt",
+                "name": "gt",
+                "type": "select",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Giới tính",
+				"datasource": [
+                    {"value":"Nam","text":"Nam"},
+                     {"value":"Nữ","text":"Nữ"}
+                ]
+            },
+            "ky": {
+                "id": "ky",
+                "name": "ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Thủ trưởng"
+            },
+            "nam": {
+                "id": "nam",
+                "name": "nam",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ng": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ng",
+                "name": "ng",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngkh": {
+                "id": "ngkh",
+                "name": "ngkh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Người khai"
+            },
+            "quoctich": {
+                "id": "quoctich",
+                "name": "quoctich",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "shk": {
+                "id": "shk",
+                "name": "shk",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "sodt": {
+                "id": "sodt",
+                "name": "sodt",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "table1": {
+                "id": "table1",
+                "name": "table1",
+                "type": "table",
+                "fieldClass": ""
+            },
+            "ten": {
+                "id": "ten",
+                "name": "ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "tomtat": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "tomtat",
+                "name": "tomtat",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tt": {
+                "id": "tt",
+                "name": "tt",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Thủ trưởng"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 100%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#quoctich {width: 100px !important;}#ng {width: 85px !important;}#diadiem {width: 100px !important;}#table1 {width: 1000px !important;}#date11 {width: 75px !important;}#ten {width: 200px !important;}#date2 {width: 75px !important;}#shk {width: 885px !important;}#cv {width: 855px !important;}#nam {width: 900px !important;}#sodt {width: 875px !important;}#tomtat {width: 1000px !important;}#dantoc {width: 725px !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><table border='0' cellpadding='0' cellspacing='0' style='margin:auto !important;border:none;'><tbody><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'><strong><span style='color:black;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br />Độc lập - Tự do - Hạnh phúc<br />----------</span></strong></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='right' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:right;line-height:19.6pt;'><em><span style='color:black;'>&nbsp;<span style='display: inline-table;' id='column-diadiem' ></span>, <span style='display: inline-table;' id='column-date11' ></span></em></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-left:0cm;text-align:center;'><strong><span style='color:black;'>BẢN TÓM TẮT</span></strong></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-left:0cm;text-align:center;line-height:19.6pt;'><strong><span style='color:black;'>Quá trình công tác và thành tích của cá nhân đề nghị xét tặng Kỷ niệm chương “Vì sự nghiệp Văn hóa, Thể thao và Du lịch”</span></strong></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-left:0cm;'><strong><span style='color:black;'>I. Sơ lược tiểu sử bản thân</span></strong></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-left:0cm;'><span style='color:black;'>- Họ và tên: <span style='display: inline-table;' id='column-ten' ></span>&nbsp;&nbsp;&nbsp;Giới tính: <span style='display: inline-table;' id='column-gt' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><span style='color:black;'>- Ngày, tháng, năm sinh: <span style='display: inline-table;' id='column-date2' ></span>&nbsp;&nbsp;&nbsp;Dân tộc: <span style='display: inline-table;' id='column-dantoc' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='right' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:right;line-height:19.6pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em><span style='color:black;'>(Quốc tịch: <span style='display: inline-table;' id='column-quoctich' ></span> nếu là người nước ngoài)</span></em></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-left:0cm;'><span style='color:black;'>- Hộ khẩu thường trú: <span style='display: inline-table;' id='column-shk' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><span style='color:black;'>- Chức vụ và nơi công tác: <span style='display: inline-table;' id='column-cv' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><span style='color:black;'>- Số năm công tác: <span style='display: inline-table;' id='column-nam' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><span style='color:black;'>- Ngày nghỉ hưu (nếu có): <span style='display: inline-table;' id='column-ng' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><span style='color:black;'>- Số điện thoại liên lạc: <span style='display: inline-table;' id='column-sodt' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><strong><span style='color:black;'>II. Quá trình công tác trong Ngành Văn hóa, Thể thao và Du lịch&nbsp;</span></strong><em><span style='color:black;'>(đối với cá nhân được xét tặng Kỷ niệm chương là người công tác trong Ngành)</span></em></p></td></tr><tr><td colspan='2' style='width:100%;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-left:0cm;'>&nbsp;<span style='display: inline-table;width:100% !important' id='column-table1' ></span></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:19.6pt;'><strong><span style='color:black;'>III. Tóm tắt những đóng góp cho ngành Văn hóa, Thể thao và Du lịch</span></strong></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 0cm 0cm 0cm;vertical-align:top;'><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:0cm;line-height:19.6pt;'><em><span style='color:black;'>(đối với cá nhân được xét Kỷ niệm chương là người công tác ngoài Ngành, người Việt Nam ở nước ngoài hoặc người nước ngoài).</span></em></p></td></tr><tr><td colspan='2' style='width:575px;padding:0cm 0cm 0cm 0cm;vertical-align:top;'><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:0cm;line-height:19.6pt;margin-top:-20px!important'><span style='color:black;'>&nbsp;<span style='display: inline-table;' id='column-tomtat' ></span></p></td></tr><tr><td style='width:288px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'><strong><span style='color:black;'>Xác nhận của Thủ trưởng đơn vị</span></strong><br /><em><span style='color:black;'>(đối với cá nhân công tác trong Ngành)<br />(Ký tên, đóng dấu)</span></em></p><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'>&nbsp;</p><p align='center' style='margin-left:0cm;text-align:center;'><span style='display: inline-table;' id='column-tt' ></span></p></td><td style='width:288px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'><strong><span style='color:black;'>Người khai ký tên</span></strong><br /><em><span style='color:black;'>(Ghi rõ họ tên)</span></em></p><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'>&nbsp;</p><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-ngkh' ></span></p></td></tr><tr style='height:21px;'><td style='width:288px;padding:0cm 5.4pt 0cm 5.4pt;height:21px;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;line-height:19.6pt;'><strong><span style='color:black;'>Xác nhận của Thủ trưởng đơn vị trình hồ sơ về thành tích đề nghị khen thưởng</span></strong><br /><span style='color:black;'><em>(đối với cá nhân công tác ngoài Ngành, người Việt Nam ở nước ngoài<br/> và người nước ngoài)<br />(Ký tên, đóng dấu)</em></span></p><br/><br/><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-ky' ></span></p></td><td style='width:288px;padding:0cm 5.4pt 0cm 5.4pt;height:21px;vertical-align:top;'><p align='right' style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:right;line-height:19.6pt;'>&nbsp;</p></td></tr></tbody></table><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "date11": "column-date11",
+                "ten": "column-ten",
+                "ky": "column-ky",
+                "nam": "column-nam",
+                "diadiem": "column-diadiem",
+                "quoctich": "column-quoctich",
+                "tomtat": "column-tomtat",
+                "cv": "column-cv",
+                "table1": "column-table1",
+                "ngkh": "column-ngkh",
+                "tt": "column-tt",
+                "date2": "column-date2",
+                "ng": "column-ng",
+                "gt": "column-gt",
+                "sodt": "column-sodt",
+                "dantoc": "column-dantoc",
+                "shk": "column-shk"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-11-15T10:01:52 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_7" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="468" leftMargin="85" rightMargin="42" topMargin="56" bottomMargin="56" uuid="1a5e6c7e-0e14-469a-9fbd-874479e844a8">
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="tencoquan" class="java.lang.String">
+		<fieldDescription><![CDATA[tencoquan]]></fieldDescription>
+	</field>
+	<field name="so1" class="java.lang.String">
+		<fieldDescription><![CDATA[so1]]></fieldDescription>
+	</field>
+	<field name="gp" class="java.lang.String">
+		<fieldDescription><![CDATA[gp]]></fieldDescription>
+	</field>
+	<field name="dinhdanh1" class="java.lang.String">
+		<fieldDescription><![CDATA[dinhdanh1]]></fieldDescription>
+	</field>
+	<field name="ngay1" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay1]]></fieldDescription>
+	</field>
+	<field name="so2" class="java.lang.String">
+		<fieldDescription><![CDATA[so2]]></fieldDescription>
+	</field>
+	<field name="ngay2" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay2]]></fieldDescription>
+	</field>
+	<field name="cua1" class="java.lang.String">
+		<fieldDescription><![CDATA[cua1]]></fieldDescription>
+	</field>
+	<field name="cua2" class="java.lang.String">
+		<fieldDescription><![CDATA[cua2]]></fieldDescription>
+	</field>
+	<field name="ngay3" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay3]]></fieldDescription>
+	</field>
+	<field name="ngay4" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay4]]></fieldDescription>
+	</field>
+	<field name="ngay5" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay5]]></fieldDescription>
+	</field>
+	<field name="cua3" class="java.lang.String">
+		<fieldDescription><![CDATA[cua3]]></fieldDescription>
+	</field>
+	<field name="cua4" class="java.lang.String">
+		<fieldDescription><![CDATA[cua4]]></fieldDescription>
+	</field>
+	<field name="cua5" class="java.lang.String">
+		<fieldDescription><![CDATA[cua5]]></fieldDescription>
+	</field>
+	<field name="bieudien" class="java.lang.String">
+		<fieldDescription><![CDATA[bieudien]]></fieldDescription>
+	</field>
+	<field name="thoiluong" class="java.lang.String">
+		<fieldDescription><![CDATA[thoiluong]]></fieldDescription>
+	</field>
+	<field name="dinhdang" class="java.lang.String">
+		<fieldDescription><![CDATA[dinhdang]]></fieldDescription>
+	</field>
+	<field name="nguoichiu" class="java.lang.String">
+		<fieldDescription><![CDATA[nguoichiu]]></fieldDescription>
+	</field>
+	<field name="nghiemcam" class="java.lang.String">
+		<fieldDescription><![CDATA[nghiemcam]]></fieldDescription>
+	</field>
+	<field name="yeucau" class="java.lang.String">
+		<fieldDescription><![CDATA[yeucau]]></fieldDescription>
+	</field>
+	<field name="noinhan" class="java.lang.String">
+		<fieldDescription><![CDATA[noinhan]]></fieldDescription>
+	</field>
+	<field name="thutruong" class="java.lang.String">
+		<fieldDescription><![CDATA[thutruong]]></fieldDescription>
+	</field>
+	<field name="kyten" class="java.lang.String">
+		<fieldDescription><![CDATA[kyten]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="21">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="-49" y="0" width="250" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH <br> <b> CỤC NGHỆ THUẬT BIỂU DIỄN </b><br>--------"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="201" y="0" width="280" height="21" isRemoveLineWhenBlank="true" uuid="c3152dc0-2ebd-4a16-a8be-0b57c035d804">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br/>Độc lập - Tự do - Hạnh phúc <br/>---------------"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="-49" y="0" width="250" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số: "+($F{so1} != null ? $F{so1} : "" )+"/GP-NTBD"+($F{gp} != null ? $F{gp} : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="201" y="0" width="280" height="21" isRemoveLineWhenBlank="true" uuid="c3152dc0-2ebd-4a16-a8be-0b57c035d804">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false" isItalic="false"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<i>"+($F{dinhdanh1} != null ? $F{dinhdanh1} : "" )+", ngày "+($F{ngay1} != null ? ($F{ngay1}.split("/")[0] +" tháng "+$F{ngay1}.split("/")[1] +" năm "+$F{ngay1}.split("/")[2]) : "" )+"</i>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br>GIẤY PHÉP"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="-20" y="0" width="490" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Phê duyệt nội dung bản ghi âm, ghi hình ca múa nhạc, sân khấu"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỤC TRƯỞNG CỤC NGHỆ THUẬT BIỂU DIỄN"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Căn cứ Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ quy định về biểu diễn nghệ thuật, trình diễn thời trang; thi người đẹp và người mẫu; lưu hành, kinh doanh bản ghi âm, ghi hình ca múa nhạc, sân khấu; <br> Căn cứ Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ sửa đổi, bổ sung một số Điều của Nghị định số 79/2012/NĐ-CP; <br> Căn cứ Thông tư số 01/2016/TT-BVHTTDL ngày 24 tháng 3 năm 2016 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chi Tiết thi hành một số Điều của Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ và Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ; <br>Căn cứ Quyết định số 1697/QĐ-BVHTTDL ngày 10 tháng 5 năm 2018 của Bộ trưởng Bộ Văn hoá, Thể thao và Du lịch quy định về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Nghệ thuật biểu diễn;"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Căn cứ Biên bản thẩm định của Hội đồng nghệ thuật ngày "+($F{ngay4} != null ? ($F{ngay4}.split("/")[0] +" tháng "+$F{ngay4}.split("/")[1] +" năm "+$F{ngay4}.split("/")[2]) : "" )+";"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Xét đề nghị ngày "+($F{ngay5} != null ? ($F{ngay5}.split("/")[0] +" tháng "+$F{ngay5}.split("/")[1] +" năm "+$F{ngay5}.split("/")[2]) : "" )+" của "+($F{cua3} != null ? $F{cua3} : "" )+".<i>(Tổ chức đề nghị cấp giấy phép)</i>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Theo đề nghị của "+($F{cua4} != null ? $F{cua4} : "" )+","]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PHÊ DUYỆT"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Điều 1.</b> Chương trình “"+($F{cua5} != null ? $F{cua5} : "" )+"” <i>(Tên bản ghi âm, ghi hình)</i>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<i>(Có danh Mục tác phẩm, tác giả, người biểu diễn "+($F{bieudien} != null ? $F{bieudien} : "" )+" kèm theo).</i>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>- Thời lượng chương trình: </b>"+($F{thoiluong} != null ? $F{thoiluong} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>- Định dạng bản ghi</b>: "+($F{dinhdang} != null ? $F{dinhdang} : "" )+"<i>(CD, VCD, DVD hoặc tên thiết bị lưu trữ)</i>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>- Người chịu trách nhiệm chương trình: </b>"+($F{nguoichiu} != null ? $F{nguoichiu} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Điều 2. </b>Nghiêm cấm "+($F{nghiemcam} != null ? $F{nghiemcam} : "" )+"sửa chữa, xóa bỏ hoặc bổ sung về nội dung, hình thức bản ghi âm, ghi hình kể từ ngày Giấy phép này được ban hành"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="23">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="470" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Điều 3.</b> Yêu cầu "+($F{yeucau} != null ? $F{yeucau} : "" )+"và các tổ chức, cá nhân có liên quan thực hiện đúng nội dung Giấy phép và các quy định tại Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ quy định về biểu diễn nghệ thuật, trình diễn thời trang; thi người đẹp và người mẫu; lưu hành, kinh doanh bản ghi âm, ghi hình ca múa nhạc, sân khấu; Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ sửa đổi, bổ sung một số Điều của Nghị định số 79/2012/NĐ-CP; Thông tư số 01/2016/TT-BVHTTDL ngày 24 tháng 3 năm 2016 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch và quy định pháp luật có liên quan./."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="27">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="0" width="220" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Nơi nhận</b><br>"+($F{noinhan} != null ? $F{noinhan}.replace("\n","<br>") : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="220" y="1" width="250" height="21" isRemoveLineWhenBlank="true" uuid="96f06af8-860f-4366-87a8-e97b465a5bc0">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỤC TRƯỞNG"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="112">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="220" y="8" width="250" height="21" isRemoveLineWhenBlank="true" uuid="218d1ff5-f9da-4cca-b9e3-f2643a2f91e5">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="1" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["#"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="220" y="70" width="250" height="21" isRemoveLineWhenBlank="true" uuid="0e8d038c-c7b5-4d29-965c-ae9858489b4f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{kyten} != null ? $F{kyten} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

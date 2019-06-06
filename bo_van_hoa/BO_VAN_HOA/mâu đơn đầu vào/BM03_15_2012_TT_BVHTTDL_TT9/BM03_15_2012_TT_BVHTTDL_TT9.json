@@ -1,0 +1,504 @@
+{
+    "schema": {
+        "properties": {
+            "phone": {
+                "required": false,
+                "type": "object"
+            },
+            "a20": {
+                "required": false,
+                "type": "object"
+            },
+            "a21": {
+                "required": false,
+                "type": "object"
+            },
+            "a22": {
+                "required": false,
+                "type": "object"
+            },
+            "date": {
+                "required": false,
+                "type": "object"
+            },
+            "a9": {
+                "required": false,
+                "type": "object"
+            },
+            "a16": {
+                "required": false,
+                "type": "object"
+            },
+            "a17": {
+                "required": false,
+                "type": "object"
+            },
+            "a14": {
+                "required": false,
+                "type": "object"
+            },
+            "a15": {
+                "required": false,
+                "type": "object"
+            },
+            "a12": {
+                "required": false,
+                "type": "object"
+            },
+            "dates": {
+                "required": false,
+                "type": "object"
+            },
+            "a13": {
+                "required": false,
+                "type": "object"
+            },
+            "a10": {
+                "required": false,
+                "type": "object"
+            },
+            "a11": {
+                "required": false,
+                "type": "object"
+            },
+            "a1": {
+                "required": false,
+                "type": "object"
+            },
+            "a2": {
+                "required": false,
+                "type": "object"
+            },
+            "a3": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay": {
+                "required": false,
+                "type": "object"
+            },
+            "a4": {
+                "required": false,
+                "type": "object"
+            },
+            "a5": {
+                "required": false,
+                "type": "object"
+            },
+            "ads": {
+                "required": false,
+                "type": "object"
+            },
+            "kiten": {
+                "required": false,
+                "type": "object"
+            },
+            "a6": {
+                "enum":["Quyền tác giả","Quyền liên quan"],
+                "required": false,
+                "type": "string",
+
+            },
+            "a18": {
+                "required": false,
+                "type": "object"
+            },
+           
+            "a19": {
+                "required": false,
+                "type": "object"
+            },
+            "number": {
+                "required": false,
+                "type": "object"
+            },
+            "Diachi": {
+                "required": false,
+                "type": "object"
+            },
+            "address": {
+                "required": false,
+                "type": "object"
+            },
+            "email": {
+                "required": false,
+                "type": "object"
+            },
+            "names": {
+                "required": false,
+                "type": "object"
+            }
+        },
+        "type": "object",
+        "required": false
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "phone": {
+                "id": "phone",
+                "fieldClass": "form-input-100",
+                "name": "phone",
+                "label": "",
+                "type": "text"
+            },
+            "a20": {
+                "name": "a20",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a20",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "date": {
+                "id": "date",
+                "fieldClass": "form-input-100",
+                "name": "date",
+                "dateFormat": "DD/MM/YYYY",
+                "label": "",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date"
+            },
+            "a9": {
+                "name": "a9",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Tờ khai theo mẫu",
+                "label":"",
+                "id": "a9",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a16": {
+                 "name": "a16",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a16",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a17": {
+                 "name": "a17",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a17",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a17": {
+                 "name": "a17",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a17",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a21": {
+                 "name": "a21",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a21",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a22": {
+                "name": "a22",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a22",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a14": {
+                "name": "a14",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a14",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a15": {
+               "name": "a15",
+                 "fieldClass": "form-input-100",
+                "placeholder": "",
+                "label":"",
+                "id": "a15",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a12": {
+                 "name": "a12",
+                 "fieldClass": "form-input-100",
+                "placeholder": "02 ảnh màu cỡ 3x4 cm ",
+                "label":"",
+                "id": "a12",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "dates": {
+                "id": "dates",
+                "fieldClass": "form-input-100",
+                "name": "dates",
+                "dateFormat": "DD/MM/YYYY",
+                "label": "",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date"
+            },
+            "a13": {
+                "name": "a13",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Thẻ đã cấp (nếu yêu cầu cấp lại, trừ trường hợp bị mất)",
+                "label":"",
+                "id": "a13",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a10": {
+                "name": "a10",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Bản sao kết quả đạt yêu cầu kiểm tra nghiệp vụ giám định quyền tác giả, quyền liên quan",
+                "label":"",
+                "id": "a10",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a11": {
+                "name": "a11",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Bản sao Giấy chứng minh thư nhân dân",
+                "label":"",
+                "id": "a11",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a1": {
+                "name": "a1",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Yêu cầu cấp Thẻ lần đầu",
+                "label":"",
+                "id": "a1",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a2": {
+                "name": "a2",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Yêu cầu cấp lại Thẻ",
+                "label":"",
+                "id": "a2",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a3": {
+                "id": "a3",
+                "fieldClass": "form-input-100",
+                "name": "a3",
+                "label": "",
+                "type": "text"
+            },
+            "ngay": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay",
+                "name": "ngay",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+
+            },
+            "a4": { 
+                 "name": "a4",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Thẻ bị mất",
+                "label":"",
+                "id": "a4",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "a5": {
+                "name": "a5",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Thẻ bị mất",
+                "label":"",
+                "id": "a5",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "ads": {
+                "id": "ads",
+                "fieldClass": "form-input-100",
+                "name": "ads",
+                "label": "",
+                "type": "text"
+            },
+            "kiten": {
+                "id": "kiten",
+                "fieldClass": "form-input-100",
+                "name": "kiten",
+                "label": "",
+                "type": "text"
+            },
+            "a6": {
+                 "name": "a6",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Quyền tác giả",
+                "label":"",
+            "optionLabels":["",""],
+                "id": "a6",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+    
+            "a18": {
+                "name": "a18",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Văn bản chấp nhận được miễn kiểm tra nghiệp vụ giám định ",
+                "label":"",
+                "id": "a18",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+        
+            "a19": {
+                "name": "a19",
+                 "fieldClass": "form-input-100",
+                "placeholder": "Văn bản yêu cầu cấp lại",
+                "label":"",
+                "id": "a19",
+                "vertical": false,
+                "type": "checkbox",
+                "removeDefaultNone": true
+            },
+            "number": {
+                "id": "number",
+                "fieldClass": "form-input-100",
+                "name": "number",
+                "label": "",
+                "type": "text"
+            },
+            "Diachi": {
+                "id": "Diachi",
+                "fieldClass": "form-input-100",
+                "name": "Diachi",
+                "label": "",
+                "type": "text"
+            },
+            "address": {
+                "id": "address",
+                "fieldClass": "form-input-100",
+                "name": "address",
+                "label": "",
+                "type": "text"
+            },
+            "email": {
+                "id": "email",
+                "fieldClass": "form-input-100",
+                "name": "email",
+                "label": "",
+                "type": "text"
+            },
+            "names": {
+                "id": "names",
+                "fieldClass": "form-input-100",
+                "name": "names",
+                "label": "",
+                "type": "text"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<center><div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 36%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body b{font-weight: bold;font-family: Times New Roman }#names{width: 295px!important;color: #000!important}#date{width: 300px!important;}#number{width: 298px!important;}#address{width: 751px!important;}#phone{width: 300px!important;}#ads{width: 320px!important;}#kiten{width:200px!important}#dates{width: 315px!important;}#email{width: 330px!important;}#a3{width: 300px!important;}#Diachi{ width: 100px!important;}#ngay{width: 100px!important;}.checkbox input{margin-bottom:0px !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:1px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;}</style><p align='center' style='margin-top:1.0pt;margin-right:0in;margin-bottom:2.0pt;margin-left:0in;text-align:center;'><strong><span style='font-family: Times New Roman '><span style=''><b>MẪU TỜ KHAI YÊU CẦU CẤP/CẤP LẠI</b><br />&nbsp;<b>THẺ GIÁM ĐỊNH VIÊN QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN</b></span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><table border='1' cellpadding='0' cellspacing='0' style='margin-left:5.9pt;border-collapse:collapse;border:none;' width='870'><tbody><tr style='height:162px;'><td colspan='3' style='width:100%;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:162px;vertical-align:top;'><p style=''>&nbsp;</p><p align='center' style='text-align:center;'><span style=''><span style=''>Kính gửi</span></span><span style=''><span style=''>: Cục Bản quyền tác giả</span></span></p></td><td style='text-align: center; width:20%;border:solid windowtext 1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:162px;vertical-align:top;'><h1 style='margin-top:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-indent:0in;'><span style='text-decoration:none;text-underline:none;'><span style=''> Ảnh</span></span></h1><p align='center' style='text-align:center;'><em><span style=''><span style=''>(3x4cm)</span></span></em></p></td></tr><tr style='height:69px;'><td colspan='4' style='width:100%;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:69px;vertical-align:top;'><p style=''><strong><span style='margin-left:50px;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>THÔNG TIN NGƯỜI YÊU CẦU CẤP/ CẤP LẠI THẺ GIÁM ĐỊNH VIÊN</b></span></span></strong></p><p align='center' style='text-align:center;'><strong><span style=''><span style=''><b>QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN</b></span></span></strong></p><p><span style=''><span style=''>&nbsp; Họ và Tên:</span></span> &nbsp;&nbsp;<span style='display: inline-table;' id='column-names' ></span></p><p>&nbsp;&nbsp;<span style=''><span style=''>Năm sinh: &nbsp;&nbsp;<span style='display: inline-table;' id='column-date' ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nơi sinh: <span style='display: inline-table;' id='column-ads' ></span></p><p><span style=''><span style=''>&nbsp;&nbsp;Số CMND:</span></span>&nbsp; <span style='display: inline-table;' id='column-number' ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=''><span style=''>Cấp ngày:</span></span> <span style='display: inline-table;' id='column-dates' ></span></p><p style=''><span style=''><span style=''>&nbsp;&nbsp;Địa chỉ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='display: inline-table;' id='column-address' ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p style=''><span style=''><span style=''>&nbsp;&nbsp;Điện thoại:&nbsp; <span style='display: inline-table;' id='column-phone' ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:&nbsp; <span style='display: inline-table;' id='column-email' ></span></p></td></tr><tr style='height:69px;'><td colspan='4' style='width:100%;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:69px;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style=''><span style=''><b>NỘI DUNG YÊU CẦU</b></span></span></strong></p><p style=''><span style='display: inline-table;' id='column-a1' ></span><span style=''><span style=''> &nbsp;&nbsp;&nbsp;Yêu cầu cấp Thẻ lần đầu</span></span></p><p style=''><span style='display: inline-table;' id='column-a2' ></span> <span style=''><span style=''>&nbsp;&nbsp;&nbsp;Yêu cầu cấp lại Thẻ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số Thẻ đã cấp: </span></span><span style='display: inline-table;' id='column-a3' ></span></p><p style=''><span style=''><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Lý do cấp lại</u>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style='display: inline-table;' id='column-a4' ></span><span style=''><span style=''>&nbsp;&nbsp;&nbsp; Thẻ bị mất &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span style='display: inline-table;' id='column-a5' ></span><span style=''><span style=''>&nbsp;&nbsp;&nbsp; Thẻ bị hư hỏng&nbsp; </span></span></p></td><p><tr><td colspan='4' style='width:100%;border:solid windowtext 1.0pt;border-bottom:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><span style=''><span style=''><b>CHUYÊN NGHÀNH GIÁM ĐỊNH</b></span></span></p></td></tr><tr><td  style='width:5%;padding:0in 5.4pt 0in 5.4pt;border:solid windowtext 1.0pt;border-right:none;border-top:none;'><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style='display: inline-table;' id='column-a6' ></span></p></td><td colspan='3' style='width:60%;padding:0in 5.4pt 0in 5.4pt;border:solid windowtext 1.0pt;border-left:none;border-top:none;vertical-align:top;'><p style='margin-top:8px;margin-bottom:5px;'><span style=''><span style=''>Quyền tác giả</span></span></p><p style='margin-bottom:0in;margin-bottom:.0001pt;'><span style=''><span style=''>Quyền liên quan</span></span></p></td></tr></p><tr style='height:130px;'><td colspan='2' style='width:60%;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:130px;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style=''><span style=''><b>CÁC TÀI LIỆU CÓ TRONG HỒ SƠ</b></span></span></strong></p><p style=''><span style='display: inline-table;' id='column-a9' ></span><span style=''><span style=''> &nbsp;&nbsp;&nbsp;Tờ khai theo mẫu</span></span></p><p style=''><span style='display: inline-table;' id='column-a10' ></span><span style=''><span style=''> </span></span><span style='letter-spacing:-.2pt;'><span style=''><span style=''>&nbsp;&nbsp;&nbsp;Bản sao kết quả đạt yêu cầu kiểm tra nghiệp vụ giám định quyền tác giả, quyền liên quan </span></span></span><span style=''><span style=''> </span></span></p><p style=''><span style='display: inline-table;' id='column-a11' ></span> <span style=''><span style=''>&nbsp;&nbsp;&nbsp;Bản sao Giấy chứng minh thư nhân dân </span></span></p><p style=''><span style='display: inline-table;' id='column-a12' ></span> <span style=''><span style=''>&nbsp;&nbsp;&nbsp;02 ảnh màu cỡ 3x4 cm </span></span></p><p style=''><span style='display: inline-table;' id='column-a13' ></span> <span style=''><span style=''>&nbsp;&nbsp;&nbsp;Thẻ đã cấp (nếu yêu cầu cấp lại, trừ trường hợp bị mất)  </span></span><span style=''><span style=''></span></span><span style=''><span style=''> </span></span>&nbsp;&nbsp;</p><p style=''><span style='display: inline-table;' id='column-a18' ></span><span style=''><span style=''> <span style='letter-spacing:-.4pt;'>&nbsp;&nbsp;&nbsp;Văn bản chấp nhận được miễn kiểm tra nghiệp vụ giám định </span></span></span></p><p style=''><span style='display: inline-table;' id='column-a19' ></span><span style=''><span style=''> &nbsp;&nbsp;&nbsp;Văn bản yêu cầu cấp lại<br><br><br><br><br></span></span></p></td><td colspan='2' style='width:40%;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt;height:130px;vertical-align:top;'><p align='center' style='text-align:center;text-indent:-1.05pt;'><strong><span style=''><span style=''><b>HỒ SƠ GỒM CÁC TÀI LIỆU</b> </span></span></strong></p><p align='center' style='text-align:center;'><em><span style=''><span style=''>(Dành cho cán bộ nhận hồ sơ)</span></span></em>&nbsp;</p><p><span style='display: inline-table;' id='column-a14' ></span></p><p><span style='display: inline-table;' id='column-a15' ></span></p><p><span style='display: inline-table;' id='column-a16' ></span></p><p><span style='display: inline-table;' id='column-a17' ></span></p><p><span style='display: inline-table;' id='column-a20' ></span></p><p><span style='display: inline-table;' id='column-a22' ></span></p><p><span style='display: inline-table;' id='column-a21' ></span></p><p>&nbsp;</p><p align='center' style='text-align:center;'><span style=''><span style=''>Cán bộ nhận hồ sơ </span></span></p><p align='center' style='text-align:center;'><em><span style=''><span style=''>(ký và ghi rõ họ tên)</span></span></em></p><p>&nbsp;</p></td></tr><tr style='page-break-inside:avoid;height:93px;'><td colspan='4' style='width:100%;border:solid windowtext 1.0pt;border-top:none;padding:0in 5.4pt 0in 5.4pt;height:93px;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style=''><span style=''><b>CAM KẾT CỦA NGƯỜI YÊU CẦU</b></span></span></strong></p><p style='margin-right:-3.4pt;page-break-after:avoid;'><span style='letter-spacing:-.2pt;'><span style=''><span style=''>Tôi xin cam đoan các thông tin, tài liệu trong hồ sơ là đúng sự thật và hoàn toàn chịu trách nhiệm trước pháp luật.</span></span></span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='display: inline-table;' id='column-Diachi' ></span> , <span style=''><span style=''>ngày</span></span> <span style='display: inline-table;' id='column-ngay' ></span></p><p align='center' style='text-align:center;page-break-after:avoid;'><span style=''><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Người yêu cầu</span></span></p><p align='center' style='text-align:center;page-break-after:avoid;'><span style=''><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <em>(Ký, ghi rõ họ tên)</em></span></span><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<span style='display: inline-table;' id='column-kiten' ></p><p align='center' style='text-align:center;page-break-after:avoid;'>&nbsp;</p><p style='page-break-after:avoid;'>&nbsp;</p></td></tr><tr height='0'><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td></tr></tbody></table><p>&nbsp;</p></div></div></center>",
+            "bindings": {
+                "phone": "column-phone",
+                "a20": "column-a20",
+                "date": "column-date",
+                "a16": "column-a16",
+                "a9": "column-a9",
+                "a17": "column-a17",
+                "a14": "column-a14",
+                "a15": "column-a15",
+                "a12": "column-a12",
+                "dates": "column-dates",
+                "a13": "column-a13",
+                "a10": "column-a10",
+                "a11": "column-a11",
+                "a1": "column-a1",
+                "a2": "column-a2",
+                "a3": "column-a3",
+                "ngay": "column-ngay",
+                "a4": "column-a4",
+                "ads": "column-ads",
+                "kiten": "column-kiten",
+                "a5": "column-a5",
+                "a6": "column-a6",
+                "a7": "column-a7",
+                "a18": "column-a18",
+                "a21": "column-a21",
+                "a22": "column-a22",
+                "a19": "column-a19",
+                "number": "column-number",
+                "Diachi": "column-Diachi",
+                "email": "column-email",
+                "address": "column-address",
+                "names": "column-names"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

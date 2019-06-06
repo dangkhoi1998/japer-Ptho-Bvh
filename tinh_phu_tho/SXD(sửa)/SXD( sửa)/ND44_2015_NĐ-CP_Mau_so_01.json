@@ -1,0 +1,319 @@
+{
+    "schema": {
+        "properties": {
+            "text19": {
+                "type": "object",
+                "required": false
+            },
+            "text18": {
+                "type": "object",
+                "required": false
+            },
+            "text3": {
+                "type": "object",
+                "required": false
+            },
+            "text15": {
+                "type": "object",
+                "required": false
+            },
+            "text4": {
+                "type": "object",
+                "required": false
+            },
+            "text14": {
+                "type": "object",
+                "required": false
+            },
+            "text1": {
+                "type": "object",
+                "required": false
+            },
+            "text17": {
+                "type": "object",
+                "required": false
+            },
+            "text16": {
+                "type": "object",
+                "required": false
+            },
+            "text2": {
+                "type": "object",
+                "required": false
+            },
+            "text7": {
+                "type": "object",
+                "required": false
+            },
+            "text8": {
+                "type": "object",
+                "required": false
+            },
+            "text5": {
+                "type": "object",
+                "required": false
+            },
+            "text6": {
+                "type": "object",
+                "required": false
+            },
+            "text9": {
+                "type": "object",
+                "required": false
+            },
+            "text23": {
+                "type": "object",
+                "required": false
+            },
+            "text10": {
+                "type": "object",
+                "required": false
+            },
+            "text24": {
+                "type": "object",
+                "required": false
+            },
+            "text11": {
+                "type": "object",
+                "required": false
+            },
+            "text21": {
+                "type": "object",
+                "required": false
+            },
+            "text12": {
+                "type": "object",
+                "required": false
+            },
+            "text22": {
+                "type": "object",
+                "required": false
+            },
+            "text13": {
+                "type": "object",
+                "required": false
+            },
+            "text20": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "text19": {
+                "id": "text19",
+                "fieldClass": "form-input-100",
+                "name": "text19",
+                "label": "",
+                "type": "text"
+            },
+            "text18": {
+                "id": "text18",
+                "fieldClass": "form-input-100",
+                "name": "text18",
+                "label": "",
+                "type": "text"
+            },
+            "text3": {
+                "id": "text3",
+                "fieldClass": "form-input-100",
+                "name": "text3",
+                "label": "",
+                "type": "text"
+            },
+            "text15": {
+                "id": "text15",
+                "fieldClass": "form-input-100",
+                "name": "text15",
+                "label": "",
+                "type": "text"
+            },
+            "text4": {
+                "id": "text4",
+                "fieldClass": "form-input-100",
+                "name": "text4",
+                "label": "",
+                "type": "text"
+            },
+            "text14": {
+                "id": "text14",
+                "fieldClass": "form-input-100",
+                "name": "text14",
+                "label": "",
+                "type": "text"
+            },
+            "text1": {
+                "id": "text1",
+                "fieldClass": "form-input-100",
+                "name": "text1",
+                "label": "",
+                "type": "text"
+            },
+            "text17": {
+                "id": "text17",
+                "fieldClass": "form-input-100",
+                "name": "text17",
+                "label": "",
+                "type": "text"
+            },
+            "text16": {
+                "id": "text16",
+                "fieldClass": "form-input-100",
+                "name": "text16",
+                "label": "",
+                "type": "text"
+            },
+            "text2": {
+                "id": "text2",
+                "fieldClass": "form-input-100",
+                "name": "text2",
+                "label": "",
+                "type": "text"
+            },
+            "text7": {
+                "id": "text7",
+                "fieldClass": "form-input-100",
+                "name": "text7",
+                "label": "",
+                "type": "text"
+            },
+            "text8": {
+                "id": "text8",
+                "fieldClass": "form-input-100",
+                "name": "text8",
+                "label": "",
+                "type": "text"
+            },
+            "text5": {
+                "id": "text5",
+                "fieldClass": "form-input-100",
+                "name": "text5",
+                "label": "",
+                "type": "text"
+            },
+            "text6": {
+                "id": "text6",
+                "fieldClass": "form-input-100",
+                "name": "text6",
+                "label": "",
+                "type": "text"
+            },
+            "text9": {
+                "id": "text9",
+                "fieldClass": "form-input-100",
+                "name": "text9",
+                "label": "",
+                "type": "text"
+            },
+            "text23": {
+                "id": "text23",
+                "fieldClass": "form-input-100",
+                "name": "text23",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text10": {
+                "id": "text10",
+                "fieldClass": "form-input-100",
+                "name": "text10",
+                "label": "",
+                "type": "text"
+            },
+            "text24": {
+                "id": "text24",
+                "fieldClass": "form-input-100",
+                "name": "text24",
+                "label": "",
+                "type": "text"
+            },
+            "text11": {
+                "id": "text11",
+                "fieldClass": "form-input-100",
+                "name": "text11",
+                "label": "",
+                "type": "text"
+            },
+            "text21": {
+                "id": "text21",
+                "fieldClass": "form-input-100",
+                "name": "text21",
+                "label": "",
+                "type": "text"
+            },
+            "text12": {
+                "id": "text12",
+                "fieldClass": "form-input-100",
+                "name": "text12",
+                "label": "",
+                "type": "text"
+            },
+            "text22": {
+                "id": "text22",
+                "fieldClass": "form-input-100",
+                "name": "text22",
+                "label": "",
+                "type": "text"
+            },
+            "text13": {
+                "id": "text13",
+                "fieldClass": "form-input-100",
+                "name": "text13",
+                "label": "",
+                "type": "text"
+            },
+            "text20": {
+                "id": "text20",
+                "fieldClass": "form-input-100",
+                "name": "text20",
+                "label": "",
+                "type": "text"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 90%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#text1{width: 600px!important}#text2{width: 898px!important}#text3{width: 600px!important}#text4{width: 200px!important}#text5{width: 879px!important}#text6{width: 200px!important}#text7{width: 200px!important}#text8{width: 200px!important}#text9{width: 390px!important}#text10{width: 410px!important}#text11{width: 200px!important}#text12{width: 200px!important}#text13{width: 200px!important}#text14{width: 200px!important}#text15{width: 200px!important}#text16{width: 200px!important}#text17{width: 200px!important}#text18{width: 200px!important}#text19{width: 200px!important}#text20{width: 200px!important}#text21{width: 200px!important}#text22{width: 100px!important}#text23{width: 100px!important}#text24{width: 100px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><p align='right' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:right;'>&nbsp;</p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br />Độc lập - Tự do - Hạnh phúc </span></span></strong></p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>………………..</span></span></strong><br />&nbsp;</p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>ĐƠN Đ</span></span></strong><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Ề </span></span></strong><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>NGHỊ CẤP GIẤY PHÉP QUY HOẠCH</span></span></strong><br /><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>(Sử dụng cho dự án đầu tư xây dựng công trình tập trung)</span></span></p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'>&nbsp;</p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Kính gửi:</span></span> <span style='display: inline-table;' id='column-text1' ></span></p><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'>&nbsp;</p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>1. </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Chủ đầu tư: </span></span><span style='display: inline-table;' id='column-text2' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Người đại diện:</span></span><span style='display: inline-table;' id='column-text3' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Chức vụ: </span></span><span style='display: inline-table;' id='column-text4' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Địa chỉ liên hệ: </span></span><span style='display: inline-table;' id='column-text5' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Số nhà:</span></span><span style='display: inline-table;' id='column-text6' ></span> &nbsp;<span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Đường </span></span><span style='display: inline-table;' id='column-text7' ></span> &nbsp;<span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Phường (xã)</span></span> <span style='display: inline-table;' id='column-text8' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tỉnh, thành phố: </span></span><span style='display: inline-table;' id='column-text9' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Số điện thoại: </span></span><span style='display: inline-table;' id='column-text10' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>2. </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Vị trí, quy mô khu vực dự kiến đầu tư: </span></span><span style='display: inline-table;' id='column-text11' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Phường (xã)</span></span> <span style='display: inline-table;' id='column-text12' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Quận (huyện) </span></span><span style='display: inline-table;' id='column-text13' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tỉnh, thành phố: </span></span><span style='display: inline-table;' id='column-text14' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Phạm vi dự kiến đầu tư: </span></span><span style='display: inline-table;' id='column-text15' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Quy mô, diện tích:</span></span><span style='display: inline-table;' id='column-text16' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>(ha).</span></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Hiện trạng sử dụng đất </span></span><span style='display: inline-table;' id='column-text17' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>3. </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Nội dung đầu tư: </span></span><span style='display: inline-table;' id='column-text18' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Chức năng dự kiến: </span></span><span style='display: inline-table;' id='column-text19' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>- </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Cơ cấu sử dụng đất dự kiến: </span></span><span style='display: inline-table;' id='column-text20' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>4. </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tổng mức đầu tư dự kiến: </span></span><span style='display: inline-table;' id='column-text21' ></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>5. </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Cam kết: Tôi xin cam đoan thực hiện đúng theo giấy phép được cấp, nếu sai tôi xin hoàn toàn chịu trách nhiệm và bị xử lý theo quy định của pháp luật.</span></span></p><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'>&nbsp;</p><table border='1' cellpadding='0' cellspacing='0' style='border-collapse:collapse;border:none;' width='100%'><tbody><tr><td style='width:40%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;'>&nbsp;</p></td><td style='width:60%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:3.0pt;margin-right:0in;margin-bottom:3.0pt;margin-left:0in;text-align:center;'><span style='display: inline-table;' id='column-text22' ></span><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>, ngày </span></span></em><span style='display: inline-table;' id='column-text23' ></span><br /><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Người làm đơn</span></span></strong><br /><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>(K</span></span></em><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>ý</span></span></em><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>, ghi r</span></span></em><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>õ </span></span></em><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>họ tên)</span></span></em><br /><span style='display: inline-table;' id='column-text24' ></span></p></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "text19": "column-text19",
+                "text18": "column-text18",
+                "text15": "column-text15",
+                "text3": "column-text3",
+                "text14": "column-text14",
+                "text4": "column-text4",
+                "text17": "column-text17",
+                "text1": "column-text1",
+                "text16": "column-text16",
+                "text2": "column-text2",
+                "text7": "column-text7",
+                "text8": "column-text8",
+                "text5": "column-text5",
+                "text6": "column-text6",
+                "text9": "column-text9",
+                "text10": "column-text10",
+                "text23": "column-text23",
+                "text11": "column-text11",
+                "text24": "column-text24",
+                "text12": "column-text12",
+                "text21": "column-text21",
+                "text13": "column-text13",
+                "text22": "column-text22",
+                "text20": "column-text20"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

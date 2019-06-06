@@ -1,0 +1,6 @@
+{
+ "Diachi": "_cityName";
+ "address": "_address";
+ "phone":"_contactTelNo";
+  "email":"_contactEmail";
+}

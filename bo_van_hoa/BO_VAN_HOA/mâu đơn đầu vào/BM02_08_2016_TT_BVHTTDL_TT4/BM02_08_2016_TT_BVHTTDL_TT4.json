@@ -1,0 +1,791 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "chu_so_huu_giay": {
+                "required": false,
+                "type": "object"
+            },
+            "chu_so_huu_quyen": {
+                "required": false,
+                "type": "object"
+            },
+            "chung_minh_thu_1": {
+                "required": false,
+                "type": "object"
+            },
+            "chung_minh_thu_2": {
+                "required": false,
+                "type": "object"
+            },
+            "chung_minh_thu_3": {
+                "required": false,
+                "type": "object"
+            },
+            "chung_minh_thu_4": {
+                "required": false,
+                "type": "object"
+            },
+            "co_so_phat_sinh": {
+                "required": false,
+                "type": "object",
+				"enum": ["1", "2", "3", "4"]
+            },
+            "danh_tinh": {
+                "required": false,
+                "type": "object",
+				"enum": ["1", "2"]
+            },
+            "dia_chi_1": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi_2": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi_3": {
+                "required": false,
+                "type": "object"
+            },
+            "doi_tuong_dang_ky": {
+                "required": false,
+                "type": "object",
+				"enum": ["1", "2", "3"]
+            },
+            "doi_tuong_nop_dang_ky": {
+                "required": false,
+                "type": "object"
+            },
+            "email_1": {
+                "required": false,
+                "type": "object"
+            },
+            "email_2": {
+                "required": false,
+                "type": "object"
+            },
+            "email_3": {
+                "required": false,
+                "type": "object"
+            },
+            "hinh_thuc_cong_bo": {
+                "required": false,
+                "type": "object"
+            },
+            "loai_hinh": {
+                "required": false,
+                "type": "object"
+            },
+            "ly_do": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap_1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap_2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap_3": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap_giay_chung_nhan": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cong_bo": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_hoan_thanh": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_sinh_chu_so_huu": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_sinh_nguoi_nop": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_sinh_nguoi_thuc_hien": {
+                "required": false,
+                "type": "object"
+            },
+            "ngayviet": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_ky": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_thuc_hien": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_cap_1": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_cap_2": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_cap_3": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_dung": {
+                "required": false,
+                "type": "object"
+            },
+            "noiviet": {
+                "required": false,
+                "type": "object"
+            },
+            "nuoc_cong_bo": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_tich": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_tich_chu_so_huu": {
+                "required": false,
+                "type": "object"
+            },
+            "so_chung_nhan": {
+                "required": false,
+                "type": "object"
+            },
+            "so_dien_thoai_1": {
+                "required": false,
+                "type": "object"
+            },
+            "so_dien_thoai_2": {
+                "required": false,
+                "type": "object"
+            },
+            "so_dien_thoai_3": {
+                "required": false,
+                "type": "object"
+            },
+            "tac_gia": {
+                "required": false,
+                "type": "object"
+            },
+            "tac_pham": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_chu_so_huu_quyen": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_chuong_trinh": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_dang_ky": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_nguoi_nop": {
+                "required": false,
+                "type": "object"
+            },
+            "tinh_trang_cong_bo": {
+                "required": false,
+                "type": "object",
+				"enum" : ["1", "2"]
+            },
+            "tp_cong_bo": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "chu_so_huu_giay": {
+                "placeholder": "",
+                "id": "chu_so_huu_giay",
+                "name": "chu_so_huu_giay",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chu_so_huu_quyen": {
+                "placeholder": "",
+                "id": "chu_so_huu_quyen",
+                "name": "chu_so_huu_quyen",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chung_minh_thu_1": {
+                "placeholder": "",
+                "id": "chung_minh_thu_1",
+                "name": "chung_minh_thu_1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chung_minh_thu_2": {
+                "placeholder": "",
+                "id": "chung_minh_thu_2",
+                "name": "chung_minh_thu_2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chung_minh_thu_3": {
+                "placeholder": "",
+                "id": "chung_minh_thu_3",
+                "name": "chung_minh_thu_3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chung_minh_thu_4": {
+                "placeholder": "",
+                "id": "chung_minh_thu_4",
+                "name": "chung_minh_thu_4",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "co_so_phat_sinh": {
+                "placeholder": "",
+                "id": "co_so_phat_sinh",
+                "name": "co_so_phat_sinh",
+                "type": "select",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"optionLabels": ["Tự đầu tư thực hiện", "Theo hợp đồng", "Theo quyết định giao việc", "Thừa kế"],
+				"removeDefaultNone": true
+            },
+            "danh_tinh": {
+                "placeholder": "",
+                "id": "danh_tinh",
+                "name": "danh_tinh",
+                "type": "select",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"optionLabels": ["Chủ sở hữu quyền liên quan", "Người được ủy quyền"],
+				"removeDefaultNone": true
+
+            },
+            "dia_chi_1": {
+                "placeholder": "",
+                "id": "dia_chi_1",
+                "name": "dia_chi_1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "dia_chi_2": {
+                "placeholder": "",
+                "id": "dia_chi_2",
+                "name": "dia_chi_2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "dia_chi_3": {
+                "placeholder": "",
+                "id": "dia_chi_3",
+                "name": "dia_chi_3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "doi_tuong_dang_ky": {
+                "placeholder": "",
+                "id": "doi_tuong_dang_ky",
+                "name": "doi_tuong_dang_ky",
+                "type": "select",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"optionLabels": ["Quyền của người biểu diễn", "Quyền của nhà sản xuất bản ghi âm, ghi hình", "Tổ chức phát sóng"],
+				"removeDefaultNone": true
+            },
+            "doi_tuong_nop_dang_ky": {
+                "placeholder": "",
+                "id": "doi_tuong_nop_dang_ky",
+                "name": "doi_tuong_nop_dang_ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "email_1": {
+                "placeholder": "",
+                "id": "email_1",
+                "name": "email_1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "email_2": {
+                "placeholder": "",
+                "id": "email_2",
+                "name": "email_2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "email_3": {
+                "placeholder": "",
+                "id": "email_3",
+                "name": "email_3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "hinh_thuc_cong_bo": {
+                "placeholder": "",
+                "id": "hinh_thuc_cong_bo",
+                "name": "hinh_thuc_cong_bo",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "loai_hinh": {
+                "placeholder": "",
+                "id": "loai_hinh",
+                "name": "loai_hinh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ly_do": {
+                "placeholder": "",
+                "id": "ly_do",
+                "name": "ly_do",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cap_1": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_cap_1",
+                "name": "ngay_cap_1",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cap_2": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_cap_2",
+                "name": "ngay_cap_2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cap_3": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_cap_3",
+                "name": "ngay_cap_3",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cap_giay_chung_nhan": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_cap_giay_chung_nhan",
+                "name": "ngay_cap_giay_chung_nhan",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cong_bo": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_cong_bo",
+                "name": "ngay_cong_bo",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_hoan_thanh": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_hoan_thanh",
+                "name": "ngay_hoan_thanh",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_sinh_chu_so_huu": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_sinh_chu_so_huu",
+                "name": "ngay_sinh_chu_so_huu",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_sinh_nguoi_nop": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_sinh_nguoi_nop",
+                "name": "ngay_sinh_nguoi_nop",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_sinh_nguoi_thuc_hien": {
+                "id": "ngay_sinh_nguoi_thuc_hien",
+                "name": "ngay_sinh_nguoi_thuc_hien",
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngayviet": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngayviet",
+                "name": "ngayviet",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngayviet').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+
+            },
+            "nguoi_ky": {
+                "placeholder": "",
+                "id": "nguoi_ky",
+                "name": "nguoi_ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "nguoi_thuc_hien": {
+                "placeholder": "",
+                "id": "nguoi_thuc_hien",
+                "name": "nguoi_thuc_hien",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_cap_1": {
+                "placeholder": "",
+                "id": "noi_cap_1",
+                "name": "noi_cap_1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_cap_2": {
+                "placeholder": "",
+                "id": "noi_cap_2",
+                "name": "noi_cap_2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_cap_3": {
+                "placeholder": "",
+                "id": "noi_cap_3",
+                "name": "noi_cap_3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_dung": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "noi_dung",
+                "name": "noi_dung",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noiviet": {
+                "placeholder": "",
+                "id": "noiviet",
+                "name": "noiviet",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "nuoc_cong_bo": {
+                "placeholder": "",
+                "id": "nuoc_cong_bo",
+                "name": "nuoc_cong_bo",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "quoc_tich": {
+                "placeholder": "",
+                "id": "quoc_tich",
+                "name": "quoc_tich",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "quoc_tich_chu_so_huu": {
+                "placeholder": "",
+                "id": "quoc_tich_chu_so_huu",
+                "name": "quoc_tich_chu_so_huu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so_chung_nhan": {
+                "placeholder": "",
+                "id": "so_chung_nhan",
+                "name": "so_chung_nhan",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so_dien_thoai_1": {
+                "placeholder": "",
+                "id": "so_dien_thoai_1",
+                "name": "so_dien_thoai_1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so_dien_thoai_2": {
+                "placeholder": "",
+                "id": "so_dien_thoai_2",
+                "name": "so_dien_thoai_2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so_dien_thoai_3": {
+                "placeholder": "",
+                "id": "so_dien_thoai_3",
+                "name": "so_dien_thoai_3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tac_gia": {
+                "placeholder": "",
+                "id": "tac_gia",
+                "name": "tac_gia",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tac_pham": {
+                "placeholder": "",
+                "id": "tac_pham",
+                "name": "tac_pham",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ten_chu_so_huu_quyen": {
+                "placeholder": "",
+                "id": "ten_chu_so_huu_quyen",
+                "name": "ten_chu_so_huu_quyen",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ten_chuong_trinh": {
+                "placeholder": "",
+                "id": "ten_chuong_trinh",
+                "name": "ten_chuong_trinh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ten_dang_ky": {
+                "placeholder": "",
+                "id": "ten_dang_ky",
+                "name": "ten_dang_ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ten_nguoi_nop": {
+                "placeholder": "",
+                "id": "ten_nguoi_nop",
+                "name": "ten_nguoi_nop",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tinh_trang_cong_bo": {
+                "placeholder": "",
+                "id": "tinh_trang_cong_bo",
+                "name": "tinh_trang_cong_bo",
+                "type": "select",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"optionLabels": ["Công bố", "Chưa công bố"],
+				"removeDefaultNone": true
+            },
+            "tp_cong_bo": {
+                "placeholder": "",
+                "id": "tp_cong_bo",
+                "name": "tp_cong_bo",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 850px;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body b{ font-family: Times New Roman; font-weight: bold}#ten_chu_so_huu_quyen{width: 424px !important;}#dia_chi_2{width: 772px !important;}#email_1{width: 502px !important;}#ly_do{width: 603px !important;}#tp_cong_bo{width: 239px !important;}#nguoi_thuc_hien{width: 441px !important;}#chung_minh_thu_4{width: 350px !important;}#chu_so_huu_giay{width: 746px !important;}#ten_chuong_trinh{width: 824px !important;}#email_3{width: 502px !important;}#so_chung_nhan{width: 499px !important;}#co_so_phat_sinh{width: 300px !important;}#dia_chi_3{width: 772px !important;}#noi_cap_3{width: 541px !important;}#chung_minh_thu_3{width: 300px !important;}#email_2{width: 506px !important;}#noi_cap_2{width: 541px !important;}#chung_minh_thu_2{width: 460px !important;}#quoc_tich{width: 250px !important;}#chu_so_huu_quyen{width: 706px !important;}#tac_gia{width: 771px !important;}#loai_hinh{width: 758px !important;}#tac_pham{width: 685px !important;}#noi_dung{width: 824px !important;}#nuoc_cong_bo{width: 166px !important;}#hinh_thuc_cong_bo{width: 521px !important;}#tinh_trang_cong_bo{width: 158px !important;}#doi_tuong_dang_ky{width: 300px !important;}#ten_dang_ky{width: 430px !important;}#doi_tuong_nop_dang_ky{width: 586px !important;}#dia_chi_1{width: 772px !important;}#noi_cap_1{width: 541px !important;}#chung_minh_thu_1{width: 350px !important;}#danh_tinh{width: 200px !important;}#ten_nguoi_nop{width: 682px !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;}</style><table border='0' cellpadding='0' cellspacing='0' style='margin-left:4.5pt;'><tbody><tr><td style='padding:0in 0in 0in 0in;vertical-align:top;'><p align='center' style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='100'><b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b></span></span></strong><br /><span style='font-family:times new roman,serif;'><span style='100'><strong><b>Độc lập - Tự do - Hạnh phúc</b></strong></strong></span></span></p><p align='center' style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;text-align:center;'>___________________________</span></span></strong><br /><span style='font-family:times new roman,serif;'><span style='100'>&nbsp;</p><p align='center' style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='100'><b>TỜ KHAI ĐĂNG KÝ QUYỀN LIÊN QUAN</b></span></span></strong><br /><span style='font-family:times new roman,serif;'><span style='100'><strong><b>Kính gửi: Cục Bản quyền tác giả</b></strong></span></span></p><p align='center' style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;text-align:center;'>&nbsp;</p><p style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;'><span style='font-family:times new roman,serif;'><span style='100'><b>1. Người nộp tờ khai:</b><br />Họ và tên/Tên tổ chức: </span></span><span style='display: inline-table;' id='column-ten_nguoi_nop' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Là <i>(chủ sở hữu quyền liên quan/người được ủy quyền)</i>: </span></span><span style='display: inline-table;' id='column-danh_tinh' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Sinh ngày: </span></span><span style='display: inline-table;' id='column-ngay_sinh_nguoi_nop' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số Chứng minh nhân dân/Thẻ căn cước công dân/Hộ chiếu <i>(hoặc số đăng ký doanh nghiệp/quyết định thành lập nếu là tổ chức)</i>: </span></span><span style='display: inline-table;' id='column-chung_minh_thu_1' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Ngày cấp: </span></span><span style='display: inline-table;' id='column-ngay_cap_1' ></span> <span style='font-family:times new roman,serif;'><span style='100'>tại: </span></span><span style='display: inline-table;' id='column-noi_cap_1' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Địa chỉ: </span></span><span style='display: inline-table;' id='column-dia_chi_1' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số điện thoại: </span></span><span style='display: inline-table;' id='column-so_dien_thoai_1' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Email </span></span><span style='display: inline-table;' id='column-email_1' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Nộp đơn đăng ký quyền liên quan cho: </span></span><span style='display: inline-table;' id='column-doi_tuong_nop_dang_ky' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'><b>2. Đối tượng đăng ký quyền liên quan:</b><br />Tên cuộc biểu diễn/bản ghi âm, ghi hình/chương trình phát sóng: </span></span><span style='display: inline-table;' id='column-ten_dang_ky' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Đăng ký quyền liên quan đối với <i>(quyền của người biểu diễn/quyền của nhà sản xuất bản ghi âm, ghi hình/tổ chức phát sóng)</i>: </span></span><span style='display: inline-table;' id='column-doi_tuong_dang_ky' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Ngày hoàn thành: </span></span><span style='display: inline-table;' id='column-ngay_hoan_thanh' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Công bố/chưa công bố: </span></span><span style='display: inline-table;' id='column-tinh_trang_cong_bo' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Hình thức công bố (hình thức phát hành bản sao): </span></span><span style='display: inline-table;' id='column-hinh_thuc_cong_bo' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Ngày công bố: </span></span><span style='display: inline-table;' id='column-ngay_cong_bo' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Nơi công bố: Tỉnh/Thành phố </span></span><span style='display: inline-table;' id='column-tp_cong_bo' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Nước </span></span><span style='display: inline-table;' id='column-nuoc_cong_bo' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Nội dung Cuộc biểu diễn/Bản ghi âm, ghi hình/Chương trình phát sóng <i>(nêu tóm tắt nội dung cuộc biểu diễn/bản ghi âm, ghi hình/chương trình phát sóng - nội dung do cá nhân/tổ chức tự thực hiện, không sao chép, không vi phạm các quy định của pháp luật Việt Nam)</i>: </span></span><br><span style='display: inline-table;' id='column-noi_dung' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'><br /><b>3. Tác phẩm/bản ghi thuộc quyền liên quan được sử dụng trong cuộc biểu diễn/bản ghi âm, ghi hình/chương trình phát sóng</b> <i>(nếu có)</i>:<br />Tên tác phẩm/bản ghi: </span></span><span style='display: inline-table;' id='column-tac_pham' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Loại hình: </span></span><span style='display: inline-table;' id='column-loai_hinh' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Tác giả: </span></span><span style='display: inline-table;' id='column-tac_gia' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Chủ sở hữu quyền: </span></span><span style='display: inline-table;' id='column-chu_so_huu_quyen' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'><b>4. Những người biểu diễn/sản xuất bản ghi âm, ghi hình/thực hiện chương trình phát sóng</b><i> (khai đầy đủ những người thực hiện):</i><br />Họ và tên: </span></span><span style='display: inline-table;' id='column-nguoi_thuc_hien' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Quốc tịch </span></span><span style='display: inline-table;' id='column-quoc_tich' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số Chứng minh nhân dân/Thẻ căn cước công dân/Hộ chiếu: </span></span><span style='display: inline-table;' id='column-chung_minh_thu_2' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Sinh ngày: </span></span><span style='display: inline-table;' id='column-ngay_sinh_nguoi_thuc_hien' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Ngày cấp: </span></span><span style='display: inline-table;' id='column-ngay_cap_2' ></span> <span style='font-family:times new roman,serif;'><span style='100'>tại: </span></span><span style='display: inline-table;' id='column-noi_cap_2' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Địa chỉ: </span></span><span style='display: inline-table;' id='column-dia_chi_2' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số điện thoại </span></span><span style='display: inline-table;' id='column-so_dien_thoai_2' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Email </span></span><span style='display: inline-table;' id='column-email_2' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'><b>5. Chủ sở hữu quyền liên quan </b><i>(khai đầy đủ các đồng chủ sở hữu, nếu có)</i>:<br />Họ và tên/Tên tổ chức: </span></span><span style='display: inline-table;' id='column-ten_chu_so_huu_quyen' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Quốc tịch </span></span><span style='display: inline-table;' id='column-quoc_tich_chu_so_huu' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Sinh ngày: </span></span><span style='display: inline-table;' id='column-ngay_sinh_chu_so_huu' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số Chứng minh nhân dân/Thẻ căn cước công dân/Hộ chiếu </span><i>(hoặc số đăng ký doanh nghiệp, quyết định thành lập nếu là tổ chức)</i>: </span></span><span style='display: inline-table;' id='column-chung_minh_thu_3' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Ngày cấp: </span></span><span style='display: inline-table;' id='column-ngay_cap_3' ></span> <span style='font-family:times new roman,serif;'><span style='100'>tại: </span></span><span style='display: inline-table;' id='column-noi_cap_3' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Địa chỉ: </span></span><span style='display: inline-table;' id='column-dia_chi_3' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số điện thoại: </span></span><span style='display: inline-table;' id='column-so_dien_thoai_3' ></span> <span style='font-family:times new roman,serif;'><span style='100'>Email </span></span><span style='display: inline-table;' id='column-email_3' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Cơ sở phát sinh sở hữu quyền: <i>(tự đầu tư thực hiện/theo hợp đồng/theo quyết định giao việc/thừa kế…)</i> </span></span><span style='display: inline-table;' id='column-co_so_phat_sinh' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'><b>6. Trường hợp cấp lại, đổi Giấy chứng nhận đăng ký quyền liên quan</b>:<br />Số Giấy chứng nhận đăng ký quyền liên quan đã cấp: </span></span><span style='display: inline-table;' id='column-so_chung_nhan' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Cấp ngày </span></span><span style='display: inline-table;' id='column-ngay_cap_giay_chung_nhan' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Tên cuộc biểu diễn/Bản ghi âm, ghi hình/Chương trình phát sóng:</span></span><br /><span style='display: inline-table;' id='column-ten_chuong_trinh' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Chủ sở hữu: </span></span><span style='display: inline-table;' id='column-chu_so_huu_giay' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Số Chứng minh nhân dân/Thẻ căn cước công dân/Hộ chiếu <i>(hoặc số đăng ký doanh nghiệp, quyết định thành lập nếu là tổ chức)</i>: </span></span><span style='display: inline-table;' id='column-chung_minh_thu_4' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Lý do cấp lại, đổi Giấy chứng nhận: </span></span><span style='display: inline-table;' id='column-ly_do' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Tôi cam đoan những lời khai trên là đúng sự thật, nếu sai tôi/chúng tôi xin chịu trách nhiệm trước pháp luật.</span></span></p><p align='center' style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;text-align:center;'><span style='display: inline-table;' id='column-noiviet' ></span><span style='font-family:times new roman,serif;'><span style='100'>, ngày </span></span><span style='display: inline-table;' id='column-ngayviet' ></span><br /><span style='font-family:times new roman,serif;'><span style='100'>Người nộp đơn<br /><i>(họ và tên, ký, chức danh, đóng dấu nếu là tổ chức)</i></span></span></p><p style='margin-top:3.75pt;margin-right:0in;margin-bottom:3.75pt;margin-left:0in;'>&nbsp;</p><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-nguoi_ky' ></span></p></td></tr></tbody></table><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "ngay_cap_giay_chung_nhan": "column-ngay_cap_giay_chung_nhan",
+                "nguoi_ky": "column-nguoi_ky",
+                "doi_tuong_dang_ky": "column-doi_tuong_dang_ky",
+                "nguoi_thuc_hien": "column-nguoi_thuc_hien",
+                "ngayviet": "column-ngayviet",
+                "chu_so_huu_giay": "column-chu_so_huu_giay",
+                "noiviet": "column-noiviet",
+                "so_dien_thoai_3": "column-so_dien_thoai_3",
+                "ngay_sinh_nguoi_thuc_hien": "column-ngay_sinh_nguoi_thuc_hien",
+                "ngay_sinh_chu_so_huu": "column-ngay_sinh_chu_so_huu",
+                "so_dien_thoai_2": "column-so_dien_thoai_2",
+                "hinh_thuc_cong_bo": "column-hinh_thuc_cong_bo",
+                "quoc_tich_chu_so_huu": "column-quoc_tich_chu_so_huu",
+                "tp_cong_bo": "column-tp_cong_bo",
+                "ngay_hoan_thanh": "column-ngay_hoan_thanh",
+                "danh_tinh": "column-danh_tinh",
+                "so_dien_thoai_1": "column-so_dien_thoai_1",
+                "tac_pham": "column-tac_pham",
+                "noi_cap_3": "column-noi_cap_3",
+                "noi_cap_2": "column-noi_cap_2",
+                "noi_cap_1": "column-noi_cap_1",
+                "ngay_cap_3": "column-ngay_cap_3",
+                "chu_so_huu_quyen": "column-chu_so_huu_quyen",
+                "ten_chu_so_huu_quyen": "column-ten_chu_so_huu_quyen",
+                "tinh_trang_cong_bo": "column-tinh_trang_cong_bo",
+                "co_so_phat_sinh": "column-co_so_phat_sinh",
+                "ten_dang_ky": "column-ten_dang_ky",
+                "email_1": "column-email_1",
+                "email_2": "column-email_2",
+                "ly_do": "column-ly_do",
+                "ngay_cap_2": "column-ngay_cap_2",
+                "ngay_cap_1": "column-ngay_cap_1",
+                "doi_tuong_nop_dang_ky": "column-doi_tuong_nop_dang_ky",
+                "dia_chi_1": "column-dia_chi_1",
+                "ten_nguoi_nop": "column-ten_nguoi_nop",
+                "tac_gia": "column-tac_gia",
+                "dia_chi_2": "column-dia_chi_2",
+                "email_3": "column-email_3",
+                "dia_chi_3": "column-dia_chi_3",
+                "ngay_cong_bo": "column-ngay_cong_bo",
+                "chung_minh_thu_3": "column-chung_minh_thu_3",
+                "chung_minh_thu_4": "column-chung_minh_thu_4",
+                "so_chung_nhan": "column-so_chung_nhan",
+                "chung_minh_thu_1": "column-chung_minh_thu_1",
+                "loai_hinh": "column-loai_hinh",
+                "chung_minh_thu_2": "column-chung_minh_thu_2",
+                "quoc_tich": "column-quoc_tich",
+                "nuoc_cong_bo": "column-nuoc_cong_bo",
+                "noi_dung": "column-noi_dung",
+                "ngay_sinh_nguoi_nop": "column-ngay_sinh_nguoi_nop",
+                "ten_chuong_trinh": "column-ten_chuong_trinh"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

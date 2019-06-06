@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-11-14T16:08:17 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_7" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="468" leftMargin="85" rightMargin="42" topMargin="56" bottomMargin="56" uuid="1a5e6c7e-0e14-469a-9fbd-874479e844a8">
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="tencoquan" class="java.lang.String">
+		<fieldDescription><![CDATA[tencoquan]]></fieldDescription>
+	</field>
+	<field name="so" class="java.lang.String">
+		<fieldDescription><![CDATA[so]]></fieldDescription>
+	</field>
+	<field name="gp" class="java.lang.String">
+		<fieldDescription><![CDATA[gp]]></fieldDescription>
+	</field>
+	<field name="dinhdanh" class="java.lang.String">
+		<fieldDescription><![CDATA[dinhdanh]]></fieldDescription>
+	</field>
+	<field name="ngay" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay]]></fieldDescription>
+	</field>
+	<field name="cuocthi1" class="java.lang.String">
+		<fieldDescription><![CDATA[cuocthi1]]></fieldDescription>
+	</field>
+	<field name="songhidinh" class="java.lang.String">
+		<fieldDescription><![CDATA[songhidinh]]></fieldDescription>
+	</field>
+	<field name="ngaynghidinh" class="java.lang.String">
+		<fieldDescription><![CDATA[ngaynghidinh]]></fieldDescription>
+	</field>
+	<field name="coquannghidinh" class="java.lang.String">
+		<fieldDescription><![CDATA[coquannghidinh]]></fieldDescription>
+	</field>
+	<field name="coquancap1" class="java.lang.String">
+		<fieldDescription><![CDATA[coquancap1]]></fieldDescription>
+	</field>
+	<field name="ngaycap" class="java.lang.String">
+		<fieldDescription><![CDATA[ngaycap]]></fieldDescription>
+	</field>
+	<field name="tochuc1" class="java.lang.String">
+		<fieldDescription><![CDATA[tochuc1]]></fieldDescription>
+	</field>
+	<field name="tochuc2" class="java.lang.String">
+		<fieldDescription><![CDATA[tochuc2]]></fieldDescription>
+	</field>
+	<field name="tochuc3" class="java.lang.String">
+		<fieldDescription><![CDATA[tochuc3]]></fieldDescription>
+	</field>
+	<field name="cuocthi2" class="java.lang.String">
+		<fieldDescription><![CDATA[cuocthi2]]></fieldDescription>
+	</field>
+	<field name="ngaybatdau" class="java.lang.String">
+		<fieldDescription><![CDATA[ngaybatdau]]></fieldDescription>
+	</field>
+	<field name="ngayketthuc" class="java.lang.String">
+		<fieldDescription><![CDATA[ngayketthuc]]></fieldDescription>
+	</field>
+	<field name="diadiem" class="java.lang.String">
+		<fieldDescription><![CDATA[diadiem]]></fieldDescription>
+	</field>
+	<field name="diadiembanket" class="java.lang.String">
+		<fieldDescription><![CDATA[diadiembanket]]></fieldDescription>
+	</field>
+	<field name="diadiemchungket" class="java.lang.String">
+		<fieldDescription><![CDATA[diadiemchungket]]></fieldDescription>
+	</field>
+	<field name="tochuc4" class="java.lang.String">
+		<fieldDescription><![CDATA[tochuc4]]></fieldDescription>
+	</field>
+	<field name="coquancap2" class="java.lang.String">
+		<fieldDescription><![CDATA[coquancap2]]></fieldDescription>
+	</field>
+	<field name="tochuc5" class="java.lang.String">
+		<fieldDescription><![CDATA[tochuc5]]></fieldDescription>
+	</field>
+	<field name="coquancap3" class="java.lang.String">
+		<fieldDescription><![CDATA[coquancap3]]></fieldDescription>
+	</field>
+	<field name="noinhan" class="java.lang.String">
+		<fieldDescription><![CDATA[noinhan]]></fieldDescription>
+	</field>
+	<field name="kyten" class="java.lang.String">
+		<fieldDescription><![CDATA[kyten]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="26">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="-66" y="0" width="260" height="21" isRemoveLineWhenBlank="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b> BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH <br>CỤC NGHỆ THUẬT BIỂU DIỄN</b> <br>--------</b><br>Số: "+($F{so} != null ? $F{so} : "" )+"/GP-NTBD"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="190" y="0" width="310" height="21" isRemoveLineWhenBlank="true" uuid="144d0d7e-ad1b-4ce2-a1e8-be1312f1532d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc <br >---------------</b><br>"+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+($F{dinhdanh} != null ? $F{dinhdanh} : "" )+", ngày "+($F{ngay} != null ? ($F{ngay}.split("/")[0] +" tháng "+$F{ngay}.split("/")[1] +" năm "+$F{ngay}.split("/")[2]) : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="35">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="10" width="470" height="21" isRemoveLineWhenBlank="true" uuid="860db963-c901-4b1b-92f4-0eb5e2876919">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12" isBold="true"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>GIẤY PHÉP</b><br>Tổ chức cuộc thi “"+($F{cuocthi1} != null ? $F{cuocthi1} : "" )+"”<br><b>BỘ TRƯỞNG CỤC NGHỆ THUẬT BIỂU DIỄN </b>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="31">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="10" width="470" height="21" isRemoveLineWhenBlank="true" uuid="a124ad56-62fb-42a2-9c32-1bc2eeb24df8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ quy định về biểu diễn nghệ thuật, trình diễn thời trang; thi người đẹp và người mẫu; lưu hành, kinh doanh bản ghi âm, ghi hình ca múa nhạc, sân khấu;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 79/2012/NĐ-CP; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Thông tư số 01/2016/TT-BVHTTDL ngày 24 tháng 3 năm 2016 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chi tiết thi hành một số điều của Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ và Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Căn cứ Quyết định số 1697/QĐ-BVHTTDL ngày 10 tháng 5 năm 2018 của Bộ trưởng Bộ Văn hoá, Thể thao và Du lịch quy định về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Nghệ thuật biểu diễn;"+"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xét đề nghị ngày "+($F{ngaycap} != null ? ($F{ngaycap}.split("/")[0] +" tháng "+$F{ngaycap}.split("/")[1] +" năm "+$F{ngaycap}.split("/")[2]) : "" )+" của "+($F{tochuc1} != null ? $F{tochuc1} : "" )+";"+"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Theo đề nghị của "+($F{tochuc2} != null ? $F{tochuc2} : "" )+","]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="33">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="10" width="470" height="21" isRemoveLineWhenBlank="true" uuid="1287b694-41c3-4bcb-852f-df7765570736">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12" isBold="true"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CHO PHÉP:"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="33">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="10" width="470" height="21" isRemoveLineWhenBlank="true" uuid="2f736df9-9e29-42ce-a2f7-38af1b7a21c1">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Điều 1. </b>" + ($F{tochuc3} != null ? $F{tochuc3} : "" )+" tổ chức cuộc thi “"+($F{cuocthi2} != null ? $F{cuocthi2} : "" )+"”.<br><b>- Thời gian</b>: Từ ngày "+($F{ngaybatdau} != null ? ($F{ngaybatdau}.split("/")[0] +" tháng "+$F{ngaybatdau}.split("/")[1] +" năm "+$F{ngaybatdau}.split("/")[2]) : "" )+" đến ngày "+($F{ngayketthuc} != null ? ($F{ngayketthuc}.split("/")[0] +" tháng "+$F{ngayketthuc}.split("/")[1] +" năm "+$F{ngayketthuc}.split("/")[2]) : "" )+ "<br><b>- Địa Điểm</b>: "+($F{diadiem} != null ? $F{diadiem} : "" )+"<br>+ Thi sơ tuyển và bán kết tại "+($F{diadiembanket} != null ? $F{diadiembanket} : "" )+";"+"<br>+ Thi chung kết tại "+($F{diadiemchungket} != null ? $F{diadiemchungket} : "" )+"<br><b>Điều 2. </b>Yêu cầu "+($F{tochuc4} != null ? $F{tochuc4} : "" )+" thực hiện:<br>- Ban hành Quyết định thành lập, Quy chế hoạt động của Ban Tổ chức và Ban Giám khảo cuộc thi trong thời hạn 10 ngày làm việc, tính từ ngày ký ban hành Giấy phép này;<br>- Trong thời hạn 03 ngày làm việc tính từ ngày kết thúc vòng thi bán kết, đơn vị tổ chức gửi văn bản báo cáo kết quả và toàn bộ bản sao hồ sơ của các thí sinh vào vòng chung kết về cơ quan cấp phép;"+"<br>- Trước thời hạn 10 ngày, tính đến ngày diễn ra đêm chung kết, đơn vị tổ chức báo cáo cơ quan cấp phép kịch bản đêm chung kết cuộc thi;<br>- Tổ chức cuộc thi theo đúng nội dung Giấy phép và các quy định tại Nghị định số 79/2012/NĐ-CP ngày 05 tháng 10 năm 2012 của Chính phủ quy định về biểu diễn nghệ thuật, trình diễn thời trang; thi người đẹp và người mẫu; lưu hành, kinh doanh bản ghi âm, ghi hình ca múa nhạc, sân khấu; Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ sửa đổi, bổ sung một số Điều của Nghị định số 79/2012/NĐ-CP; Thông tư số 01/2016/TT-BVHTTDL ngày 24 tháng 3 năm 2016 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch; Đề án cuộc thi và các quy định của pháp luật có liên quan. Mọi thay đổi trong Đề án tổ chức cuộc thi phải báo cáo và được sự chấp thuận của Cục Nghệ thuật biểu diễn/."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="46">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="0" y="16" width="160" height="21" isRemoveLineWhenBlank="true" uuid="4c7d2b13-f9e3-4dd7-95ef-d202ebe60374">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Nơi nhận: <br></b>" + ($F{noinhan} != null ? $F{noinhan} : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" x="160" y="16" width="310" height="21" isRemoveLineWhenBlank="true" uuid="bb274110-d987-4371-a743-8e313d4f127d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="12"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>CỤC TRƯỞNG </b><br><i>(Ký, ghi rõ họ tên và đóng dấu)</i><br>"+($F{kyten} != null ? $F{kyten} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="101"/>
+	</detail>
+</jasperReport>

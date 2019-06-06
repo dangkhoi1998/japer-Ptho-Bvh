@@ -1,0 +1,277 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "kinh_gui": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_phim": {
+                "required": false,
+                "type": "object"
+            },
+            "muc_dich": {
+                "required": false,
+                "type": "object"
+            },
+            "pham_vi": {
+                "required": false,
+                "type": "object"
+            },
+            "don_vi_tc": {
+                "required": false,
+                "type": "object"
+            },
+            "ten": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_bd": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_kt": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_diem": {
+                "required": false,
+                "type": "object"
+            },
+            "bang": {
+                "type": "array",
+                "required": false,
+                "properties": {},
+                "items": {
+                    "type": "object",
+                    "properties": {
+						"col1": {
+                            "type": "string",
+                            "title": "STT"
+                        },
+                        "col2": {
+                            "type": "string",
+                            "title": "Tên phim"
+                        },
+                        "col3": {
+                            "type": "string",
+                            "title": "Đạo diễn"
+                        },
+                        "col4": {
+                            "type": "string",
+                            "title": "Hãng sản xuất/ Quốc tịch phim"
+                        },
+                        "col5": {
+                            "type": "string",
+                            "title": "Năm sản xuất"
+                        }
+                    }
+                }
+            },
+            "Ky_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "Ten_co_quan": {
+                "required": false,
+                "type": "object"
+            },
+            "Dinh_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "kinh_gui": {
+                "id": "kinh_gui",
+                "name": "kinh_gui",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_phim": {
+                "id": "ten_phim",
+                "name": "ten_phim",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "muc_dich": {
+                "id": "muc_dich",
+                "name": "muc_dich",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "pham_vi": {
+                "id": "pham_vi",
+                "name": "pham_vi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "don_vi_tc": {
+                "id": "don_vi_tc",
+                "name": "don_vi_tc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten": {
+                "id": "ten",
+                "name": "ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "name": "dia_chi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ngay_bd": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_bd",
+                "name": "ngay_bd",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_kt": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_kt",
+                "name": "ngay_kt",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "dia_diem": {
+                "id": "",
+                "name": "dia_diem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "bang": {
+                "id": "bang",
+                "name": "bang",
+                "type": "table",
+                "label": "",
+                "fieldClass": "form-input-80"
+            },
+            "Ky_ten": {
+                "id": "Ky_ten",
+                "name": "Ky_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Ký tên"
+            },
+            "Ten_co_quan": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "2",
+                "id": "Ten_co_quan",
+                "name": "Ten_co_quan",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "Dinh_danh": {
+                "id": "Dinh_danh",
+                "name": "Dinh_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Định danh"
+            },
+            "ngay": {
+                "placeholder": "Ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay",
+                "name": "ngay",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important; width:100%;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}.alpaca-field table .control-label{display:none !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;} textarea.form-control{height:80px;}</style><table border='0' cellpadding='0' cellspacing='0' style='margin:0px 0px 0px -2px;border-collapse:collapse;' width='100%'><tbody><tr><td style='padding:0in 5.4pt;border:0px rgb(0, 0, 0);width:40%;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><span style=''><span style=''>&nbsp;<span style='display: inline-table;' id='column-Ten_co_quan' ></span><br /><br /><strong><span style=''><span style=''></span></span></strong><span style=''>____________________</span></p><p style='text-indent:0in;'>&nbsp;</p><table align='left' cellpadding='0' cellspacing='0'><tbody><tr><td height='4' style='border:0px rgb(0, 0, 0);'>&nbsp;</td></tr><tr><td style='border:0px rgb(0, 0, 0);'>&nbsp;</td><td style='border:0px rgb(0, 0, 0);'><span style='font-size:medium;'><span style=''></span></span></td></tr></tbody></table>&nbsp;<p>&nbsp;</p><p align='center' style='margin:4px 0px;text-align:center;'>&nbsp;</p></td><td style='padding:0in 5.4pt;border:0px rgb(0, 0, 0);width:60%;vertical-align:top;'>&nbsp;<p align='center' style='text-align:center;text-indent:0in;'><strong><span style=''><span style=''><b>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</b></span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;margin-bottom:-13px;'><strong><span style=''><span style=''>Độc lập - Tự do - Hạnh phúc </span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;'><strong><span style=''><span style=''>____________________</span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;'>&nbsp;</p><p align='center' style='text-align:center;text-indent:0in;'><span style=''>&nbsp;<span style=''>&nbsp;<span style='display: inline-table;width:110px;' id='column-Dinh_danh' ></span><em>, ngày&nbsp; </em><span style='display: inline-table;' id='column-ngay' ></span></p></td></tr></tbody></table><p align='center' style='text-align:center;text-indent:0in;margin-top:-60px;'>&nbsp;</p><p align='center' style='text-align:center;text-indent:0in;'><strong><span style=''><span style=''><b>ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP </b></span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;margin-bottom:-13px;'><strong><span style=''><span style=''><b>TỔ CHỨC CHIẾU, GIỚI THIỆU PHIM NƯỚC NGOÀI TẠI VIỆT NAM </b></span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;'><strong><span style='font-size:12.3pt;'><span style=''>___________________________________________</span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;'>&nbsp;</p><p style='margin:0px 0px 0px 48px;'><span style=''><span style=''>Kính gửi: &nbsp;<span style='display: inline-table;width:600px;' id='column-kinh_gui' ></span></p><p style=''>&nbsp;</p><p style='text-indent:27.25pt;'><span style='margin-left:25px;'><span style=''>Chúng tôi đề nghị Cục Điện ảnh cấp giấy phép tổ chức chương trình chiếu phim, giới thiệu phim nước ngoài tại Việt Nam như sau:</span></span></p><p style='margin:0px 0px 0px 24px;text-indent:9.25pt;'><span style=''><span style=''>1. Tên chương trình phim nước ngoài ở Việt Nam: <span style='display: inline-table;width:476px;' id='column-ten_phim' ></span></p><p style='margin:0px 0px 0px 24px;text-indent:9.25pt;'><span style=''><span style=''>2. Mục đích: <span style='display: inline-table;width:702px;' id='column-muc_dich' ></span></p><p style='margin:0px 0px 0px 24px;text-indent:9.25pt;'><span style=''><span style=''>3. Phạm vi tổ chức: <span style='display: inline-table;width:661px;' id='column-pham_vi' ></span></p><p style='text-indent:27.25pt;'><span style='margin-left:24px;'><span style=''>4. Đơn vị, cá nhân tổ chức:</span></span></p><p style='text-indent:27.25pt;'><span style='margin-left:24px;'><span style=''>Tên:&nbsp; <span style='display: inline-table;width:747px;' id='column-ten' ></span></p><p style='text-indent:27.25pt;'><span style='margin-left:24px;'><span style=''>Địa chỉ:&nbsp; <span style='display: inline-table;width:727px;' id='column-dia_chi' ></span></p><p style='margin:0px 0px 0px 22px;text-indent:0in;'><span style=''><span style=''>5. Thời gian chương trình phim: Từ ngày&nbsp; <span style='display: inline-table;' id='column-ngay_bd' ></span> đến ngày &nbsp;<span style='display: inline-table;' id='column-ngay_kt' ></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p style='text-indent:28.35pt;margin-left:22px;'><span style=''><span style=''>6. Danh sách phim dự kiến chiếu trong chương trình:</span></span></p><p style='margin:0px 0px 0px 24px;text-indent:27.25pt;'><span style=''><span style=''>&nbsp;<span style='display: inline-table;' id='column-bang' ></span></p><p style='margin:0px 0px 0px 24px;text-indent:9.25pt;'><span style=''><span style=''><br>7. Địa điểm tổ chức chương trình phim:&nbsp; <span style='display: inline-table;width:536px;' id='column-dia_diem' ></span></p><p style='text-indent:27.2pt;margin-left:24px;'><span style=''><span style=''>8. Dự kiến chương trình chiếu phim <em>(Gửi Chương trình chiếu phim kèm theo đơn xin phép này).</em></span></span></p><p style='text-indent:27.2pt;margin-left:33px;'><span style=''><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trong quá trình tổ chức chương trình chiếu, giới thiệu phim nước ngoài tại Việt Nam, chúng tôi cam kết thực hiện nghiêm túc quy định của luật pháp hiện hành của nước CHXHCN Việt Nam./.</span></span></p><p style='text-indent:27.2pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='margin:0px 0px 0px -5px;width:100%;border-collapse:collapse;'><tbody><tr><td style='padding:0in 5.4pt;border:0px rgb(0, 0, 0);width:252px;vertical-align:top;'><p style=''>&nbsp;</p></td><td style='padding:0in 5.4pt;border:0px rgb(0, 0, 0);width:371px;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><strong><span style=''><span style=''>&nbsp;<b>TỔ CHỨC, CÁ NHÂN ĐỀ NGHỊ </b></span></span></strong></p><p align='center' style='text-align:center;text-indent:0in;'><em><span style=''><span style=''>(Ký, đóng dấu (đối với tổ chức), ghi rõ họ tên )</span></span></em><br><br><br><span style='display: inline-table;' id='column-Ky_ten' ></span></p></td></tr></tbody></table><p style='margin:4px 0px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style='margin:4px 0px;text-indent:0in;text-align:center;'><span style=''><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p></div></div>",
+            "bindings": {
+                "ten": "column-ten",
+                "muc_dich": "column-muc_dich",
+                "ten_phim": "column-ten_phim",
+                "pham_vi": "column-pham_vi",
+                "Ten_co_quan": "column-Ten_co_quan",
+                "dia_diem": "column-dia_diem",
+                "Dinh_danh": "column-Dinh_danh",
+                "kinh_gui": "column-kinh_gui",
+                "ngay_kt": "column-ngay_kt",
+                "Ky_ten": "column-Ky_ten",
+                "dia_chi": "column-dia_chi",
+                "ngay": "column-ngay",
+                "ngay_bd": "column-ngay_bd",
+                "bang": "column-bang"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

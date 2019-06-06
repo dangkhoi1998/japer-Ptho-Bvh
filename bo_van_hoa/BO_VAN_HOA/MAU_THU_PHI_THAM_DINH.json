@@ -1,0 +1,143 @@
+{
+    "schema": {
+        "properties": {
+            "text3": {
+                "type": "object",
+                "required": false
+            },
+            "text4": {
+                "type": "object",
+                "required": false
+            },
+            "text1": {
+                "type": "object",
+                "required": false
+            },
+            "text2": {
+                "type": "object",
+                "required": false
+            },
+            "text7": {
+                "type": "object",
+                "required": false
+            },
+            "text8": {
+                "type": "object",
+                "required": false
+            },
+            "text5": {
+                "type": "object",
+                "required": false
+            },
+            "text6": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "text3": {
+                "id": "text3",
+                "fieldClass": "form-input-100",
+                "placeholder": "text3",
+                "name": "text3",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text4": {
+                "id": "text4",
+                "fieldClass": "form-input-100",
+                "placeholder": "text4",
+                "name": "text4",
+                "label": "",
+                "type": "text"
+            },
+            "text1": {
+                "id": "text1",
+                "fieldClass": "form-input-100",
+                "placeholder": "text1",
+                "name": "text1",
+                "label": "",
+                "type": "text"
+            },
+            "text2": {
+                "id": "text2",
+                "fieldClass": "form-input-100",
+                "placeholder": "text2",
+                "name": "text2",
+                "label": "",
+                "type": "text"
+            },
+            "text7": {
+                "id": "text7",
+                "fieldClass": "form-input-100",
+                "placeholder": "text7",
+                "name": "text7",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text8": {
+                "id": "text8",
+                "fieldClass": "form-input-100",
+                "placeholder": "text8",
+                "name": "text8",
+                "label": "",
+                "type": "text"
+            },
+            "text5": {
+                "id": "text5",
+                "fieldClass": "form-input-100",
+                "placeholder": "text5",
+                "name": "text5",
+                "label": "",
+                "type": "text"
+            },
+            "text6": {
+                "id": "text6",
+                "fieldClass": "form-input-100",
+                "placeholder": "text6",
+                "name": "text6",
+                "label": "",
+                "type": "text"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><table align='center' border='0' cellpadding='0' cellspacing='0' style='width:80%;background:white;' width='0'><tbody><td style='width:30%;padding:0in 5.4pt 0in 5.4pt;height:58px;vertical-align:top;'><p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:15.85pt;margin-bottom:.0001pt;line-height:normal;'><span style='letter-spacing:-1.0pt;'><span style='font-family:times new roman bold,serif;'><span style='font-size:13.0pt;'>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH</span></span></span></p><p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;'><span style='position:absolute;z-index:251658752;margin-left:54px;margin-top:21px;width:234px;height:2px;'></span><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> CỤC NGHỆ THUẬT VÀ BIỂU DIỄN</span></span></strong></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;height:58px;vertical-align:top;'><p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:15.85pt;margin-bottom:.0001pt;line-height:normal;'><strong><span style='letter-spacing:-1.0pt;'><span style='font-family:times new roman bold,serif;'><span style='font-size:13.0pt;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></span></strong></p><p style='margin-bottom:0in;margin-bottom:.0001pt;line-height:normal;'><span style='position:absolute;z-index:251658752;margin-left:54px;margin-top:21px;width:234px;height:2px;'></span><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Độc lập - Tự do - Hạnh phúc</span></span></strong></p></td></tr></tr></tbody></table><div style='clear:both;'>&nbsp;</div><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>PHIẾU ĐỀ XUẤT THU PHÍ THẨM ĐỊNH</span></span></strong></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><table align='left' cellpadding='0' cellspacing='0'><tbody><tr><td height='2'>&nbsp;</td></tr><tr><td>&nbsp;</td><td></td></tr></tbody></table>&nbsp;<p>&nbsp;</p>&nbsp;<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>1. Đơn vị nộp phí:</span></span><span style='display: inline-table;' id='column-text1' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>2. Số Giấy phép: </span></span><span style='display: inline-table;' id='column-text2' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>/GP-NTBD ngày </span></span><span style='display: inline-table;' id='column-text3' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> của Cục Nghệ thuật biểu diễn.&nbsp; </span></span></p><p style='margin-bottom:0in;margin-bottom:.0001pt;text-align:justify;text-indent:.5in;line-height:normal;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>3. Nội dung: <span style='letter-spacing:-.5pt;'>Thu phí thẩm định chương trình </span></span></span><span style='display: inline-table;' id='column-text4' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>4. Thời gian: </span></span><span style='display: inline-table;' id='column-text5' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> phút.</span></span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>5. Số tiền:</span></span><span style='display: inline-table;' id='column-text6' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> .000đ (Bằng chữ).</span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>(Theo Thông tư số 288/2016/TT-BTC ngày 15 tháng 11 năm 2016 của Bộ trưởng Bộ Tài chính).</span></span></p><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;text-indent:.5in;line-height:130%;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Đề nghị Văn phòng Cục căn cứ các quy định pháp luật về phí, lệ phí để làm thủ tục thu phí.</span></span></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hà Nội, ngày </span></span></em><span style='display: inline-table;' id='column-text7' ></span></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><p align='center' style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:2.5in;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>LÃNH ĐẠO PHÒNG</span></span></strong></p><p align='center' style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:2.5in;margin-bottom:.0001pt;text-align:center;line-height:normal;'><em><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>(Ký, ghi rõ họ tên)</span></span></em><br><span style='display: inline-table;' id='column-text8' ></span></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div></div>",
+            "bindings": {
+                "text3": "column-text3",
+                "text4": "column-text4",
+                "text1": "column-text1",
+                "text2": "column-text2",
+                "text7": "column-text7",
+                "text8": "column-text8",
+                "text5": "column-text5",
+                "text6": "column-text6"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

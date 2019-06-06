@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-11-15T15:24:46 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_7" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="468" leftMargin="85" rightMargin="42" topMargin="56" bottomMargin="56" uuid="1a5e6c7e-0e14-469a-9fbd-874479e844a8">
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="so" class="java.lang.String">
+		<fieldDescription><![CDATA[so]]></fieldDescription>
+	</field>
+	<field name="dinhdanh" class="java.lang.String">
+		<fieldDescription><![CDATA[dinhdanh]]></fieldDescription>
+	</field>
+	<field name="ngay" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay]]></fieldDescription>
+	</field>
+	<field name="tenhoi1" class="java.lang.String">
+		<fieldDescription><![CDATA[tenhoi1]]></fieldDescription>
+	</field>
+	<field name="tenhoi2" class="java.lang.String">
+		<fieldDescription><![CDATA[tenhoi2]]></fieldDescription>
+	</field>
+	<field name="danhsach" class="java.lang.String">
+		<fieldDescription><![CDATA[danhsach]]></fieldDescription>
+	</field>
+	<field name="tenhoi3" class="java.lang.String">
+		<fieldDescription><![CDATA[tenhoi3]]></fieldDescription>
+	</field>
+	<field name="noinhan" class="java.lang.String">
+		<fieldDescription><![CDATA[noinhan]]></fieldDescription>
+	</field>
+	<field name="kyten" class="java.lang.String">
+		<fieldDescription><![CDATA[kyten]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="22">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="-30" y="0" width="240" height="21" isPrintWhenDetailOverflows="true" uuid="5b569598-944f-494d-aece-bb1553c91d0d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>BỘ VĂN HÓA THỂ THAO VÀ DU LỊCH</b><br>-------------------------------<br>Số: "+($F{so} != null ? $F{so} : "" )+"/QĐ-BVHTTDL"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="210" y="1" width="280" height="21" isPrintWhenDetailOverflows="true" uuid="9582a782-bf20-4577-b492-a0b64fb4ec22">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập – Tự do – Hạnh phúc</b><br>---------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+($F{dinhdanh} != null ? $F{dinhdanh} : "" )+", ngày "+($F{ngay} != null ? $F{ngay} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="470" height="21" isPrintWhenDetailOverflows="true" uuid="0a9617d7-a4fa-4dad-9eda-b375b1a9bf32">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>QUYẾT ĐỊNH <br>Về việc công nhận Ban vận động thành lập Hội <br>"+($F{tenhoi1} != null ? $F{tenhoi1} : "" )+"<br>----------------------------<br>BỘ TRƯỞNG BỘ VĂN HOÁ, THỂ THAO VÀ DU LỊCH</b>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="470" height="21" isPrintWhenDetailOverflows="true" uuid="5d4bef9c-c476-449c-aaa0-273ddee059fe">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br>Căn cứ Nghị định số 76/2013/NĐ-CP ngày 16 tháng 07 năm 2013 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Văn hoá, Thể thao và Du lịch;<br>Căn cứ Nghị định số 45/2010/NĐ-CP ngày 21 tháng 4 năm 2010 của Chính phủ quy định về tổ chức, hoạt động và quản lý hội;<br>Căn cứ Nghị định số 33/2012/NĐ-CP của Chính phủ ngày 13 tháng 04 năm 2012 sửa đổi, bổ sung một số điều của Nghị định số 45/2010/NĐ-CP;<br>Xét đề nghị của Ban sáng lập đề nghị công nhận Ban vận động thành lập Hội và Tổng cục trưởng Tổng cục Thể dục thể thao,"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="470" height="21" isPrintWhenDetailOverflows="true" uuid="0c2627cb-1135-4024-acc4-41099a030a56">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br><b>QUYẾT ĐỊNH:</b>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="470" height="21" isPrintWhenDetailOverflows="true" uuid="7ddd5704-c12b-4608-8951-d360714b2319">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="14" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br><b>Điều 1. </b>Công nhận Ban vận động thành lập Hội "+($F{tenhoi2} != null ? $F{tenhoi2} : "" )+" gồm các ông, bà có tên sau đây:<br>"+($F{danhsach} != null ? $F{danhsach}.replace("\n","<br>") : "" )+"<br><b>Điều 2. </b>Ban vận động thành lập Hội "+($F{tenhoi3} != null ? $F{tenhoi3} : "" )+" có nhiệm vụ:<br>1. Hoàn chỉnh hồ sơ xin phép thành lập Hội, vận động công dân và tổ chức tham gia vào Hội;<br>2. Thực hiện đúng và đầy đủ các quy định của pháp luật có liên quan đến việc vận động và chuẩn bị thành lập Hội;<br>3. Định kỳ báo cáo tiến độ công tác vận động và chuẩn bị thành lập Hội với Bộ Văn hoá, Thể thao và Du lịch, Tổng cục Thể dục thể thao.<br><b>Điều 3.</b> Quyết định này có hiệu lực thi hành kể từ ngày ký.<br><b>Điều 4.</b> Chánh Văn phòng Bộ, Tổng cục trưởng Tổng cục Thể dục thể thao, Thủ trưởng các Vụ, đơn vị có liên quan và các ông, bà có tên tại Điều 1 chịu trách nhiệm thi hành Quyết định này./."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="21">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="210" height="21" isPrintWhenDetailOverflows="true" uuid="e46336f8-ea24-4482-86ed-a3584246e2b8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br><b>Nơi nhận:</b><br>"+($F{noinhan} != null ? $F{noinhan} : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement stretchType="RelativeToBandHeight" x="210" y="0" width="270" height="21" isPrintWhenDetailOverflows="true" uuid="ba3e4e4c-f2ac-4421-9e3a-a9474036030d">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+					<paragraph lineSpacing="1_1_2" leftIndent="0" rightIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<br><b>KT. BỘ TRƯỞNG<br>THỨ TRƯỞNG<br></b>"+($F{kyten} != null ? $F{kyten} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

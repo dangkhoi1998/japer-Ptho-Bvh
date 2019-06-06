@@ -1,0 +1,236 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "dia_diem": {
+                "required": false,
+                "type": "object"
+            },
+            "dinh_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "ki_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay3": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_chiu_trach_nhiem": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_de_nghi": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_dung_cuoc_thi": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_nhan": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_co_quan": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_cuoc_thi": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_don_vi": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "dinh_danh": {
+                "id": "dinh_danh",
+                "fieldClass": "form-input-100",
+                "name": "dinh_danh",
+                "label": "",
+                "type": "text"
+            },
+            "noi_dung_cuoc_thi": {
+                "id": "noi_dung_cuoc_thi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "noi_dung_cuoc_thi",
+                "label": "",
+                "type": "text"
+            },
+            "noi_nhan": {
+                "id": "noi_nhan",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "noi_nhan",
+                "label": "",
+                "type": "textarea",
+                 "events": {
+                      "ready": function(){
+                              $('#noi_nhan').val('-Như trên\n-Lưu: Văn thư');
+                      }
+                 }
+            },
+            "ten_cuoc_thi": {
+                "id": "ten_cuoc_thi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ten_cuoc_thi",
+                "label": "",
+                "type": "text"
+            },
+            "nguoi_de_nghi": {
+                "id": "nguoi_de_nghi",
+                "fieldClass": "form-input-100",
+                "placeholder": "Người đề nghị",
+                "name": "nguoi_de_nghi",
+                "label": "",
+                "type": "text"
+            },
+            "ten_co_quan": {
+                "id": "ten_co_quan",
+                "fieldClass": "form-input-100",
+                "placeholder": "Tên cơ quan tổ chức đề nghị cấp giấy phép",
+                "name": "ten_co_quan",
+                "label": "",
+                "type": "textarea",
+                "rows": "2"
+            },
+            "nguoi_chiu_trach_nhiem": {
+                "id": "nguoi_chiu_trach_nhiem",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "nguoi_chiu_trach_nhiem",
+                "label": "",
+                "type": "text"
+            },
+            "dia_diem": {
+                "id": "dia_diem",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dia_diem",
+                "label": "",
+                "type": "text"
+            },
+            "ki_ten": {
+                "id": "ki_ten",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Chữ ký",
+                "name": "ki_ten",
+                "label": "",
+                "type": "text"
+            },
+            "ten_don_vi": {
+                "id": "ten_don_vi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ten_don_vi",
+                "label": "",
+                "type": "text"
+            },
+            "ngay2": {
+                "id": "ngay2",
+                "fieldClass": "form-input-80",
+                "name": "ngay2",
+                "dateFormat": "DD/MM/YYYY",
+                "label": "",
+                "manualEntry": false,
+                "picker": {
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date",
+"fieldClass": "form-input-100",
+                "fields": {}
+            },
+            "ngay1": {
+                "id": "ngay1",
+                "fieldClass": "form-input-80",
+                "name": "ngay1",
+                "dateFormat": "DD/MM/YYYY",
+                "label": "",
+                "manualEntry": false,
+                "picker": {
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date",
+"fieldClass": "form-input-100",
+                "fields": {},
+				"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay1').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "ngay3": {
+                "id": "ngay3",
+                "fieldClass": "form-input-80",
+                "name": "ngay3",
+                "dateFormat": "DD/MM/YYYY",
+                "label": "",
+                "manualEntry": false,
+                "picker": {
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "type": "date",
+"fieldClass": "form-input-100",
+                "fields": {}
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='line-height:25px; font-size:15px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family:Times New Roman;font-weight:bold;}#ten_don_vi{width:730px !important}#ten_cuoc_thi{width:720px !important}#noi_dung_cuoc_thi{width:680px !important}#nguoi_chiu_trach_nhiem{width:590px!important}#dia_diem{width:745px !important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px ;}</style><table border='0' cellpadding='0' cellspacing='0' style='width:100% !important;margin-left:-0.05in;' width='607'><tbody><tr><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center'><span style=''>&nbsp; <span style='display: inline-table;' id='column-ten_co_quan' ></span></p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><sup><span style=''>_____________</span></sup></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style='letter-spacing:-.3pt;'><span style=''>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style=''>Độc lập - Tự do - Hạnh phúc </span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><sup><span style=''>_________________</span></sup></p><p align='center' ><span style='display: inline-table;width:140px' id='column-dinh_danh' ></span><span style=''>, ngày <span style='display: inline-table;width:110px' id='column-ngay1' ></span></p></td></tr></tbody></table><p align='center' style='margin-bottom:.0001pt;text-align:center;'>&nbsp;</p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style=''>ĐƠN ĐỀ NGHỊ</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style=''>Cấp giấy phép tổ chức cuộc thi người đẹp toàn quốc (cuộc thi Hoa hậu…)</span></strong></p><p align='center' style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;text-indent:0in;'><sup><span style=''>_________</span></sup></p><p align='center' style='margin-bottom:12.0pt;text-align:center;text-indent:0in;'><span style=''>Kính gửi: Bộ Văn hóa, Thể thao và Du lịch</span></p><p><span style='display: inline-table;width:50%' id='column-nguoi_de_nghi' ></span><span style=''> đề nghị Bộ Văn hóa, Thể thao và Du lịch cấp giấy phép tổ chức cuộc thi người đẹp toàn quốc (cuộc thi Hoa hậu…).</span></p><p><span style=''>1. Tên đơn vị: <span style='display: inline-table;width:80%' id='column-ten_don_vi' ></span></p><p><span style=''>2. Tên cuộc thi: <span style='display: inline-table;width:85%' id='column-ten_cuoc_thi' ></span></p><p><span style=''>3. Nội dung cuộc thi: <span style='display: inline-table;' id='column-noi_dung_cuoc_thi' ></span></p><p style='text-indent:28.1pt;'><span style=''>4. Người chịu trách nhiệm cuộc thi:</span><span style='display: inline-table;' id='column-nguoi_chiu_trach_nhiem' ></span></p><p><span style=''>5. Thời gian: Từ ngày <span style='display: inline-table;width:110px' id='column-ngay2' ></span> đến ngày <span style='display: inline-table;width:110px' id='column-ngay3' ></span></p><p><span style=''>6. Địa điểm: <span style='display: inline-table;' id='column-dia_diem' ></span></p><p style='text-indent:28.1pt;'><span style=''>7. Chúng tôi xin cam kết:</span></p><p style='text-indent:28.1pt;'><span style=''>Thực hiện đúng các quy định tại Nghị định số 79/2012/NĐ-CP ngày 05  tháng 10 năm 2012 của Chính phủ quy định về biểu diễn nghệ thuật, trình diễn thời trang; thi người đẹp và người mẫu; lưu hành, kinh doanh bản ghi âm, ghi hình ca múa nhạc, sân khấu; Nghị định số 15/2016/NĐ-CP ngày 15 tháng 3 năm 2016 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 79/2012/NĐ-CP; Thông tư số 01/2016/TT-BVHTTDL ngày 24 tháng 3 năm 2016 và Thông tư số 10/2016/TT-BVHTTDL ngày 19 tháng 10 năm 2016 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch và quy định pháp luật có liên quan. </span></p><p style='text-indent:28.1pt;'><span style=''>- Chịu trách nhiệm về mọi vi phạm pháp luật về quyền tác giả và quyền liên quan.</span></p><p style='margin-bottom:.25in;text-indent:28.1pt;'><span style=''>- Chịu trách nhiệm về tính chính xác, trung thực của nội dung hồ sơ đề nghị cấp giấy phép./.</span></p><table border='0' cellpadding='0' cellspacing='0' style='width:100% !important;margin-left:5.4pt;' width='657'><tbody><tr style='height:189px;'><td style='width:50%;padding:0in 5.4pt 0in 25.4pt;height:189px;vertical-align:top;'><p style='margin-bottom:.0001pt;text-indent:0in;'><strong><em><span style=''>Nơi nhận:</span></em></strong></p><p style='text-indent:0in;'><span style='display: inline-table;' id='column-noi_nhan' ></span></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;height:189px;vertical-align:top;'><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style=''>NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT CỦA</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;'><strong><span style=''>&nbsp;CƠ QUAN, TỔ CHỨC ĐỀ NGHỊ CẤP GIẤY PHÉP</span></strong></p><p>&nbsp;</p><p>&nbsp;</p><p style='text-align:center;'><span style=''><span style='display: inline-table;' id='column-ki_ten' ></span></p></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "noi_dung_cuoc_thi": "column-noi_dung_cuoc_thi",
+                "dinh_danh": "column-dinh_danh",
+                "noi_nhan": "column-noi_nhan",
+                "ten_cuoc_thi": "column-ten_cuoc_thi",
+                "ki_ten": "column-ki_ten",
+                "nguoi_de_nghi": "column-nguoi_de_nghi",
+                "ten_co_quan": "column-ten_co_quan",
+                "ngay2": "column-ngay2",
+                "ten_don_vi": "column-ten_don_vi",
+                "ngay1": "column-ngay1",
+                "nguoi_chiu_trach_nhiem": "column-nguoi_chiu_trach_nhiem",
+                "dia_diem": "column-dia_diem",
+                "ngay3": "column-ngay3"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

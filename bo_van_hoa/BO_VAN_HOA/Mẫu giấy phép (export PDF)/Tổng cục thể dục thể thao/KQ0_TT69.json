@@ -1,0 +1,330 @@
+{
+    "schema": {
+        "properties": {
+            "tenhoi5": {
+                "type": "object",
+                "required": false
+            },
+            "linhvuc": {
+                "type": "object",
+                "required": false
+            },
+            "so": {
+                "type": "object",
+                "required": false
+            },
+            "sdt": {
+                "type": "object",
+                "required": false
+            },
+            "tonchi": {
+                "type": "object",
+                "required": false
+            },
+            "dinhdanh": {
+                "type": "object",
+                "required": false
+            },
+            "kyten": {
+                "type": "object",
+                "required": false
+            },
+            "coso": {
+                "type": "object",
+                "required": false
+            },
+            "kinhgui3": {
+                "type": "object",
+                "required": false
+            },
+            "hovaten": {
+                "type": "object",
+                "required": false
+            },
+            "diachi": {
+                "type": "object",
+                "required": false
+            },
+            "gom": {
+                "type": "object",
+                "required": false
+            },
+            "kinhgui2": {
+                "type": "object",
+                "required": false
+            },
+            "kinhgui1": {
+                "type": "object",
+                "required": false
+            },
+            "tenhoi2": {
+                "type": "object",
+                "required": false
+            },
+            "tenhoi1": {
+                "type": "object",
+                "required": false
+            },
+            "hoten": {
+                "type": "object",
+                "required": false
+            },
+            "tenhoi4": {
+                "type": "object",
+                "required": false
+            },
+            "canthiet": {
+                "type": "object",
+                "required": false
+            },
+            "tenhoi3": {
+                "type": "object",
+                "required": false
+            },
+            "ngay": {
+                "type": "object",
+                "required": false
+            },
+            "noinhan": {
+                "type": "object",
+                "required": false
+            },
+            "danhsach": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "tenhoi5": {
+                "id": "tenhoi5",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tenhoi5",
+                "label": "",
+                "type": "text"
+            },
+            "linhvuc": {
+                "id": "linhvuc",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "linhvuc",
+                "label": "",
+                "type": "text"
+            },
+            "so": {
+                "id": "so",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "so",
+                "label": "",
+                "type": "text"
+            },
+            "sdt": {
+                "id": "sdt",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "sdt",
+                "label": "",
+                "type": "text"
+            },
+            "tonchi": {
+                "id": "tonchi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tonchi",
+                "label": "",
+                "type": "text"
+            },
+            "dinhdanh": {
+                "id": "dinhdanh",
+                "fieldClass": "form-input-100",
+                "placeholder": "Định danh",
+                "name": "dinhdanh",
+                "label": "",
+                "type": "text"
+            },
+            "kyten": {
+                "id": "kyten",
+                "fieldClass": "form-input-100",
+                "placeholder": "Người ký",
+                "name": "kyten",
+                "label": "",
+                "type": "text"
+            },
+            "coso": {
+                "id": "coso",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "coso",
+                "label": "",
+                "type": "text"
+            },
+            "kinhgui3": {
+                "id": "kinhgui3",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "kinhgui3",
+                "label": "",
+                "type": "text"
+            },
+            "hovaten": {
+                "id": "hovaten",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "hovaten",
+                "label": "",
+                "type": "text"
+            },
+            "diachi": {
+                "id": "diachi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "diachi",
+                "label": "",
+                "type": "text"
+            },
+            "gom": {
+                "id": "gom",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "gom",
+                "label": "",
+                "type": "text"
+            },
+            "kinhgui2": {
+                "id": "kinhgui2",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "kinhgui2",
+                "label": "",
+                "type": "text"
+            },
+            "kinhgui1": {
+                "id": "kinhgui1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "kinhgui1",
+                "label": "",
+                "type": "text"
+            },
+            "tenhoi2": {
+                "id": "tenhoi2",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tenhoi2",
+                "label": "",
+                "type": "text"
+            },
+            "tenhoi1": {
+                "id": "tenhoi1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tenhoi1",
+                "label": "",
+                "type": "text"
+            },
+            "hoten": {
+                "id": "hoten",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "hoten",
+                "label": "",
+                "type": "text"
+            },
+            "tenhoi4": {
+                "id": "tenhoi4",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tenhoi4",
+                "label": "",
+                "type": "text"
+            },
+            "canthiet": {
+                "id": "canthiet",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "canthiet",
+                "label": "",
+                "type": "text"
+            },
+            "tenhoi3": {
+                "id": "tenhoi3",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tenhoi3",
+                "label": "",
+                "type": "text"
+            },
+            "ngay": {
+                "id": "ngay",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ngay",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+				"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "noinhan": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "noinhan",
+                "name": "noinhan",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {}
+            },
+            "danhsach": {
+                "id": "danhsach",
+                "cols": "120",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "danhsach",
+                "label": "",
+                "type": "textarea",
+                "rows": "5"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; text-align:justify; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#tenhoi1{width:300px!important;}#tenhoi2{width:300px!important;}#tenhoi3{width:300px!important;}#danhsach{width:800px!important;}#dinhdanh{width:100px!important;}#ngay{width:150px!important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><table border='0' cellpadding='0' cellspacing='0' style='border:none;'><tbody><tr><td style='width:50%;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH <br> ------------------------------- </span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'></span></strong></p><p align='center' style='text-align:center;'><span style='font-family:times new roman,serif;'><span style=''>Số: </span></span><span style='display: inline-table;' id='column-so' ></span><span style='font-family:times new roman,serif;'><span style=''>/QĐ-BVHTTDL</span></span></p></td><td style='width:50%;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM <br> Độc lập – Tự do – Hạnh phúc <br> --------------------------- </span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'></span></strong></p><p align='center' style='text-align:center;'><span style='font-family:times new roman,serif;'></span></p><p align='right' style='text-align:center;'><span style='display: inline-table;' id='column-dinhdanh' ></span><span style='font-family:times new roman,serif;'><span style=''>, ngày </span></span><span style='display: inline-table;' id='column-ngay' ></span></p></td></tr><tr><td colspan='2' style='width:100%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p>&nbsp;</p><strong><p style='text-align:center;'><span style='font-family:times new roman,serif;'>QUYẾT ĐỊNH </span></p></strong><p style='text-align: center;text-indent:0in;'><span style='font-family:times new roman,serif;'><span style='text-align:center;'><b>Về việc công nhận Ban vận động thành lập Hội </b> </span></span><br><span style='display: inline-table;' id='column-tenhoi1' ></span></p><strong></strong><p style='text-align:center;'><span style='font-family:times new roman,serif;'>----------------------------</span></p><strong><p style='text-align:center;'><span style='font-family:times new roman,serif;'>BỘ TRƯỞNG BỘ VĂN HOÁ, THỂ THAO VÀ DU LỊCH</span></p></strong></td></tr><tr><td colspan='2' style='width:100%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:1.0pt;margin-right:1.45pt;margin-bottom:1.0pt;margin-left:0in;text-indent:27.25pt;'><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Nghị định số 76/2013/NĐ-CP ngày 16 tháng 07 năm 2013 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Văn hoá, Thể thao và Du lịch;</span></span></p><p style='margin-top:1.0pt;margin-right:1.45pt;margin-bottom:1.0pt;margin-left:0in;text-indent:27.25pt;'><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Nghị định số 45/2010/NĐ-CP ngày 21 tháng 4 năm 2010 của Chính phủ quy định về tổ chức, hoạt động và quản lý hội;</span></span></p><p style='margin-top:1.0pt;margin-right:1.45pt;margin-bottom:1.0pt;margin-left:0in;text-indent:27.25pt;'><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Nghị định số 33/2012/NĐ-CP của Chính phủ ngày 13 tháng 04 năm 2012 sửa đổi, bổ sung một số điều của Nghị định số 45/2010/NĐ-CP;</span></span></p><p style='margin-top:1.0pt;margin-right:1.45pt;margin-bottom:1.0pt;margin-left:3.35pt;text-align:justify;text-indent:23.65pt;'><span style='letter-spacing:-.2pt;'><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xét đề nghị của Ban sáng lập đề nghị công nhận Ban vận động thành lập Hội và Tổng cục trưởng Tổng cục Thể dục thể thao,</span></span></span></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>QUYẾT ĐỊNH:</span></span></strong></p><p style='text-indent:27.0pt;'><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Điều 1.</span></span></strong><span style='font-family:times new roman,serif;'><span style=''> Công nhận Ban vận động thành lập Hội </span></span><span style='display: inline-table;' id='column-tenhoi2' ></span><span style='font-family:times new roman,serif;'><span style=''> gồm các ông, bà có tên sau đây:</span></span></p><p>&nbsp;<span style='display: inline-table;width:100%' id='column-danhsach' ></span></p><p style='text-indent:27.0pt;'><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Điều 2.</span></span></strong><span style='font-family:times new roman,serif;'><span style=''> Ban vận động thành lập Hội </span></span><span style='display: inline-table;' id='column-tenhoi3' ></span><span style='font-family:times new roman,serif;'><span style=''> có nhiệm vụ:</span></span></p><p style='text-align:justify;text-indent:27.35pt;'><span style='font-family:times new roman,serif;'><span style=''>1. Hoàn chỉnh hồ sơ xin phép thành lập Hội, vận động công dân và tổ chức tham gia vào Hội;</span></span></p><p style='text-align:justify;text-indent:27.35pt;'><span style='font-family:times new roman,serif;'><span style=''>2. Thực hiện đúng và đầy đủ các quy định của pháp luật có liên quan đến việc vận động và chuẩn bị thành lập Hội;</span></span></p><p style='text-align:justify;text-indent:27.35pt;'><span style='font-family:times new roman,serif;'><span style=''>3. Định kỳ báo cáo tiến độ công tác vận động và chuẩn bị thành lập Hội với Bộ Văn hoá, Thể thao và Du lịch, Tổng cục Thể dục thể thao.</span></span></p><p style='text-align:justify;text-indent:27.35pt;'><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Điều 3.</span></span></strong><span style='font-family:times new roman,serif;'><span style=''> Quyết định này có hiệu lực thi hành kể từ ngày ký.</span></span></p><p style='text-align:justify;text-indent:27.0pt;'><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Điều 4.</span></span></strong><span style='font-family:times new roman,serif;'><span style=''> Chánh Văn phòng Bộ, Tổng cục trưởng Tổng cục Thể dục thể thao, Thủ trưởng các Vụ, đơn vị có liên quan và các ông, bà có tên tại Điều 1 chịu trách nhiệm thi hành Quyết định này./.</span></span></p><p>&nbsp;</p></td></tr><tr><td style='width:50%;vertical-align:top;'><p style='50%'><strong><em><span style='font-family:times new roman,serif;'><span style=''>Nơi nhận:</span></span></em></strong></p><p><span style='display: inline-table;' id='column-noinhan' ></span></p></td><td style='width:50%;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>KT. BỘ TRƯỞNG</span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>THỨ TRƯỞNG</span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p style='text-align:center;'><span style='display: inline-table;' id='column-kyten' ></span></p></td></tr></tbody></table><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "so": "column-so",
+                "dinhdanh": "column-dinhdanh",
+                "kyten": "column-kyten",
+                "tenhoi2": "column-tenhoi2",
+                "tenhoi1": "column-tenhoi1",
+                "ngay": "column-ngay",
+                "tenhoi3": "column-tenhoi3",
+                "noinhan": "column-noinhan",
+                "danhsach": "column-danhsach"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

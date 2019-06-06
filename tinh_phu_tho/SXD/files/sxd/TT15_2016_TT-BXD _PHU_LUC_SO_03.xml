@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-10-01T15:23:28 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_18" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="a047219c-0333-4776-abfb-bf4eb98f7acd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="text1" class="java.lang.String">
+		<fieldDescription><![CDATA[text1]]></fieldDescription>
+	</field>
+	<field name="text2" class="java.lang.String">
+		<fieldDescription><![CDATA[text2]]></fieldDescription>
+	</field>
+	<field name="text3" class="java.lang.String">
+		<fieldDescription><![CDATA[text3]]></fieldDescription>
+	</field>
+	<field name="text4" class="java.lang.String">
+		<fieldDescription><![CDATA[text4]]></fieldDescription>
+	</field>
+	<field name="text5" class="java.lang.String">
+		<fieldDescription><![CDATA[text5]]></fieldDescription>
+	</field>
+	<field name="text6" class="java.lang.String">
+		<fieldDescription><![CDATA[text6]]></fieldDescription>
+	</field>
+	<field name="textarea1" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea1]]></fieldDescription>
+	</field>
+	<field name="text7" class="java.lang.String">
+		<fieldDescription><![CDATA[text7]]></fieldDescription>
+	</field>
+	<field name="text8" class="java.lang.String">
+		<fieldDescription><![CDATA[text8]]></fieldDescription>
+	</field>
+	<field name="text9" class="java.lang.String">
+		<fieldDescription><![CDATA[text9]]></fieldDescription>
+	</field>
+	<field name="text10" class="java.lang.String">
+		<fieldDescription><![CDATA[text10]]></fieldDescription>
+	</field>
+	<field name="text11" class="java.lang.String">
+		<fieldDescription><![CDATA[text11]]></fieldDescription>
+	</field>
+	<field name="text12" class="java.lang.String">
+		<fieldDescription><![CDATA[text12]]></fieldDescription>
+	</field>
+	<field name="text13" class="java.lang.String">
+		<fieldDescription><![CDATA[text13]]></fieldDescription>
+	</field>
+	<field name="text14" class="java.lang.String">
+		<fieldDescription><![CDATA[text14]]></fieldDescription>
+	</field>
+	<field name="text15" class="java.lang.String">
+		<fieldDescription><![CDATA[text15]]></fieldDescription>
+	</field>
+	<field name="text16" class="java.lang.String">
+		<fieldDescription><![CDATA[text16]]></fieldDescription>
+	</field>
+	<field name="text17" class="java.lang.String">
+		<fieldDescription><![CDATA[text17]]></fieldDescription>
+	</field>
+	<field name="text18" class="java.lang.String">
+		<fieldDescription><![CDATA[text18]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="710" splitType="Stretch">
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="0" width="400" height="60" uuid="909d054d-4ba6-432d-9754-bebc50043baf"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc <br> ............................"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="60" width="400" height="40" uuid="77e48655-a56e-47b1-99ba-c6015c5c5aee"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["BẢN KÊ KHAI KINH NGHIỆM CỦA TỔ CHỨC, CÁ NHÂN THIẾT KẾ"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="120" width="400" height="18" uuid="9fed1848-a054-481a-a0ba-54786b24a2c1"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. Tổ chức thiết kế:"+($F{text1} != null ? $F{text1} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="139" width="400" height="18" uuid="b6b49155-2d4a-4f51-8af5-74ab024322b3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.1. Tên"+($F{text2} != null ? $F{text2} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="158" width="400" height="18" uuid="b2b0a5da-bc78-476c-95d6-b482eae7ed4a"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.2. Địa chỉ: "+($F{text3} != null ? $F{text3} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="176" width="400" height="18" uuid="cabf3d9d-33ef-4d47-a1fe-b8e3dedcb8f3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.3. Số điện thoại: "+($F{text4} != null ? $F{text4} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="338" width="400" height="18" uuid="02e95b6b-5d51-4841-9c15-aaabee93a456"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["b) Chủ nhiệm thiết kế"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="356" width="400" height="18" uuid="727cc0c2-d7fb-4d34-90fa-a66492c9256e"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Họ và tên:"+($F{text10} != null ? $F{text10} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="248" width="400" height="18" uuid="ce075844-f5db-4df5-b26f-f03e5f7a4064"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.2. Tổ chức trực tiếp thiết kế:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="320" width="400" height="18" uuid="97cd5a83-23e2-4fa1-b68a-a15dfec5cfd4"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Kỹ sư các loại: "+($F{text9} != null ? $F{text9} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="302" width="400" height="18" uuid="b91a1bdb-9308-4da5-9538-dc0cc500326a"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Kiến trúc sư:"+($F{text8} != null ? $F{text8} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="194" width="400" height="18" uuid="2d64bb84-6702-42a8-aa52-0811272d4251"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.4. Nội dung đăng ký kinh doanh: "+($F{text5} != null ? $F{text5} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="212" width="400" height="18" uuid="85f43eac-40ad-4ff3-8aa1-d1e429e08bfd"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. Kinh nghiệm thiết kế:"+($F{text6} != null ? $F{text6} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="230" width="400" height="18" uuid="c94c61df-767e-4ff5-b1f6-9dd0a3b816dc"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.1. Kê khai ít nhất 03 công trình đã thiết kế tương tự như công trình đề nghị cấp phép:<br>"+($F{textarea1} != null ? $F{textarea1} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="266" width="400" height="18" uuid="5c0b078c-bc4c-4ea1-8881-bca16cb0e017"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["a) Số lượng:"+($F{text7} != null ? $F{text7} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="284" width="400" height="18" uuid="8bac4279-4680-4b59-9951-9039fc9483f3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Trong đó:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="240" y="539" width="210" height="18" uuid="72f25558-e791-4d2c-9ab1-5b5462a318ba"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text16} != null ? $F{text16} : "" )+",ngày:"+($F{text17} != null ? $F{text17} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="463" width="400" height="18" uuid="ada6c58b-b0f9-4182-8707-96a8b9e10370"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Họ và tên:"+($F{text13} != null ? $F{text13} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="392" width="400" height="39" uuid="ae5bcf78-e0f5-47db-9a46-be48203a71b1"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Công trình đã chủ nhiệm, chủ trì (tên công trình, quy mô, chủ đầu tư, địa chỉ):"+($F{text12} != null ? $F{text12} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="374" width="400" height="18" uuid="60eb0962-818c-4808-932a-170c13ae2323"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Số chứng chỉ (kèm photocopy chứng chỉ):"+($F{text11} != null ? $F{text11} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="429" width="400" height="34" uuid="07b1859b-bcdc-4dd3-a574-a9861cb9953f"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["c) Chủ trì thiết kế các bộ môn (kê khai đối với tất cả các bộ môn): "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="484" width="400" height="18" uuid="0708987c-fd6a-4ffc-a812-f08fda2e0417"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Số chứng chỉ (kèm photocopy chứng chỉ):"+($F{text14} != null ? $F{text14} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="150" y="559" width="300" height="81" uuid="a62c60bc-3095-424b-b9ed-c03f62e66ad9"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Đại diện tổ chức, cá nhân thiết kế </b> <br>(Ký ghi rõ họ tên) <br>"+($F{text2} != null ? $F{text2} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="50" y="502" width="400" height="38" uuid="ddae6032-ad46-4b81-959d-abae35cf3cbd"/>
+				<textElement textAlignment="Left" markup="html">
+					<font fontName="DejaVu Sans" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Công trình đã chủ nhiệm, chủ trì (tên công trình, quy mô, chủ đầu tư, địa chỉ): "+($F{text15} != null ? $F{text15} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

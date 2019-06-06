@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-11-08T10:28:55 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="openCPSGenJasper" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="65" bottomMargin="20" whenResourceMissingType="Empty" uuid="2143105d-6459-4af3-98f2-1509734dbd34">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="288"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="net.sf.jasperreports.awt.ignore.missing.font" value="true"/>
+	<property name="net.sf.jasperreports.json.date.pattern" value="yyyy-MM-dd"/>
+	<property name="net.sf.jasperreports.json.number.pattern" value="#,##0.##"/>
+	<property name="ireport.background.image.properties" value="false,true,0.25,0,0,0,0,0,0"/>
+	<style name="Sans_Normal" isDefault="true" fontName="DejaVu Sans" fontSize="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="Sans_Bold" fontName="DejaVu Sans" fontSize="12" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="Sans_Italic" fontName="DejaVu Sans" fontSize="12" isBold="false" isItalic="true" isUnderline="false" isStrikeThrough="false"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="Dia_diem1" class="java.lang.String">
+		<fieldDescription><![CDATA[Dia_diem1]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="chu_ky" class="java.lang.String">
+		<fieldDescription><![CDATA[chu_ky]]></fieldDescription>
+	</field>
+	<field name="chuc_vu" class="java.lang.String">
+		<fieldDescription><![CDATA[chuc_vu]]></fieldDescription>
+	</field>
+	<field name="location" class="java.lang.String">
+		<fieldDescription><![CDATA[location]]></fieldDescription>
+	</field>
+	<field name="ngay2" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay2]]></fieldDescription>
+	</field>
+	<field name="dia_chi" class="java.lang.String">
+		<fieldDescription><![CDATA[dia_chi]]></fieldDescription>
+	</field>
+	<field name="dia_diem" class="java.lang.String">
+		<fieldDescription><![CDATA[dia_diem]]></fieldDescription>
+	</field>
+	<field name="dia_diem1" class="java.lang.String">
+		<fieldDescription><![CDATA[dia_diem1]]></fieldDescription>
+	</field>
+	<field name="diadiem_suutam" class="java.lang.String">
+		<fieldDescription><![CDATA[diadiem_suutam]]></fieldDescription>
+	</field>
+	<field name="dien_thoai" class="java.lang.String">
+		<fieldDescription><![CDATA[dien_thoai]]></fieldDescription>
+	</field>
+	<field name="dien_thoai1" class="java.lang.String">
+		<fieldDescription><![CDATA[dien_thoai1]]></fieldDescription>
+	</field>
+	<field name="doi_tuong" class="java.lang.String">
+		<fieldDescription><![CDATA[doi_tuong]]></fieldDescription>
+	</field>
+	<field name="ho_ten" class="java.lang.String">
+		<fieldDescription><![CDATA[ho_ten]]></fieldDescription>
+	</field>
+	<field name="kinh_gui" class="java.lang.String">
+		<fieldDescription><![CDATA[kinh_gui]]></fieldDescription>
+	</field>
+	<field name="kinh_gui1" class="java.lang.String">
+		<fieldDescription><![CDATA[kinh_gui1]]></fieldDescription>
+	</field>
+	<field name="ngay" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay]]></fieldDescription>
+	</field>
+	<field name="ngay1" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay1]]></fieldDescription>
+	</field>
+	<field name="ngay_cap" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay_cap]]></fieldDescription>
+	</field>
+	<field name="ngay_cap1" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay_cap1]]></fieldDescription>
+	</field>
+	<field name="ngay_hethan" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay_hethan]]></fieldDescription>
+	</field>
+	<field name="ngay_hethan1" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay_hethan1]]></fieldDescription>
+	</field>
+	<field name="ngay_sinh" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay_sinh]]></fieldDescription>
+	</field>
+	<field name="noi_cap" class="java.lang.String">
+		<fieldDescription><![CDATA[noi_cap]]></fieldDescription>
+	</field>
+	<field name="noi_cap1" class="java.lang.String">
+		<fieldDescription><![CDATA[noi_cap1]]></fieldDescription>
+	</field>
+	<field name="noi_sinh" class="java.lang.String">
+		<fieldDescription><![CDATA[noi_sinh]]></fieldDescription>
+	</field>
+	<field name="quoc_tich" class="java.lang.String">
+		<fieldDescription><![CDATA[quoc_tich]]></fieldDescription>
+	</field>
+	<field name="quoc_tich1" class="java.lang.String">
+		<fieldDescription><![CDATA[quoc_tich1]]></fieldDescription>
+	</field>
+	<field name="so_hochieu" class="java.lang.String">
+		<fieldDescription><![CDATA[so_hochieu]]></fieldDescription>
+	</field>
+	<field name="so_hochieu1" class="java.lang.String">
+		<fieldDescription><![CDATA[so_hochieu1]]></fieldDescription>
+	</field>
+	<field name="ten_tc" class="java.lang.String">
+		<fieldDescription><![CDATA[ten_tc]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="30">
+			<textField>
+				<reportElement x="40" y="0" width="499" height="30" uuid="bb19e62b-6fd2-407d-9051-21bba75c50b6"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{dia_diem}!= null? $F{dia_diem} : "")+", ngày(date) "+($F{ngay}!= null ? $F{ngay}.split("/")[0] + " tháng " + $F{ngay}.split("/")[1] + " năm " + $F{ngay}.split("/")[2]: " ... tháng ... năm ...")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="50"/>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="10" width="510" height="30" uuid="dd3672b5-100a-47d5-b5bf-adcdea8165eb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ĐƠN ĐỀ NGHỊ<br/> APPLICATION FOR "]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="10" width="510" height="30" uuid="fd70cbfb-79c2-402a-a2f0-52a89b7ad5d2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Cấp giấy phép nghiên cứu, sưu tầm di sản văn hóa phi vật thể<br/> A license to research on and collect intangible cultural heritage</b>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="140">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement positionType="Float" x="30" y="10" width="510" height="130" uuid="47e2ffb4-d318-409b-b6f9-01524d1565d4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kính gửi/To: "+($F{kinh_gui}!= null? $F{kinh_gui}.replace( "\n", "<br>" ): "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="10" width="510" height="30" uuid="1934cb75-fb8b-46c2-9813-47fe1d69267b"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. Tên tổ chức/cá nhân đề nghị (<i>viết chữ in hoa</i>)/ Name of Applicant (Organization and/or <br/>Individual (<i>in capital letters<i/>): "+ ($F{ten_tc}!=null ? $F{ten_tc} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="10" width="490" height="30" uuid="f3cd6236-dc1b-4282-b748-151144b7e5c3"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Ngày tháng năm sinh (<i>đối với cá nhân</i>)/ Date of birth (<i>for individual</i>): " + ($F{ngay_sinh} != null ? $F{ngay_sinh}: "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="389e45cb-611e-43f4-a04c-1753858f07d3"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Nơi sinh (<i>đối với cá nhân</i>)/ Place of birth (<i>for individual</i>): " + ($F{noi_sinh} != null ? $F{noi_sinh} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="b8c3bde1-9d58-460a-9ccd-57cdec687306"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Quốc tịch (<i>đối với cá nhân</i>)/ Nationality (<i>for individual</i>): " + ($F{quoc_tich} != null ? $F{quoc_tich}: "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="4f597433-6ac7-4d81-b494-c82951ffd90c"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Hộ chiếu (<i>đối với cá nhân</i>): Số: " +($F{so_hochieu} !=null ? $F{so_hochieu} : "")+" &nbsp &nbsp &nbsp &nbsp Ngày cấp: "+ ($F{ngay_cap}!= null ? $F{ngay_cap} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="0e2750f4-2e10-4151-ba15-d984afb8fd23"/>
+				<textElement markup="html">
+					<font size="13"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Nơi cấp: "+($F{noi_cap}!= null ? $F{noi_cap} : "")+" &nbsp &nbsp &nbsp &nbsp Ngày hết hạn: "+($F{ngay_hethan}!= null ? $F{ngay_hethan} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="35">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="887d9b55-c141-4cf6-84ba-bb369c3e8817"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Passport (<i>for individual</i>): No: "+($F{so_hochieu1} != null ? $F{so_hochieu1} : "")+" &nbsp &nbsp &nbsp &nbsp Date of issue: "+($F{ngay_cap1} != null ? ($F{ngay_cap1}.split("/")[0] +" month "+$F{ngay_cap1}.split("/")[1] +" year "+$F{ngay_cap1}.split("/")[2]) : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="32">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="5add099a-62ab-4173-bd99-855f979c1285"/>
+				<textElement markup="html">
+					<font size="13"/>
+					<paragraph lineSpacing="Double"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Place of issue: "+($F{noi_cap1} != null ? $F{noi_cap1}: "")+" &nbsp &nbsp &nbsp &nbsp Date of expiry: " +($F{ngay_hethan1} != null ? ($F{ngay_hethan1}.split("/")[0] +" month "+$F{ngay_hethan1}.split("/")[1] +" year "+$F{ngay_hethan1}.split("/")[2]) : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="4e83049c-3dcd-4ad1-9f2d-2b37154e3b79"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Địa chỉ (<i>trụ sở chính đối với tổ chức/nơi thường trú đối với cá nhân</i>)/ Address "]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="f67cae74-1673-4ab5-90d9-51f58659cce8"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="13"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["(<i>headquarter of organization/residential address of individual</i>): "+ ($F{dia_chi} != null ? $F{dia_chi} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="20" uuid="89951a10-56b7-41f0-bb95-1b7688c48dbc"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" Điện thoại/Tel: " +($F{dien_thoai} != null ? $F{dien_thoai} : "") + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: " +($F{email} != null ? $F{email} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="0" width="510" height="30" uuid="355e87b5-2a82-46db-8ff9-6dc574c7c060"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. Người đại diện theo pháp luật (<i>đối với tổ chức</i>)/ Legal representative (<i>of organization</i>):"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="b0d4ba18-24ff-40e6-9430-0ac33bbd60f6"/>
+				<textElement markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Họ và tên (<i>viết chữ in hoa</i>)/ Full name (<i>in capital letters</i>): " +($F{ho_ten} != null ? $F{ho_ten} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="e04654fb-6faf-4195-a980-3d6821f21c9a"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Chức vụ/Position: " +($F{chuc_vu} != null ? $F{chuc_vu} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="50" y="0" width="490" height="30" uuid="d435dec1-43fb-445e-a2cf-cffd855c55ec"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Quốc tịch/Nationality:  "+($F{quoc_tich1} != null ? $F{quoc_tich1} : "")+" &nbsp &nbsp &nbsp &nbsp Điện thoại/Tel: " + ($F{dien_thoai1} != null ? $F{dien_thoai1}: "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="0" width="510" height="20" uuid="c2018aad-0e62-4417-8250-70b858d5b232">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3. Loại hình, đối tượng di sản văn hóa phi vật thể đề nghị được nghiên cứu, sưu tầm/ Types, "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="20" width="510" height="20" uuid="19e74275-fbc1-44a1-8e1b-0887e78fe73c">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["objects of intangible cultural heritage that are applied for research and collection: " + ($F{doi_tuong} != null ? $F{doi_tuong}: "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="80">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="0" width="510" height="20" uuid="2d05d992-e7aa-4103-93e9-d1ff217916a3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["4. Địa điểm tiến hành nghiên cứu, sưu tầm/ Research and collection site: " +($F{diadiem_suutam}!= null ? $F{diadiem_suutam}: "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="20" width="510" height="60" uuid="324ce7b6-d384-47c4-a10e-004a2562728f">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="13"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["5. Đề nghị Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch&nbsp;" + ($F{kinh_gui1}!= null ? $F{kinh_gui1} : "") + " cấp giấy phép nghiên cứu, sưu tầm di sản văn hóa phi vật thể/ We propose that the Minister of Culture, Sports and Tourism issue a license for the research on and/ or collection of the intangible cultural heritage."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="60">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="30" y="0" width="510" height="60" uuid="4a685375-c7b5-422a-956d-30bc32df1a7c"/>
+				<textElement textAlignment="Justified">
+					<font size="13"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["6. Cam kết/ We hereby commit: Chịu trách nhiệm về tính chính xác của hồ sơ đề nghị cấp giấy phép và sẽ thực hiện nghiên cứu, sưu tầm theo quy định của pháp luật Việt Nam/ To take full responsibility for the accuracy of the content of this application and we will undertake the research and collection in accordance with the Vietnamese laws."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="19">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+		<band height="17">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+		<band height="19">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+		<band height="78">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="250" y="-2" width="290" height="50" uuid="fc573229-2cf2-457b-a215-377f7d1da836"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TỔ CHỨC/CÁ NHÂN ĐỀ NGHỊ CẤP GIẤY PHÉP <br/> ORGANIZATION OR INDIVIDUALS APPLYING <br/> FOR THE LICENSE "]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="84">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="250" y="-30" width="290" height="70" uuid="876b9bbf-0761-4278-8fe9-13b20e94fde2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<i>Ký, đóng dấu, ghi rõ họ tên (đối với tổ chức)</i><br/> <i>Signed, sealed, and name (in case of organization)</i> <br/> <i>Ký, ghi rõ họ tên (đối với cá nhân) Signed, sealed, and full name (in case of individuals)<i/>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="90">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="280" y="10" width="240" height="30" uuid="b079f143-849b-44e5-a68d-40dedba72f00"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["" +($F{chu_ky}!= null ? $F{chu_ky} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="22">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</detail>
+</jasperReport>

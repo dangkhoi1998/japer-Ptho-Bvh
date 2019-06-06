@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-11-30T11:55:27 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="openCPSGenJasper" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Empty" uuid="9358dc46-f50f-443a-bf2f-da2836954097">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="288"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="net.sf.jasperreports.awt.ignore.missing.font" value="true"/>
+	<property name="net.sf.jasperreports.json.date.pattern" value="yyyy-MM-dd"/>
+	<property name="net.sf.jasperreports.json.number.pattern" value="#,##0.##"/>
+	<property name="ireport.background.image.properties" value="false,true,0.25,0,0,0,0,0,0"/>
+	<style name="Sans_Normal" isDefault="true" fontName="DejaVu Sans" fontSize="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="Sans_Bold" fontName="DejaVu Sans" fontSize="12" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="Sans_Italic" fontName="DejaVu Sans" fontSize="12" isBold="false" isItalic="true" isUnderline="false" isStrikeThrough="false"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="names" class="java.lang.String">
+		<fieldDescription><![CDATA[names]]></fieldDescription>
+	</field>
+	<field name="date" class="java.lang.String">
+		<fieldDescription><![CDATA[date]]></fieldDescription>
+	</field>
+	<field name="Diachi" class="java.lang.String">
+		<fieldDescription><![CDATA[Diachi]]></fieldDescription>
+	</field>
+	<field name="noisinh" class="java.lang.String">
+		<fieldDescription><![CDATA[noisinh]]></fieldDescription>
+	</field>
+	<field name="kiten" class="java.lang.String">
+		<fieldDescription><![CDATA[kiten]]></fieldDescription>
+	</field>
+	<field name="cmnd" class="java.lang.String">
+		<fieldDescription><![CDATA[cmnd]]></fieldDescription>
+	</field>
+	<field name="capngay" class="java.lang.String">
+		<fieldDescription><![CDATA[capngay]]></fieldDescription>
+	</field>
+	<field name="diachi" class="java.lang.String">
+		<fieldDescription><![CDATA[diachi]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[phone]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="A1" class="java.lang.String">
+		<fieldDescription><![CDATA[A1]]></fieldDescription>
+	</field>
+	<field name="A2" class="java.lang.String">
+		<fieldDescription><![CDATA[A2]]></fieldDescription>
+	</field>
+	<field name="A3" class="java.lang.String">
+		<fieldDescription><![CDATA[A3]]></fieldDescription>
+	</field>
+	<field name="A4" class="java.lang.String">
+		<fieldDescription><![CDATA[A4]]></fieldDescription>
+	</field>
+	<field name="A5" class="java.lang.String">
+		<fieldDescription><![CDATA[A5]]></fieldDescription>
+	</field>
+	<field name="A6" class="java.lang.String">
+		<fieldDescription><![CDATA[A6]]></fieldDescription>
+	</field>
+	<field name="A7" class="java.lang.String">
+		<fieldDescription><![CDATA[A7]]></fieldDescription>
+	</field>
+	<field name="A8" class="java.lang.String">
+		<fieldDescription><![CDATA[A8]]></fieldDescription>
+	</field>
+	<field name="A9" class="java.lang.String">
+		<fieldDescription><![CDATA[A9]]></fieldDescription>
+	</field>
+	<field name="A10" class="java.lang.String">
+		<fieldDescription><![CDATA[A10]]></fieldDescription>
+	</field>
+	<field name="a11" class="java.lang.String">
+		<fieldDescription><![CDATA[a11]]></fieldDescription>
+	</field>
+	<field name="a12" class="java.lang.String">
+		<fieldDescription><![CDATA[a12]]></fieldDescription>
+	</field>
+	<field name="a13" class="java.lang.String">
+		<fieldDescription><![CDATA[a13]]></fieldDescription>
+	</field>
+	<field name="a14" class="java.lang.String">
+		<fieldDescription><![CDATA[a14]]></fieldDescription>
+	</field>
+	<field name="a15" class="java.lang.String">
+		<fieldDescription><![CDATA[a15]]></fieldDescription>
+	</field>
+	<field name="a16" class="java.lang.String">
+		<fieldDescription><![CDATA[a16]]></fieldDescription>
+	</field>
+	<field name="a17" class="java.lang.String">
+		<fieldDescription><![CDATA[a17]]></fieldDescription>
+	</field>
+	<field name="a18" class="java.lang.String">
+		<fieldDescription><![CDATA[a18]]></fieldDescription>
+	</field>
+	<field name="a19" class="java.lang.String">
+		<fieldDescription><![CDATA[a19]]></fieldDescription>
+	</field>
+	<field name="a20" class="java.lang.String">
+		<fieldDescription><![CDATA[a20]]></fieldDescription>
+	</field>
+	<field name="diachi1" class="java.lang.String">
+		<fieldDescription><![CDATA[diachi1]]></fieldDescription>
+	</field>
+	<field name="ngay" class="java.lang.String">
+		<fieldDescription><![CDATA[ngay]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="54">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="40" y="24" width="470" height="30" uuid="4edb2ca1-14d1-4ab2-a587-99727e58c076"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans" size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["MẪU TỜ KHAI ĐĂNG KÝ KIỂM TRA NGHIỆP VỤ<br>GIÁM ĐỊNH QUYỀN TÁC GIẢ, QUYỀN LIÊN QUAN"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="262">
+			<staticText>
+				<reportElement x="100" y="70" width="260" height="20" uuid="ea9bdc31-9aa7-4800-85a6-a94c7b1b222a"/>
+				<textElement>
+					<font fontName="DejaVu Sans" size="13"/>
+				</textElement>
+				<text><![CDATA[Kính gửi: Cục Bản quyền tác giả]]></text>
+			</staticText>
+			<frame>
+				<reportElement x="420" y="33" width="110" height="137" uuid="22bd1f01-2b8e-47d6-a75d-c418487fd22e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField>
+					<reportElement x="21" y="1" width="70" height="49" uuid="924266d5-6c0f-4f91-85b8-1b712aa7f3a4"/>
+					<textElement textAlignment="Center" markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Ảnh<br>(3*4 cm)"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="40" y="170" width="490" height="91" uuid="ba9648e9-d220-48ce-9ac3-31684ed66648"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="8" y="11" width="19" height="19" uuid="65de1841-1c0d-47f3-8f44-2e4cf5996a3a"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[1]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="70" y="12" width="340" height="18" uuid="defe7713-04dd-4564-b776-fd772b8b2d34"/>
+					<textElement textAlignment="Center">
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[THÔNG TIN NGƯỜI ĐĂNG KÝ KIỂM TRA ]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="11" y="30" width="229" height="60" uuid="470d8c4e-4373-4dc0-9036-9f5a160efc4b"/>
+					<textElement textAlignment="Left" markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Họ và Tên:&nbsp;"+($F{names} != null ? $F{names} : "" )+"<br>Năm sinh:&nbsp;"+($F{date} != null ? $F{date} : "" )+"<br>Số CMND:&nbsp;"+($F{cmnd} != null ? $F{cmnd} : "" )]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="241" y="31" width="239" height="59" uuid="2c7c9e82-67cf-49c0-9d00-e4bd4b13cf6f"/>
+					<textElement textAlignment="Left" markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA["<br>Nơi sinh:&nbsp;"+($F{noisinh} != null ? $F{noisinh} : "" )+"<br>Cấp ngày:&nbsp;"+($F{capngay} != null ? $F{capngay} : "" )]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="20">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="40" y="-1" width="490" height="19" uuid="0b5498c2-3d67-4c68-b10e-345ba5139ec3"/>
+				<box topPadding="0" leftPadding="12" bottomPadding="0">
+					<leftPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement rotation="None" markup="html">
+					<font fontName="DejaVu Sans" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Địa chỉ: "+($F{diachi} != null ? $F{diachi} : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="459">
+			<frame>
+				<reportElement x="40" y="26" width="240" height="150" uuid="e83246a2-a8c3-42bb-be52-ff048d94c05b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="9" y="11" width="11" height="19" uuid="83481964-1a13-47cc-80b8-3a105882fca9"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[2]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="21" y="12" width="219" height="19" uuid="1637d3a5-0e92-4901-9c3c-c1dbf6bfddde"/>
+					<textElement textAlignment="Left">
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[NỘI DUNG ĐĂNG KÝ KIỂM TRA ]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="12" y="41" width="15" height="15" uuid="18ffdb46-a3dc-4d71-9152-2cb13f50e775"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A1}==null?"":($F{A1}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="81" width="15" height="15" uuid="869e9adf-22a7-49a4-b084-270a0c8a074d"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A2}==null?"":($F{A2}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="114" width="15" height="15" uuid="f02054ca-7e1e-44a8-b234-092962e1c909"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A3}==null?"":($F{A3}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="32" y="37" width="208" height="30" uuid="94e1cc5a-9942-40a6-b1ec-4264d008dd20"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Kiến thức pháp luật, giám định quyền tác giả, quyền liên quan"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="33" y="80" width="207" height="30" uuid="193c6d55-5805-40e3-ae24-a9e811c73620"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Kiến thức chuyên ngành quyền tác giả "]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="32" y="113" width="208" height="30" uuid="cff8f99a-9b8f-4a17-a828-e90a90599188"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Kiến thức chuyên ngành quyền liên quan"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="280" y="26" width="250" height="150" uuid="7beea712-058e-466b-9e31-6ce53710a11b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="8" y="11" width="9" height="19" uuid="341096df-40ac-427b-8bed-30cd47c3161f"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[3]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="17" y="11" width="233" height="19" uuid="9704fbf7-90fa-476b-90a8-3a092fc35bed"/>
+					<textElement textAlignment="Left">
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[NỘI DUNG ĐƯỢC MIỄN KIỂM TRA]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="9" y="42" width="15" height="15" uuid="185ce03d-9076-4cc9-9d51-1b0334b9c9ba"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A4}==null?"":($F{A4}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="10" y="81" width="15" height="15" uuid="357161a9-1f9c-4c6b-8663-4261192abb81"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A5}==null?"":($F{A5}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="10" y="114" width="15" height="15" uuid="37abf7f9-3aa8-49b5-90f2-ebd61df6e8df"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A6}==null?"":($F{A6}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="40" y="176" width="340" height="280" uuid="08f7d27f-742f-4302-8272-872d4b5528bb"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="12" y="11" width="21" height="19" uuid="6c83669e-9f59-4b67-b5ed-4e03d0280219"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[4]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="41" y="12" width="299" height="30" uuid="7f5675b1-a2a8-4dc8-87d6-415861a67c85"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CÁC TÀI LIỆU CÓ TRONG HỒ SƠ ĐĂNG KÝ KIỂM TRA]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="12" y="61" width="15" height="15" uuid="0818e813-f960-4991-b148-5c1827ab4751"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A7}==null?"":($F{A7}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="181" width="15" height="15" uuid="27dc666d-835a-4a4e-8a8b-4fa24de4472a"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a11}==null?"":($F{a11}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="122" width="15" height="15" uuid="5ea032d9-a176-436f-8aae-70f16c715f82"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A9}==null?"":($F{A9}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="151" width="15" height="15" uuid="08451f38-1fcb-4a1d-9687-34deb7bfa7f7"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A10}==null?"":($F{A10}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="14" y="211" width="15" height="15" uuid="b1be3bcf-10ac-42f5-becf-17b0cdc2f262"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a12}==null?"":($F{a12}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="14" y="241" width="15" height="15" uuid="b020688b-1562-4315-893a-dbf2a1668793"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a13}==null?"":($F{a13}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="91" width="15" height="15" uuid="ae2ef054-eda6-46e6-80b5-965e556442c2"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{A8}==null?"":($F{A8}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="33" y="61" width="297" height="15" uuid="01f5f900-5928-4d02-8db5-4eb071c14701"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Tờ khai ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="34" y="87" width="296" height="38" uuid="904a2a7f-f652-4ccb-875b-edc4e1384578"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Bản sao (có chứng thực) bằng tốt nghiệp đại học hoặc sau đại học]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="34" y="125" width="296" height="15" uuid="3da1364c-172f-47be-a53c-ccc62e39086a"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Giấy xác nhận quá trình công tác ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="34" y="152" width="296" height="15" uuid="f497ddb8-f69a-4654-af9b-bced6d583627"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Giấy xác nhận tình trạng sức khỏe]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="34" y="182" width="296" height="15" uuid="9c551213-2df3-47a8-833b-08b5ee657d12"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Sơ yếu lý lịch]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="34" y="211" width="296" height="15" uuid="b6b5d08f-dd55-4c77-b8b1-bf144564a8c0"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[02 ảnh màu cỡ 3x4 cm]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="35" y="236" width="295" height="38" uuid="c04de852-45c9-4c0c-bf7f-6086304b2e4f"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[Văn bản yêu cầu được miễn kiểm tra nghiệp vụ giám định]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="380" y="176" width="150" height="280" uuid="9d1b1d69-2be4-45dc-be8b-5a90f823000d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="1" y="12" width="139" height="30" uuid="738beba5-8c32-4ae5-80f8-f21f9b9e25ea"/>
+					<box leftPadding="3"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[HỒ SƠ GỒM CÁC TÀI LIỆU ]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="12" y="61" width="15" height="15" uuid="c8ce86c1-f82f-4629-a7d3-42b1a76da36e"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a14}==null?"":($F{a14}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="181" width="15" height="15" uuid="1f8fb0f9-6eb4-4c92-bbf9-4d0fec37455f"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a18}==null?"":($F{a18}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="121" width="15" height="15" uuid="1666e00f-0a5a-41eb-89c7-cb89a1412ab6"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a16}==null?"":($F{a16}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="13" y="151" width="15" height="15" uuid="4f8104c6-ece2-43d7-b590-2741b0c571dc"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a17}==null?"":($F{a17}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="14" y="211" width="15" height="15" uuid="00f38635-3d5b-4299-a96c-a16782251a62"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a19}==null?"":($F{a19}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="14" y="241" width="15" height="15" uuid="391d1238-a588-4c1d-9460-3c0130fb561e"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a20}==null?"":($F{a20}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="12" y="91" width="15" height="15" uuid="38cef4f1-6980-49e7-9db7-58c5fcd78473"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="html"/>
+					<textFieldExpression><![CDATA[$F{a15}==null?"":($F{a15}.contains("true")?"x":"&nbsp;")]]></textFieldExpression>
+				</textField>
+				<frame>
+					<reportElement x="41" y="130" width="99" height="126" uuid="d465b798-c0f9-4006-b9e5-f032c909e505"/>
+					<box>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textField>
+						<reportElement x="-1" y="0" width="100" height="51" uuid="2973abdf-09ad-4b41-894e-8bef67667bc0"/>
+						<box>
+							<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+							<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textElement textAlignment="Center" markup="html">
+							<font fontName="DejaVu Sans"/>
+						</textElement>
+						<textFieldExpression><![CDATA["Cán bộ nhận hồ sơ <br>(ký và ghi rõ họ tên)"]]></textFieldExpression>
+					</textField>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement x="40" y="-1" width="490" height="27" uuid="9bc2461f-cea0-4f0f-b603-39c9a105a957"/>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="12" y="4" width="227" height="19" uuid="5c573624-c0a9-4e3d-b2d6-8eddfb742514"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Điện thoại: "+($F{phone} != null ? $F{phone} : "" )]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="240" y="3" width="250" height="20" uuid="8652b8a4-9830-4139-a8da-9f3757d29876"/>
+					<textElement markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Email:"+($F{email} != null ? $F{email} : "" )]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+		<band height="40">
+			<textField>
+				<reportElement x="40" y="-3" width="490" height="43" uuid="165a04e2-334a-4d4a-a004-4e6b0d85b210"/>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="390">
+			<frame>
+				<reportElement x="40" y="0" width="490" height="270" uuid="8a3967b6-023c-4d3a-9779-fb9cfe6ffcf0"/>
+				<box topPadding="20">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<staticText>
+					<reportElement x="14" y="11" width="17" height="20" uuid="fcf3113b-be5d-4495-a41f-f961c61423bc"/>
+					<textElement>
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[5]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="81" y="12" width="340" height="19" uuid="3df206a4-7715-4efe-9e9b-96476aa77350"/>
+					<textElement textAlignment="Center">
+						<font fontName="DejaVu Sans" size="13" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CAM KẾT CỦA NGƯỜI ĐĂNG KÝ ]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="14" y="41" width="456" height="39" uuid="8365049f-711a-4755-a467-8f50e19f76ef"/>
+					<textElement markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<text><![CDATA[&emsp; &emsp; Tôi xin cam đoan các thông tin, tài liệu trong hồ sơ là đúng sự thật và hoàn toàn chịu trách nhiệm trước pháp luật.]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="207" y="81" width="263" height="79" uuid="3a43af30-1e4d-42dc-9afc-3abd2aee088f"/>
+					<textElement textAlignment="Center" markup="html">
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA["<i>Làm tại, "+($F{Diachi} != null ? $F{Diachi} : "" )+" ngày "+($F{ngay} != null ? $F{ngay}.split("/")[0] + " tháng " + $F{ngay}.split("/")[1]  + " năm " + $F{ngay}.split("/")[2]: " ... tháng ... năm ..." )+"</i>"+"<br>Người yêu cầu"+"<br>(Ký, ghi rõ họ tên)"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="207" y="194" width="264" height="20" uuid="57e0fc63-b4fa-4e6b-9153-4e8032c8e887"/>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font fontName="DejaVu Sans" size="13"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{kiten} != null ? $F{kiten} : "" )]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

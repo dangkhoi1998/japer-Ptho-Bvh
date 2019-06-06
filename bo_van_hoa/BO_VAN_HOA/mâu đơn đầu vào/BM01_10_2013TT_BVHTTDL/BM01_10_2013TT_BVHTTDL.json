@@ -1,0 +1,213 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "Dinh_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "Kinh_gui": {
+                "required": false,
+                "type": "object"
+            },
+            "Ky_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "chuc_vu": {
+                "required": false,
+                "type": "object"
+            },
+            "dai_dien_cho": {
+                "required": false,
+                "type": "object"
+            },
+            "de_nghi_q_c": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi": {
+                "required": false,
+                "type": "object"
+            },
+            "fax": {
+                "required": false,
+                "type": "object"
+            },
+            "ho_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "mot": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_dung_tham_dinh": {
+                "required": false,
+                "type": "object"
+            },
+            "sdt": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "Dinh_danh": {
+                "id": "Dinh_danh",
+                "name": "Dinh_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Định danh"
+            },
+            "Kinh_gui": {
+                "id": "Kinh_gui",
+                "name": "Kinh_gui",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Kính gửi"
+            },
+            "Ky_ten": {
+                "id": "Ky_ten",
+                "name": "Ky_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Ký tên"
+            },
+            "chuc_vu": {
+                "id": "chuc_vu",
+                "name": "chuc_vu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dai_dien_cho": {
+                "id": "dai_dien_cho",
+                "name": "dai_dien_cho",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "de_nghi_q_c": {
+                "id": "de_nghi_q_c",
+                "name": "de_nghi_q_c",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "name": "dia_chi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "fax": {
+                "id": "fax",
+                "name": "fax",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ho_ten": {
+                "id": "ho_ten",
+                "name": "ho_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "mot": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "mot",
+                "name": "mot",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay": {
+                "placeholder": "Ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay",
+                "name": "ngay",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+		"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }		
+            },
+            "noi_dung_tham_dinh": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "noi_dung_tham_dinh",
+                "name": "noi_dung_tham_dinh",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "sdt": {
+                "id": "sdt",
+                "name": "sdt",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width:80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);padding:0px;margin:0px;'><style type='text/css'>#ngay {width: 100px !important;}#mot {width: 100% !important;} #noi_dung_tham_dinh {width: 100% !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><p align='center' style='margin-bottom:6.0pt;text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br />Độc lập – Tự do – Hạnh phúc<br />--------------------------</span></span></strong></p><p style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:500px;text-indent:.5in;'>&nbsp;&nbsp;&nbsp; <span style='display: inline-table;width:120px;' id='column-Dinh_danh' ></span><em><span style='font-family:times new roman,serif;'><span style=''>,ngày <span style='display: inline-table;' id='column-ngay' ></span></em></p><p align='center' style='margin-bottom:6.0pt;text-align:center;'><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style=''>ĐƠN ĐỀ NGHỊ THẨM ĐỊNH SẢN PHẨM QUẢNG CÁO</span></span></span></strong></p><div style='width:100%;'><p align='center' style='margin-bottom:6.0pt;text-align:center;'><span style='font-family:times new roman,serif;margin-left:0px;'><span style=''>Kính gửi: Cục văn hóa cơ sở - Bộ Văn hóa, Thể thao và Du lịch</p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Họ và tên: <span style='display: inline-table;width:431px;' id='column-ho_ten' ></span>&nbsp; Chức vụ: <span style='display: inline-table;width:256px;' id='column-chuc_vu' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Đại diện cho: &nbsp;<span style='display: inline-table;width:731px;' id='column-dai_dien_cho' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Địa chỉ: <span style='display: inline-table;width:768px;' id='column-dia_chi' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Điện thoại:&nbsp; <span style='width:387px;display: inline-table;' id='column-sdt' ></span> Fax:&nbsp; <span style='display: inline-table;width:320px;' id='column-fax' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Đề nghị thẩm định sản phẩm quảng cáo:&nbsp; <span style='display: inline-table;width:570px;' id='column-de_nghi_q_c' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''>Nội dung thẩm định:&nbsp; </span></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''><span style='display: inline-table;width:100%;' id='column-noi_dung_tham_dinh' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''><br/>Hồ sơ gửi kèm:&nbsp; </span></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''><span style='display: inline-table;width:100%;' id='column-mot' ></span></p><p style='margin-bottom:6.0pt;'><span style='font-family:times new roman,serif;'><span style=''><br/>Chúng tôi xin bảo đảm về tính trung thực của các số liệu, tài liệu trong các văn bản nêu trên. Nếu có sai phạm, chúng tôi xin hoàn toàn chịu trách nhiệm theo quy định của pháp luật.</span></span></p></div><p style='margin-bottom:6.0pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:100% !important;'><tbody><tr><td style='width:287px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'>&nbsp;</p></td><td style='width:303px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;'><em><span style='font-family:times new roman,serif;'><span style=''>(Ký, ghi rõ họ tên, chức danh, đóng dấu)</span></span></em></p></td></tr></tbody></table><p><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='display: inline-table;margin-left:530px;' id='column-Ky_ten' ></span></p></div></div>",
+            "bindings": {
+                "chuc_vu": "column-chuc_vu",
+                "dai_dien_cho": "column-dai_dien_cho",
+                "fax": "column-fax",
+                "sdt": "column-sdt",
+                "noi_dung_tham_dinh": "column-noi_dung_tham_dinh",
+                "Kinh_gui": "column-Kinh_gui",
+                "Dinh_danh": "column-Dinh_danh",
+                "mot": "column-mot",
+                "de_nghi_q_c": "column-de_nghi_q_c",
+                "Ky_ten": "column-Ky_ten",
+                "dia_chi": "column-dia_chi",
+                "ngay": "column-ngay",
+                "ho_ten": "column-ho_ten"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

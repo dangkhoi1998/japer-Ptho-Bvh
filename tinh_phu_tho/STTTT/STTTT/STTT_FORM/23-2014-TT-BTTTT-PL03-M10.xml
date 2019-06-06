@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2018-10-01T16:14:14 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_20" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="4ac37a9e-45dd-4f9c-9802-b8ad85378aee">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="textarea1" class="java.lang.String">
+		<fieldDescription><![CDATA[textarea1]]></fieldDescription>
+	</field>
+	<field name="text1" class="java.lang.String">
+		<fieldDescription><![CDATA[text1]]></fieldDescription>
+	</field>
+	<field name="text2" class="java.lang.String">
+		<fieldDescription><![CDATA[text2]]></fieldDescription>
+	</field>
+	<field name="text3" class="java.lang.String">
+		<fieldDescription><![CDATA[text3]]></fieldDescription>
+	</field>
+	<field name="text4" class="java.lang.String">
+		<fieldDescription><![CDATA[text4]]></fieldDescription>
+	</field>
+	<field name="text13" class="java.lang.String">
+		<fieldDescription><![CDATA[text13]]></fieldDescription>
+	</field>
+	<field name="text5" class="java.lang.String">
+		<fieldDescription><![CDATA[text5]]></fieldDescription>
+	</field>
+	<field name="text6" class="java.lang.String">
+		<fieldDescription><![CDATA[text6]]></fieldDescription>
+	</field>
+	<field name="text7" class="java.lang.String">
+		<fieldDescription><![CDATA[text7]]></fieldDescription>
+	</field>
+	<field name="text8" class="java.lang.String">
+		<fieldDescription><![CDATA[text8]]></fieldDescription>
+	</field>
+	<field name="text9" class="java.lang.String">
+		<fieldDescription><![CDATA[text9]]></fieldDescription>
+	</field>
+	<field name="text10" class="java.lang.String">
+		<fieldDescription><![CDATA[text10]]></fieldDescription>
+	</field>
+	<field name="text11" class="java.lang.String">
+		<fieldDescription><![CDATA[text11]]></fieldDescription>
+	</field>
+	<field name="text14" class="java.lang.String">
+		<fieldDescription><![CDATA[text14]]></fieldDescription>
+	</field>
+	<field name="text12" class="java.lang.String">
+		<fieldDescription><![CDATA[text12]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="730" splitType="Stretch">
+			<textField>
+				<reportElement x="189" y="-1" width="290" height="70" uuid="94dbc1cf-48d1-43c0-9c08-e4f47792b7dc"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc<br> ............................."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="12" y="0" width="138" height="70" uuid="ab45d282-b0b4-4d8b-a3e1-5743e97025f6"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{textarea1} != null ? $F{textarea1} : "" )+"<br>........................<br>Số: "+($F{text1} != null ? $F{text1} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="109" width="400" height="43" uuid="5423e5e4-0d82-4560-ac63-ef034634968c"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ĐƠN ĐỀ NGHỊ<br>Cấp giấy phép tổ chức triển lãm/hội chợ xuất bản phẩm"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="152" width="400" height="30" uuid="97bb1620-e35d-4d84-84f0-ad0a6de1741d"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kính gửi:"+($F{text4} != null ? $F{text4} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="80" width="320" height="30" uuid="b4db6879-f3c4-4d34-ade7-f2e8624a4a1f"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text2} != null ? $F{text2} : "" )+",ngày"+($F{text3} != null ? $F{text3} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="200" width="400" height="20" uuid="6e235a03-d8de-467f-99fd-5f124ec7cc78"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "+($F{text13} != null ? $F{text13} : "" )+"nhân đề nghị cấp phép:"+($F{text5} != null ? $F{text5} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="223" width="400" height="19" uuid="56f61e7b-5dbd-46ad-b8ce-8e868ec37d75"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Trụ sở (địa chỉ):"+($F{text6} != null ? $F{text6} : "" )+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Số điện thoại:"+($F{text7} != null ? $F{text7} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="243" width="400" height="79" uuid="3bbb3358-844d-4b18-b7f9-e2f431424d6c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Căn cứ quy định pháp luật hiện hành về tổ chức triển lãm, hội chợ xuất bản phẩm, đề nghị Cục Xuất bản, In và Phát hành/ Sở Thông tin và Truyền thông xem xét, cấp giấy phép tổ chức triển lãm/hội chợ xuất bản phẩm với các thông tin sau đây:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="318" width="400" height="25" uuid="531e7a0e-6eb7-4951-8dcb-1e8615a570c0"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Mục đích triển lãm/hội chợ :"+($F{text8} != null ? $F{text8} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="343" width="400" height="21" uuid="84f2402f-1178-4854-95cf-6e21107486b8"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Thời gian từ ngày :"+($F{text9} != null ? $F{text9} : "" )+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp đến ngày "+($F{text10} != null ? $F{text10} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="364" width="400" height="21" uuid="5d2064cb-b74a-43a5-aa19-d297a8a338d3"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Tại địa điểm:"+($F{text11} != null ? $F{text11} : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="385" width="400" height="21" uuid="418fbf92-7bd0-406b-87a9-8bd09e8523d2"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kèm theo đơn này:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="406" width="370" height="21" uuid="cd23e069-b46c-44f3-a969-b8890d7167ee"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Danh mục xuất bản phẩm để triển lãm/hội chợ;"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="427" width="370" height="21" uuid="60a3bacb-c903-4b3b-8641-a65e759363a8"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Danh sách các đơn vị tham gia."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="450" width="400" height="60" uuid="85f2b0e2-16a8-4ae5-95aa-236d7a09a895"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text14} != null ? $F{text14} : "" )+"đề nghị :"+($F{text12} != null ? $F{text12} : "" )+"cam kết thực hiện đúng các quy định của pháp luật về triển lãm, hội chợ xuất bản phẩm và các quy định pháp luật có liên quan."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="510" width="400" height="21" uuid="fbb31777-1d59-4f39-9188-399891ebbd4c"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chú thích:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="530" width="400" height="21" uuid="48ee242f-2799-482a-8ffb-402edf3745ed"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["(1) Ghi tên cơ quan tiếp nhận đơn như sau: "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="550" width="400" height="60" uuid="19435662-eec9-4be5-a516-6a8f890f31cf"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Cơ quan, tổ chức ở Trung ương; cơ quan, tổ chức, cá nhân nước ngoài gửi hồ sơ đến Cục Xuất bản, In và Phát hành - Bộ Thông tin và Truyền thông,"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="610" width="400" height="90" uuid="dfbb6ed7-c0eb-4f29-aaac-24f8acdc0560"/>
+				<textElement textAlignment="Left" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" - Cơ quan, tổ chức, cá nhân có trụ sở hoặc cư trú tại địa phương và chi nhánh, văn phòng đại diện, đơn vị trực thuộc cơ quan, tổ chức ở Trung ương đặt tại địa phương gửi hồ sơ đến Sở Thông tin và Truyền thông sở tại."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

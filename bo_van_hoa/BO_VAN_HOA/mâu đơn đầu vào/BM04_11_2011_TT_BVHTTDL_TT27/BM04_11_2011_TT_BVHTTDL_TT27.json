@@ -1,0 +1,360 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "dai_dien": {
+                "required": false,
+                "type": "object"
+            },
+            "danh_sach": {
+                "required": false,
+                "type": "array",
+                "items":{
+                    "type":"object",
+                    "properties":{
+                    
+                        "stt": {
+                            "type":"string",
+                            "title": "TT"
+                        },
+                        "ten_phim": {
+                            "type":"string",
+                            "title": "Tên phim"
+                        },
+                        "dao_dien": {
+                            "type":"string",
+                            "title": "Đạo diễn"
+                        },
+                        "hang_san_xuat": {
+                            "type":"string",
+                            "title": "Hãng sản xuất"
+                        },
+                         "nam_san_xuat": {
+                            "type":"string",
+                            "title": "Năm sản xuất"
+                        },
+                        "giay_phep_phat_hanh": {
+                            "type":"string",
+                            "title": "Giấy phép phát hành"
+                        }
+                    }
+                
+                }
+            },
+            "dia_chi": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi_nuoc_ngoai": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi_trong_nuoc": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_diem": {
+                "required": false,
+                "type": "object"
+            },
+            "don_vi": {
+                "required": false,
+                "type": "object"
+            },
+            "du_kien": {
+                "required": false,
+                "type": "object"
+            },
+            "kinh_gui": {
+                "required": false,
+                "type": "object"
+            },
+            "muc_dich": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_bat_dau": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_ket_thuc": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_lam_don": {
+                "required": false,
+                "type": "object"
+            },
+            "pham_vi": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_chuong_trinh": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_co_quan": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_co_quan_2": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_nuoc_ngoai": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_trong_nuoc": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "dai_dien": {
+                "id": "dai_dien",
+                "name": "dai_dien",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "đại diện"
+            },
+            "danh_sach": {
+                "id": "danh_sach",
+                "name": "danh_sach",
+                "type": "table",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "danh sách"
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "name": "dia_chi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "địa chỉ"
+            },
+            "dia_chi_nuoc_ngoai": {
+                "id": "dia_chi_nuoc_ngoai",
+                "name": "dia_chi_nuoc_ngoai",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "địa chỉ nước ngoài"
+            },
+            "dia_chi_trong_nuoc": {
+                "id": "dia_chi_trong_nuoc",
+                "name": "dia_chi_trong_nuoc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "địa chỉ trong nước"
+            },
+            "dia_diem": {
+                "id": "dia_diem",
+                "name": "dia_diem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "địa điểm"
+            },
+            "don_vi": {
+                "id": "don_vi",
+                "name": "don_vi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "đơn vị"
+            },
+            "du_kien": {
+                "id": "du_kien",
+                "name": "du_kien",
+                "type": "textarea",
+                "rows":"3",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "dự kiến"
+            },
+            "kinh_gui": {
+                "id": "kinh_gui",
+                "name": "kinh_gui",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "kính gửi"
+            },
+            "muc_dich": {
+                "id": "muc_dich",
+                "name": "muc_dich",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "mục đích"
+            },
+            "ngay_bat_dau": {
+                "id": "ngay_bat_dau",
+                "name": "ngay_bat_dau",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "picker": {
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY ",
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "extraFormats": [
+                        "MM/DD/YYYY hh:mm:ss a",
+                        "MM/DD/YYYY HH:mm",
+                        "MM/DD/YYYY"
+                    ]
+                },
+                "dateFormat": "DD/MM/YYYY ",
+                "manualEntry": false,
+                "fields": {}
+            },
+            "ngay_ket_thuc": {
+                "id": "ngay_ket_thuc",
+                "name": "ngay_ket_thuc",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "picker": {
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY ",
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "extraFormats": [
+                        "MM/DD/YYYY hh:mm:ss a",
+                        "MM/DD/YYYY HH:mm",
+                        "MM/DD/YYYY"
+                    ]
+                },
+                "dateFormat": "DD/MM/YYYY ",
+                "manualEntry": false,
+                "fields": {}
+            },
+            "ngay_lam_don": {
+                "id": "ngay_lam_don",
+                "name": "ngay_lam_don",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "picker": {
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY ",
+                    "locale": "en_US",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "extraFormats": [
+                        "MM/DD/YYYY hh:mm:ss a",
+                        "MM/DD/YYYY HH:mm",
+                        "MM/DD/YYYY"
+                    ]
+                },
+                "dateFormat": "DD/MM/YYYY ",
+                "manualEntry": false,
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay_lam_don').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+
+            },
+            "pham_vi": {
+                "id": "pham_vi",
+                "name": "pham_vi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "phạm vi"
+            },
+            "ten_chuong_trinh": {
+                "id": "ten_chuong_trinh",
+                "name": "ten_chuong_trinh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "tên chương trình"
+            },
+            "ten_co_quan": {
+                "id": "ten_co_quan",
+                "name": "ten_co_quan",
+                "type": "textarea",
+                "rows":"2",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Tên cơ quan, tổ chức ( Đề nghị )",
+                "events": {
+                    "ready": function() {
+                        $('#ten_co_quan').change(function() {
+                            var gt = $(this).val()
+                            $('#ten_co_quan_2').val(gt)
+                        });
+                    }
+                }
+            },
+            "ten_co_quan_2": {
+                "id": "ten_co_quan_2",
+                "name": "ten_co_quan_2",
+                "type": "textarea",
+                "rows":"2",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Tên cơ quan, tổ chức ( Đề nghị )"
+            },
+            "ten_nuoc_ngoai": {
+                "id": "ten_nuoc_ngoai",
+                "name": "ten_nuoc_ngoai",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "tên nước ngoài"
+            },
+            "ten_trong_nuoc": {
+                "id": "ten_trong_nuoc",
+                "name": "ten_trong_nuoc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "tên trong nước"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong {font-family: Times New Roman; font-weight: bold;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}.alpaca-field table .control-label{display:none !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;}</style><table border='0' cellpadding='0' cellspacing='0' style='margin-left:-1.7pt;' width='100%'><tbody><tr><td style='width:30%;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='display: inline-table;' id='column-ten_co_quan' ></span></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><strong><span style='font-size:8.0pt;'>________________________</span></strong></p><p>&nbsp;</p><p style='margin-bottom:.0001pt;'>&nbsp;</p></td><td style='width:40%;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:.0001pt;text-align:right;width: 80% ;'><strong><span style=''>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><strong><span style=''>Độc lập - Tự do - Hạnh phúc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><strong><span style='font-size:8.0pt;'>_____________________&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'>&nbsp;</p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><span  style='display: inline-table;width:95px;' id='column-dia_chi' ></span><em>, ngày </em><span style='display: inline-table;width: 90px;' id='column-ngay_lam_don' ></span></p></td></tr></tbody></table><p align='center' style='margin-bottom:.0001pt;text-align:center;'><strong><span style=''>ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP </span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><strong><span style=''>TỔ CHỨC NHỮNG NGÀY PHIM VIỆT NAM Ở NƯỚC NGOÀI</span></strong></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'>&nbsp;</p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><span style=''>Kính gửi: </span><span style='display: inline-table;width: 400px;' id='column-kinh_gui' ></span></p><p style='margin-bottom:.0001pt;'>&nbsp;</p><p style='margin-bottom:.0001pt;text-indent:27.25pt;'><span style=''>Chúng tôi đề nghị Cục Điện ảnh cấp phép tổ chức chương trình chiếu phim Việt Nam ở nước ngoài như sau:</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>1. Tên chương trình phim Việt Nam: </span><span style='display: inline-table;width: 559px;' id='column-ten_chuong_trinh' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>2. Mục đích: </span><span style='display: inline-table;width: 702px;' id='column-muc_dich' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>3. Phạm vi tổ chức: </span><span style='display: inline-table;width: 661px;' id='column-pham_vi' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>4. Đơn vị tổ chức: </span><span style='display: inline-table;width: 669px;' id='column-don_vi' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>a. Thông tin về đối tác trong nước (Cơ sở sản xuất phim):</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>- Tên: </span><span style='display: inline-table;width: 742px;' id='column-ten_trong_nuoc' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>- Địa chỉ: </span><span style='display: inline-table;width: 722px;' id='column-dia_chi_trong_nuoc' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>b. Thông tin về đối tác nước ngoài (Tổ chức, cá nhân nước ngoài):</span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>- Tên: </span><span style='display: inline-table;width: 742px;' id='column-ten_nuoc_ngoai' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>- Địa chỉ: </span><span style='display: inline-table;width: 722px;' id='column-dia_chi_nuoc_ngoai' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>5. Thời gian chương trình phim: Từ ngày </span><span style='display: inline-table;' id='column-ngay_bat_dau' ></span><span style=''> đến ngày </span><span style='display: inline-table;' id='column-ngay_ket_thuc' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>6. Địa điểm tổ chức chương trình phim: </span><span style='display: inline-table;width: 540px;' id='column-dia_diem' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-indent:9.25pt;'><span style=''>7. Danh sách phim dự kiến chiếu trong chương trình </span></p><p><span style='display: inline-table;' id='column-danh_sach' ></span></p><p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;margin-bottom:.0001pt;'>&nbsp;</p><p style='margin-bottom:.0001pt;text-indent:27.2pt;'><span style=''>8. Dự kiến chương trình chiếu phim <em>(Gửi Chương trình chiếu phim kèm theo đơn xin phép này).</em></span></p><p style='margin-bottom:.0001pt;text-indent:27.2pt;'><span style=''>&emsp;&emsp;Trong quá trình tổ chức chương trình chiếu phim Việt Nam ở nước ngoài, chúng tôi cam kết thực hiện nghiêm túc quy định của luật pháp hiện hành của nước CHXHCN Việt Nam và nước sở tại./.</span></p><p style='margin-bottom:.0001pt;text-indent:27.2pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:622px;margin-left:-3.6pt;' width='622'><tbody><tr><td style='width:276px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-bottom:.0001pt;'>&nbsp;</p></td><td style='width:346px;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='text-align:center;'><b>ĐẠI DIỆN THEO PHÁP LUẬT CỦA<br> CƠ QUAN, TỔ CHỨC ĐỀ NGHỊ</b></p><p align='center' style='margin-bottom:.0001pt;text-align:center;'><em><span style=''>(Ký, đóng dấu, ghi rõ họ tên)</span></em></p></td></tr></tbody></table><br><br><br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='display: inline-table;width: 200px;' id='column-dai_dien' ></span></p></div></div>",
+            "bindings": {
+                "muc_dich": "column-muc_dich",
+                "dai_dien": "column-dai_dien",
+                "ngay_bat_dau": "column-ngay_bat_dau",
+                "ngay_lam_don": "column-ngay_lam_don",
+                "dia_chi_trong_nuoc": "column-dia_chi_trong_nuoc",
+                "pham_vi": "column-pham_vi",
+                "ten_co_quan": "column-ten_co_quan",
+                "du_kien": "column-du_kien",
+                "ngay_ket_thuc": "column-ngay_ket_thuc",
+                "ten_nuoc_ngoai": "column-ten_nuoc_ngoai",
+                "dia_chi_nuoc_ngoai": "column-dia_chi_nuoc_ngoai",
+                "dia_diem": "column-dia_diem",
+                "danh_sach": "column-danh_sach",
+                "kinh_gui": "column-kinh_gui",
+                "dia_chi": "column-dia_chi",
+                "ten_co_quan_2": "column-ten_co_quan_2",
+                "don_vi": "column-don_vi",
+                "ten_chuong_trinh": "column-ten_chuong_trinh",
+                "ten_trong_nuoc": "column-ten_trong_nuoc"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

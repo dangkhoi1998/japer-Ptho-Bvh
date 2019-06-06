@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.0.final using JasperReports Library version 6.3.0  -->
+<!-- 2018-09-06T15:42:27 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="STTTT-ND45-PL5" pageWidth="595" pageHeight="842" columnWidth="469" leftMargin="70" rightMargin="56" topMargin="56" bottomMargin="56" uuid="7430d97d-9c79-4b2e-aa71-712d995515fb">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="mm"/>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="text1" class="java.lang.String">
+		<fieldDescription><![CDATA[text1]]></fieldDescription>
+	</field>
+	<field name="text2" class="java.lang.String">
+		<fieldDescription><![CDATA[text2]]></fieldDescription>
+	</field>
+	<field name="text3" class="java.lang.String">
+		<fieldDescription><![CDATA[text3]]></fieldDescription>
+	</field>
+	<field name="select1" class="java.lang.String">
+		<fieldDescription><![CDATA[select1]]></fieldDescription>
+	</field>
+	<field name="text5" class="java.lang.String">
+		<fieldDescription><![CDATA[text5]]></fieldDescription>
+	</field>
+	<field name="text6" class="java.lang.String">
+		<fieldDescription><![CDATA[text6]]></fieldDescription>
+	</field>
+	<field name="text7" class="java.lang.String">
+		<fieldDescription><![CDATA[text7]]></fieldDescription>
+	</field>
+	<field name="text8" class="java.lang.String">
+		<fieldDescription><![CDATA[text8]]></fieldDescription>
+	</field>
+	<field name="text9" class="java.lang.String">
+		<fieldDescription><![CDATA[text9]]></fieldDescription>
+	</field>
+	<field name="text10" class="java.lang.String">
+		<fieldDescription><![CDATA[text10]]></fieldDescription>
+	</field>
+	<field name="text11" class="java.lang.String">
+		<fieldDescription><![CDATA[text11]]></fieldDescription>
+	</field>
+	<field name="text12" class="java.lang.String">
+		<fieldDescription><![CDATA[text12]]></fieldDescription>
+	</field>
+	<field name="text13" class="java.lang.String">
+		<fieldDescription><![CDATA[text13]]></fieldDescription>
+	</field>
+	<field name="text14" class="java.lang.String">
+		<fieldDescription><![CDATA[text14]]></fieldDescription>
+	</field>
+	<field name="text15" class="java.lang.String">
+		<fieldDescription><![CDATA[text15]]></fieldDescription>
+	</field>
+	<field name="text16" class="java.lang.String">
+		<fieldDescription><![CDATA[text16]]></fieldDescription>
+	</field>
+	<field name="text17" class="java.lang.String">
+		<fieldDescription><![CDATA[text17]]></fieldDescription>
+	</field>
+	<field name="text18" class="java.lang.String">
+		<fieldDescription><![CDATA[text18]]></fieldDescription>
+	</field>
+	<field name="text19" class="java.lang.String">
+		<fieldDescription><![CDATA[text19]]></fieldDescription>
+	</field>
+	<field name="text20" class="java.lang.String">
+		<fieldDescription><![CDATA[text20]]></fieldDescription>
+	</field>
+	<field name="text21" class="java.lang.String">
+		<fieldDescription><![CDATA[text21]]></fieldDescription>
+	</field>
+	<field name="text22" class="java.lang.String">
+		<fieldDescription><![CDATA[text22]]></fieldDescription>
+	</field>
+	<field name="text23" class="java.lang.String">
+		<fieldDescription><![CDATA[text23]]></fieldDescription>
+	</field>
+	<field name="text24" class="java.lang.String">
+		<fieldDescription><![CDATA[text24]]></fieldDescription>
+	</field>
+	<field name="text25" class="java.lang.String">
+		<fieldDescription><![CDATA[text25]]></fieldDescription>
+	</field>
+	<field name="text26" class="java.lang.String">
+		<fieldDescription><![CDATA[text26]]></fieldDescription>
+	</field>
+	<field name="text27" class="java.lang.String">
+		<fieldDescription><![CDATA[text27]]></fieldDescription>
+	</field>
+	<field name="text28" class="java.lang.String">
+		<fieldDescription><![CDATA[text28]]></fieldDescription>
+	</field>
+	<field name="text29" class="java.lang.String">
+		<fieldDescription><![CDATA[text29]]></fieldDescription>
+	</field>
+	<field name="text30" class="java.lang.String">
+		<fieldDescription><![CDATA[text30]]></fieldDescription>
+	</field>
+	<field name="text31" class="java.lang.String">
+		<fieldDescription><![CDATA[text31]]></fieldDescription>
+	</field>
+	<field name="text32" class="java.lang.String">
+		<fieldDescription><![CDATA[text32]]></fieldDescription>
+	</field>
+	<field name="text33" class="java.lang.String">
+		<fieldDescription><![CDATA[text33]]></fieldDescription>
+	</field>
+	<field name="text34" class="java.lang.String">
+		<fieldDescription><![CDATA[text34]]></fieldDescription>
+	</field>
+	<field name="bang1" class="java.lang.String">
+		<fieldDescription><![CDATA[bang1]]></fieldDescription>
+	</field>
+	<field name="text35" class="java.lang.String">
+		<fieldDescription><![CDATA[text35]]></fieldDescription>
+	</field>
+	<field name="bang2" class="java.lang.String">
+		<fieldDescription><![CDATA[bang2]]></fieldDescription>
+	</field>
+	<field name="text34a" class="java.lang.String">
+		<fieldDescription><![CDATA[text34a]]></fieldDescription>
+	</field>
+	<field name="select2" class="java.lang.String">
+		<fieldDescription><![CDATA[select2]]></fieldDescription>
+	</field>
+	<field name="select3" class="java.lang.String">
+		<fieldDescription><![CDATA[select3]]></fieldDescription>
+	</field>
+	<field name="select4" class="java.lang.String">
+		<fieldDescription><![CDATA[select4]]></fieldDescription>
+	</field>
+	<field name="text36" class="java.lang.String">
+		<fieldDescription><![CDATA[text36]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="730" splitType="Stretch">
+			<textField>
+				<reportElement x="190" y="0" width="280" height="20" uuid="560246bb-ad9c-4e62-924d-a2838b39c1b2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="23" width="280" height="20" uuid="3e962c9f-4d5c-4ff4-b1b1-839489ff2fbe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Độc  lập - Tự  do - Hạnh  phúc</b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="43" width="280" height="20" uuid="fab30579-dfe3-4eb1-82c8-f24b4e0ef9ee"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Phú Thọ, ngày "+($F{text3}!=null?$F{text3}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="190" height="42" uuid="14d077ab-afcc-46b9-bb17-1fdd525b4879"/>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text1}!=null?$F{text1}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="43" width="190" height="20" uuid="a854bdbc-e16d-4b50-8474-3e4e7f80cda6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số: "+($F{text2}!=null?$F{text2}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="72" width="470" height="18" uuid="7de33c7a-a007-4afd-a964-fd9afd7d4ea3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>GIẤY ĐỀ NGHỊ</b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="92" width="470" height="18" uuid="e3cb5508-bcc6-4511-b24a-6247b6bdad9d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>"+($F{select1}!=null?$F{select1}:"")+"</b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="117" width="470" height="18" uuid="3aa93d22-c042-4a32-a848-27fe127afd85"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="28"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kính gửi: Sở Thông tin và Truyền thông tỉnh Phú Thọ "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="137" width="470" height="18" uuid="274a5ee2-b2da-44df-8d19-ca2a718b776d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Phần 1. Thông tin về tổ chức, tổ chức </b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="158" width="470" height="18" uuid="0baef1ff-824c-495d-b0bc-39df46c14e0d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. Tên tổ chức, tổ chức viết bằng tiếng Việt"+($F{text5}!=null?$F{text5}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="179" width="470" height="18" uuid="ee09d96a-c939-4dc9-9355-01d450f6c5e1"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tên tổ chức, tổ chức viết tắt: "+($F{text6}!=null?$F{text6}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="200" width="470" height="18" uuid="4aacc994-e2da-490b-8361-9f834aa27b1c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tên tổ chức, tổ chức viết bằng tiếng nước ngoài: "+($F{text7}!=null?$F{text7}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="222" width="470" height="18" uuid="6576e48c-6080-417e-b5c1-f4a0d6fee790"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. Địa chỉ trụ sở chính: "+($F{text8}!=null?$F{text8}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="242" width="470" height="18" uuid="be7be11e-71e0-48d8-a883-4cf8761f6a75"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3. Giấy "+($F{select2}!=null?$F{select2}:"")+" số "+($F{text9}!=null?$F{text9}:"")+" do " +($F{text9}!=null?$F{text9}:"")+" cấp ngày " +($F{text11}!=null?$F{text11}:"")+ " tại "+($F{text12}!=null?$F{text12}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="262" width="470" height="18" uuid="4140b514-cf93-4bc6-a041-b65a6179aea4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["4. Vốn điều lệ: "+($F{text13}!=null?$F{text13}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="283" width="470" height="18" uuid="10802738-f548-47ef-a67c-164f409ed0a6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["5. Điện thoại:"+($F{text14}!=null?$F{text14}:"")+  " Fax: "+($F{text15}!=null?$F{text15}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="304" width="470" height="18" uuid="05e9dc23-bf89-427b-924f-b7719f95e39e"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["6. Website: "+($F{text16}!=null?$F{text16}:"")+  "  E-mail:  "+($F{text17}!=null?$F{text17}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="325" width="470" height="18" uuid="88fc3bd4-6cb8-4055-959c-b7fb7ed0b096"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["7. Người đại diện theo pháp luật:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="346" width="470" height="18" uuid="fed92eb7-a1c1-4fca-8a06-eff5e7584fa2"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Họ tên:  "+($F{text18}!=null?$F{text18}:"")+  "  Giới tính: "+($F{text19}!=null?$F{text19}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="367" width="470" height="18" uuid="766b3bbd-5c71-4e06-8de1-8ec34de52213"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chức vụ: "+($F{text20}!=null?$F{text20}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="388" width="470" height="18" uuid="fd9d43ff-10a8-48a0-ab65-cabbe8f7e854"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Quốc tịch:  "+($F{text21}!=null?$F{text21}:"")+  "  Sinh ngày:   "+($F{text22}!=null?$F{text22}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="409" width="470" height="40" uuid="ecb5499e-e935-4c7d-a0c5-633b533dd37d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số CMND/hộ chiếu:  "+($F{text23}!=null?$F{text23}:"")+  " Cấp ngày    "+($F{text24}!=null?$F{text24}:"")+  " tại   "+($F{text25}!=null?$F{text25}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="450" width="470" height="18" uuid="3a2e5f53-23fa-4cc2-8495-17dbc2d97e27"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nơi đăng ký hộ khẩu thường trú: "+($F{text26}!=null?$F{text26}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="471" width="470" height="18" uuid="e88c8d30-9716-467c-98fa-2a80a9da4756"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Điện thoại:  "+($F{text27}!=null?$F{text27}:"")+  "  E-mail:    "+($F{text28}!=null?$F{text28}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="489" width="470" height="18" uuid="5e5e2ed0-e87a-4c10-b5bc-0b65ce2ccc91"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["8. Người liên hệ thường xuyên:  "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="510" width="470" height="18" uuid="38ec3e1a-7ae6-4a01-9dce-41931dafe836"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Họ tên:  "+($F{text29}!=null?$F{text29}:"")+  "  Giới tính: "+($F{text30}!=null?$F{text30}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="530" width="470" height="18" uuid="7c26a62c-0704-4b91-b6e7-6a679786c840"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chức vụ: "+($F{text31}!=null?$F{text31}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="550" width="470" height="18" uuid="c8aabe1f-7e3d-45d5-898a-c36510751f9c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Điện thoại:  "+($F{text32}!=null?$F{text32}:"")+  "  E-mail:    "+($F{text33}!=null?$F{text33}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="570" width="470" height="18" uuid="af9bdc51-ed5a-4590-91fb-bf9e8b83975e"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Phần 2. Nội dung đề nghị cấp lại </b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="590" width="470" height="18" uuid="451c0277-9dd6-4a1d-9958-c26d4df26993"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text36}!=null?$F{text36}:"")+" đề nghị cấp lại "+($F{select3}!=null?$F{select3}:"")+" với lý do như sau "+($F{text34}!=null?$F{text34}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="612" width="470" height="18" uuid="20b19192-8b7d-40fa-af98-60ad993c2750"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Phần 3. Tài liệu kèm theo</b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="633" width="470" height="18" uuid="8d2ed812-d509-424b-a932-15fd86dfab2f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{bang1}!=null?$F{bang1}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="655" width="470" height="18" uuid="686c455c-c761-4572-aa61-fd721d126efc"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Phần 4. Cam kết </b>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="677" width="470" height="18" uuid="8b77a6ab-b3a6-4c3b-93fe-f073d76b146c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text36}!=null?$F{text36}:"")+" xin cam kết:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-1" y="698" width="470" height="18" uuid="986e04b5-c86b-4147-905a-da8c8e2e7f78"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1. Chịu trách nhiệm trước pháp luật về tính chính xác và tính hợp pháp của nội dung trong giấy đề nghị này và các hồ sơ, tài liệu kèm theo. "]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="717">
+			<textField>
+				<reportElement x="0" y="10" width="470" height="18" uuid="6294617c-79f4-4d59-a9e7-10a54c08476b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2. Chấp hành nghiêm chỉnh các quy định của pháp luật Việt Nam có liên quan và các quy định trong"+($F{select4}!=null?$F{select4}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="5" y="70" width="180" height="19" uuid="b098789a-b73b-43e6-9d88-afafe9d83f52"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{bang2}!=null?$F{bang2}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="89" width="290" height="19" uuid="03f53555-70bf-4c12-81af-e1211a55293d"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+					<paragraph firstLineIndent="28"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{text34a}!=null?$F{text34a}:"")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="5" y="30" width="180" height="19" uuid="30bd3324-5d5c-4fc9-a2d2-75ca60d49465"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Nơi nhận:<b/>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="71" width="290" height="19" uuid="2b0e1397-f0ad-4867-bff3-10cbfd1ae838"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<i>(Ký, ghi rõ họ tên và đóng dấu)</i>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="30" width="278" height="38" uuid="72ee5659-1435-4c2e-9ca1-9d10f57310e8"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT CỦA TỔ CHỨC/DOANH NGHIỆP<b/>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="5" y="49" width="180" height="19" uuid="74706690-cac0-414e-a4ba-8c79fb0311c7"/>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="html">
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["- Như trên;"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

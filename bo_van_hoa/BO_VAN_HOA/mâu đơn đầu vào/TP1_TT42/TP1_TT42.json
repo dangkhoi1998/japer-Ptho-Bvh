@@ -1,0 +1,52 @@
+{
+    "schema": {
+        "properties": {
+            "text3": {
+                "type": "object",
+                "required": false
+            },
+            "text4": {
+                "type": "object",
+                "required": true
+            },
+            "text1": {
+                "type": "object",
+                "required": true
+            },
+            "text2": {
+                "type": "object",
+                "required": true
+            },
+            "text7": {
+                "type": "object",
+                "required": true
+            },
+            "text10": {
+                "type": "object",
+                "required": true
+            },
+            "text8": {
+                "type": "object",
+                "required": true
+            },
+            "text11": {
+                "type": "object",
+                "required": true
+            },
+            "text5": {
+                "type": "object",
+                "required": true
+            },
+            "text6": {
+                "type": "object",
+                "required": true
+            },
+            "text9": {
+                "type": "object",
+                "required": true
+            }
+        },
+        "required": false,
+        "type": "object"
+    }
+}

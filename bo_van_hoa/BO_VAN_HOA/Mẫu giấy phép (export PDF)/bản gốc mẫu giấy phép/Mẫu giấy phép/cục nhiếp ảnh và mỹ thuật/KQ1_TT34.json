@@ -1,0 +1,274 @@
+﻿{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "diadiem1": {
+                "required": false,
+                "type": "object"
+            },
+            "diadiem3": {
+                "required": false,
+                "type": "object"
+            },
+            "donvi1": {
+                "required": false,
+                "type": "object"
+            },
+            "donvi2": {
+                "required": false,
+                "type": "object"
+            },
+            "donvi3": {
+                "required": false,
+                "type": "object"
+            },
+            "donvicap": {
+                "required": false,
+                "type": "object"
+            },
+            "gp": {
+                "required": false,
+                "type": "object"
+            },
+            "kyten": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay3": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay4": {
+                "required": false,
+                "type": "object"
+            },
+            "so1": {
+                "required": false,
+                "type": "object"
+            },
+            "soluong1": {
+                "required": false,
+                "type": "object"
+            },
+            "soluong2": {
+                "required": false,
+                "type": "object"
+            },
+            "tieude": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "diadiem1": {
+                "placeholder": "Định danh",
+                "id": "diadiem1",
+                "name": "diadiem1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "diadiem3": {
+                "placeholder": "",
+                "id": "diadiem3",
+                "name": "diadiem3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "donvi1": {
+                "placeholder": "",
+                "id": "donvi1",
+                "name": "donvi1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "donvi2": {
+                "placeholder": "",
+                "id": "donvi2",
+                "name": "donvi2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "donvi3": {
+                "placeholder": "",
+                "id": "donvi3",
+                "name": "donvi3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "donvicap": {
+                "cols": "40",
+                "placeholder": "TÊN CƠ QUAN CẤP PHÉP1",
+                "rows": "5",
+                "id": "donvicap",
+                "name": "donvicap",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "gp": {
+                "placeholder": "",
+                "id": "gp",
+                "name": "gp",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "kyten": {
+                "placeholder": "",
+                "id": "kyten",
+                "name": "kyten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay1": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay1",
+                "name": "ngay1",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay1').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "ngay2": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay2",
+                "name": "ngay2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay3": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay3",
+                "name": "ngay3",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay4": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay4",
+                "name": "ngay4",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so1": {
+                "placeholder": "",
+                "id": "so1",
+                "name": "so1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "soluong1": {
+                "placeholder": "",
+                "id": "soluong1",
+                "name": "soluong1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "soluong2": {
+                "placeholder": "",
+                "id": "soluong2",
+                "name": "soluong2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tieude": {
+                "placeholder": "",
+                "id": "tieude",
+                "name": "tieude",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 850px;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#diadiem3 {width: 630px !important;}#diadiem3 {width: 630px !important;}#donvi3 {width: 665px !important;}#tieude {width: 650px !important;}#donvi2 {width: 500px !important;}#donvi1 {width: 650px !important;}#ngay1 {width: 130px !important;}#diadiem1 {width: 150px !important;}#gp {width: 80px !important;}#donvicap {height: 50px !important;}#so1 {width: 40px !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><table border='0' cellpadding='0' cellspacing='0' style=''><tbody><tr><td style='width:400px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;line-height:11.7pt;'><span style='display: inline-table;font-family:times new roman,serif;font-size:13.0pt;' >BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH<br /><strong>CỤC MỸ THUẬT, NHIẾP ẢNH VÀ TRIỂN LÃM</strong></span><br /><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-------</span></span></span></strong></p></td><td style='width:400px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></span></strong><br /><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Độc lập - Tự do - Hạnh phúc&nbsp;<br />---------------</span></span></span></strong></p></td></tr><tr><td style='width:223px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Số:&nbsp;</span></span></span>&nbsp;&nbsp;<span style='display: inline-table;' id='column-so1' ></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>&nbsp;/GP-</span></span></span><span style='display: inline-table;' id='column-gp' ></span></p></td><td style='width:367px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='right' style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:right;line-height:11.7pt;'><span style='display: inline-table;' id='column-diadiem1' ></span><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>, ngày&nbsp;</span></span></span></em><span style='display: inline-table;' id='column-ngay1' ></span></p></td></tr></tbody></table><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'>&nbsp;</p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>GIẤY PHÉP</span></span></span></strong></p><p align='center' style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>TRIỂN LÃM MỸ THUẬT TẠI VIỆT NAM</span></span></span></strong></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Căn cứ Nghị định số&nbsp;</span></span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>113/2013/NĐ-CP ngày 02 tháng 10 năm 2013</span></span> <span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>của Chính phủ về hoạt động mỹ thuật.</span></span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Xét đề nghị của:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-donvi1' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>(văn bản đề nghị ngày:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-ngay2' ></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>)</span></span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>(1)&nbsp;</span></span></span><span style='display: inline-table;' id='column-donvi2' ></span> <span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>cấp giấy phép triển lãm mỹ thuật tại Việt Nam</span></span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Tiêu đề triển lãm:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-tieude' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Đơn vị tổ chức:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-donvi3' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Địa điểm trưng bày:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-diadiem3' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Thời gian trưng bày:</span></span></span><span style='display: inline-table;' id='column-ngay3' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Số lượng tác phẩm:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-soluong1' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Số lượng tác giả:</span></span></span>&nbsp;<span style='display: inline-table;' id='column-soluong2' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>-&nbsp;</span></span></span><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>Giấy phép có giá trị trong thời gian 06 tháng kể từ ngày cấp.</span></span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style=''><tbody><tr><td style='width:295px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'>&nbsp;</p></td><td style='padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;'><strong><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>THỦ TRƯỞNG CƠ QUAN CẤP PHÉP</span></span></span></strong><br /><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>(K</span></span></span></em><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>ý</span></span></span></em><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>, ghi r</span></span></span></em><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>õ&nbsp;</span></span></span></em><em><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'>họ tên, đóng dấu)</span></span></span></em></p><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-kyten' ></span></p></td></tr></tbody></table><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><span style='color:black;'><span style='font-family:times new roman,serif;'></span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;'><sup><span style='color:black;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt'></span></span></span></sup>&nbsp;<span style='color:black;'><span style='font-family:times new roman,serif;'></span></p></div></div>",
+            "bindings": {
+                "so1": "column-so1",
+                "donvi2": "column-donvi2",
+                "donvi3": "column-donvi3",
+                "donvi1": "column-donvi1",
+                "kyten": "column-kyten",
+                "tieude": "column-tieude",
+                "donvicap": "column-donvicap",
+                "diadiem3": "column-diadiem3",
+                "diadiem1": "column-diadiem1",
+                "soluong1": "column-soluong1",
+                "soluong2": "column-soluong2",
+                "ngay2": "column-ngay2",
+                "ngay1": "column-ngay1",
+                "ngay4": "column-ngay4",
+                "gp": "column-gp",
+                "ngay3": "column-ngay3"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

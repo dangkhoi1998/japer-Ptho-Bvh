@@ -1,0 +1,136 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "dia_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "loai_hinh": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_viet": {
+                "required": false,
+                "type": "object"
+            },
+            "tac_gia": {
+                "required": false,
+                "type": "object"
+            },
+            "tac_pham": {
+                "required": false,
+                "type": "object"
+            },
+            "text1": {
+                "required": false,
+                "type": "object"
+            },
+            "text2": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_so_huu": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "dia_danh": {
+                "id": "dia_danh",
+                "name": "dia_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "loai_hinh": {
+                "id": "loai_hinh",
+                "name": "loai_hinh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ngay_viet": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_viet",
+                "name": "ngay_viet",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {}
+            },
+            "tac_gia": {
+                "id": "tac_gia",
+                "name": "tac_gia",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "text1": {
+                "id": "text1",
+                "name": "text1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "text2": {
+                "id": "text2",
+                "name": "text2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "tac_pham": {
+                "id": "tac_pham",
+                "name": "tac_pham",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_so_huu": {
+                "id": "ten_so_huu",
+                "name": "ten_so_huu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid khoi'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 53%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family:Times New Roman;font-weight:bold;} .khoi #tac_pham{width:350px!important; } .khoi #tac_gia{width:350px!important; }#ten_so_huu{width:350px!important; }#loai_hinh{width:307px!important; }#dia_danh{width:100px!important; }#ngay_viet{width:100px!important; }.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><p align='center' style='text-align:center;'><strong><span style='color:#595959;'><span style='font-family:times new roman,serif;'><span style=''>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH</span></span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='color:#595959;'><span style='font-family:times new roman,serif;'><span style=''>CỤC BẢN QUYỀN TÁC GIẢ</span></span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>GIẤY CHỨNG NHẬN</span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>ĐĂNG KÝ QUYỀN TÁC GIẢ </span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'><strong><span style='color:#595959;'><span style='font-family:times new roman,serif;'><span style=''>CỤC BẢN QUYỀN TÁC GIẢ CHỨNG NHẬN</span></span></span></strong></p><p>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p><strong><span style='font-family:times new roman,serif;'><span style=''>Tác phẩm:&nbsp;&nbsp;&nbsp; </span></span></strong><span style='display: inline-table;' id='column-tac_pham' ></span><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp;&nbsp;Loại hình: </span></span></strong><span style='display: inline-table;' id='column-loai_hinh' ></span></p><p><strong><span style='font-family:times new roman,serif;'><span style=''>Tác giả :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></strong><span style='display: inline-table;' id='column-tac_gia' ></span></p><p><strong><span style='font-family:times new roman,serif;'><span style=''>Chủ sở hữu: </span></span></strong><span style='display: inline-table;' id='column-ten_so_huu' ></span></p><p>&nbsp;</p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>Đã đăng ký quyền tác giả Cục Bản quyền tác giả</span></span></strong></p><p align='right' style='text-align:right;'><span style='display: inline-table;' id='column-dia_danh' ></span><strong><span style='font-family:times new roman,serif;'><span style=''>, ngày &nbsp;</span></span></strong><span style='display: inline-table;' id='column-ngay_viet' ></span></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CỤC TRƯỞNG</span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p><strong><span style='font-family:times new roman,serif;'><span style=''>Số: </span></span> <span style='display: inline-table;' id='column-text1' ></strong>/QTG </span></p><p><strong><span style='font-family:times new roman,serif;'><span style=''>Cấp cho: </span></span></strong><span style='display: inline-table;' id='column-text2' ></span></p></div></div>",
+            "bindings": {
+                "tac_gia": "column-tac_gia",
+                "ten_so_huu": "column-ten_so_huu",
+                "ngay_viet": "column-ngay_viet",
+                "loai_hinh": "column-loai_hinh",
+                "tac_pham": "column-tac_pham",
+                "dia_danh": "column-dia_danh",
+                "text1": "column-text1",
+                "text2": "column-text2"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

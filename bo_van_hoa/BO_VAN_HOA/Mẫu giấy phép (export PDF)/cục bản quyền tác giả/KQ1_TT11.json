@@ -1,0 +1,215 @@
+{
+    "schema": {
+        "properties": {
+            "tai01": {
+                "type": "object",
+                "required": false
+            },
+            "Cityname": {
+                "type": "object",
+                "required": false
+            },
+            "cuctruong": {
+                "type": "object",
+                "required": false
+            },
+            "text1": {
+                "type": "object",
+                "required": false
+            },
+            "diachi01": {
+                "type": "object",
+                "required": false
+            },
+            "quyetdinh01": {
+                "type": "object",
+                "required": false
+            },
+            "hoten": {
+                "type": "object",
+                "required": false
+            },
+            "capngay01": {
+                "type": "object",
+                "required": false
+            },
+            "tentochuc01": {
+                "type": "object",
+                "required": false
+            },
+            "tengiaodich": {
+                "type": "object",
+                "required": false
+            },
+            "date1": {
+                "type": "object",
+                "required": false
+            },
+            "datatable": {
+                "items": {
+                    "properties": {
+                        "col1": {
+                            "title": "Stt",
+                            "type": "string"
+                        },
+                        "col2": {
+                            "title": "Họ và tên",
+                            "type": "string"
+                        },
+                        "col3": {
+                            "title": "Số Thẻ Giám định viên",
+                            "type": "string"
+                        },
+                         "col4": {
+                            "title": "Chuyên ngành",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "type": "array",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "tai01": {
+                "id": "tai01",
+                "fieldClass": "form-input-100",
+                "name": "tai01",
+                "label": "",
+                "type": "text"
+            },
+            "Cityname": {
+                "id": "Cityname",
+                "fieldClass": "form-input-100",
+                "name": "Cityname",
+                "label": "",
+                "type": "text"
+            },
+            "cuctruong": {
+                "id": "cuctruong",
+                "fieldClass": "form-input-100",
+                "name": "cuctruong",
+                "label": "",
+                "type": "text"
+            },
+            "text1": {
+                "id": "text1",
+                "fieldClass": "form-input-100",
+                "name": "text1",
+                "label": "",
+                "type": "text"
+            },
+            "diachi01": {
+                "id": "diachi01",
+                "fieldClass": "form-input-100",
+                "name": "diachi01",
+                "label": "",
+                "type": "text"
+            },
+            "quyetdinh01": {
+                "id": "quyetdinh01",
+                "fieldClass": "form-input-100",
+                "name": "quyetdinh01",
+                "label": "",
+                "type": "text"
+            },
+            "hoten": {
+                "id": "hoten",
+                "fieldClass": "form-input-100",
+                "name": "hoten",
+                "label": "",
+                "type": "text"
+            },
+            "capngay01": {
+                "id": "capngay01",
+                "fieldClass": "form-input-100",
+                "name": "capngay01",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "tentochuc01": {
+                "id": "tentochuc01",
+                "fieldClass": "form-input-100",
+                "name": "tentochuc01",
+                "label": "",
+                "type": "text"
+            },
+            "tengiaodich": {
+                "id": "tengiaodich",
+                "fieldClass": "form-input-100",
+                "name": "tengiaodich",
+                "label": "",
+                "type": "text"
+            },
+            "date1": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "date1",
+                "name": "date1",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#date1').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+           },
+            "datatable": {
+                "id": "datatable",
+                "fieldClass": "form-input-100",
+                "placeholder": "Danh sách giám định viên",
+                "name": "datatable",
+                "label": "",
+                "type": "table"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid khoimy' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 85%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family:Times New Roman;font-weight: bold;font-size: 13pt !important; }#text1{width: 30px !important;}#Cityname{width: 80px !important;}#date1{width: 80px !important;}#tentochuc01{width: 850px !important;}#tengiaodich{width: 690px !important;}#quyetdinh01{width: 200px !important;}#capngay01{width: 200px !important;}.khoimy #tai01{width: 200px !important;}#diachi01{width: 850px !important;}#hoten{width: 450px !important;}#datatable{width: 500px !important;}#cuctruong{width: 200px !important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><table border='0' cellpadding='0' cellspacing='0' style='width:100%;margin-left:-.3in;border-collapse:collapse;' width='972'><tbody><tr style='height:69px;'><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;height:69px;vertical-align:top;'><p align='center' style='margin-bottom:6.0pt;text-align:center;'><span style='color:black;'><span style='font-family:times new roman,serif;'>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH</span></span><br /><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>CỤC BẢN QUYỀN TÁC GIẢ</span></span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>--------------</span></span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Số:&nbsp;&nbsp;&nbsp; </span></span><span style='display: inline-table;' id='column-text1' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp; /GCNTCGĐ-BQTG</span></span></p></td><td style='width:60%;padding:0in 5.4pt 0in 5.4pt;height:69px;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;page-break-after:avoid;'><strong><span style='letter-spacing:-.7pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Độc lập - Tự do - Hạnh phúc</span></span></span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'>&nbsp;</p></td></tr><tr><td style='width:55%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-left:12.6pt;text-align:justify;line-height:15.0pt;'>&nbsp;</p></td><td style='width:522px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='right' style='text-align:right;'><span style='display: inline-table;' id='column-Cityname' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> , ngày </span></span><span style='display: inline-table;' id='column-date1' ></span></p></td></tr></tbody></table><p align='center' style='text-align:center;line-height:15.0pt;'>&nbsp;</p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'>GIẤY CHỨNG NHẬN</span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tổ chức giám định quyền tác giả, quyền liên quan</span></span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>---------------------------------</span></span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'>CỤC TRƯỞNG</span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'>CỤC BẢN QUYỀN TÁC GIẢ</span></strong></p><p align='center' style='text-align:center;line-height:15.0pt;'>&nbsp;</p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Căn cứ Điều 42 </span></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Nghị định số 105/2006/NĐ-CP ngày 22 tháng 09 năm 2006 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung tại Nghị định số 119/2010/NĐ-CP ngày 30 tháng 12 năm 2010 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 105/2006/NĐ-CP;</span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Căn cứ Quyết định số 41/2008/QĐ-BVHTTDL ngày 15 tháng 5 năm 2008 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Bản quyền tác giả;</span></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;text-indent:.5in;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Căn cứ Điều 10 Thông tư số 15/TT-BVHTTDL ngày 13 tháng 12 năm 2012 của Bộ Văn hóa, Thể thao và Du lịch hướng dẫn hoạt động giám định quyền tác giả, quyền liên quan,</span></span></p><p align='center' style='text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'>CHỨNG NHẬN</span></strong></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tổ chức: </span></span><span style='display: inline-table;' id='column-tentochuc01' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Tên giao dịch: </span></span><span style='display: inline-table;' id='column-tengiaodich' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>QĐTL/ĐKHĐ số: </span></span><span style='display: inline-table;' id='column-quyetdinh01' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cấp ngày: </span></span><span style='display: inline-table;' id='column-capngay01' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tại: </span></span><span style='display: inline-table;' id='column-tai01' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Địa chỉ: </span></span><span style='display: inline-table;' id='column-diachi01' ></span></p><p align='center' style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Là Tổ chức giám định quyền tác giả, quyền liên quan</span></span></strong></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Họ và tên người đại diện theo pháp luật của tổ chức: </span></span><span style='display: inline-table;' id='column-hoten' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:justify;line-height:15.0pt;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Danh sách giám định viên quyền tác giả, quyền liên quan:</span></span></p><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-datatable' ></span></p><p align='center' style='margin-left:3.5in;text-align:center;text-indent:.5in;line-height:15.0pt;'><strong><span style='font-family:times new roman,serif;'>CỤC TRƯỞNG</span></strong></p><p align='center' style='margin-left:4.0in;text-align:center;'><span style='display: inline-table;' id='column-cuctruong' ></span></p><p align='center' style='text-align:center;'>&nbsp;</p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "Cityname": "column-Cityname",
+                "tai01": "column-tai01",
+                "cuctruong": "column-cuctruong",
+                "text1": "column-text1",
+                "diachi01": "column-diachi01",
+                "quyetdinh01": "column-quyetdinh01",
+                "hoten": "column-hoten",
+                "capngay01": "column-capngay01",
+                "date1": "column-date1",
+                "tentochuc01": "column-tentochuc01",
+                "tengiaodich": "column-tengiaodich",
+                "datatable": "column-datatable"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

@@ -1,0 +1,403 @@
+{
+    "schema": {
+        "properties": {
+            "giai2": {
+                "type": "object",
+                "required": false
+            },
+            "diadiem": {
+                "type": "object",
+                "required": false
+            },
+            "chanhvanphong": {
+                "type": "object",
+                "required": false
+            },
+            "kyten": {
+                "type": "object",
+                "required": false
+            },
+            "sothanhvien": {
+                "type": "object",
+                "required": false
+            },
+            "cancuphaply": {
+                "type": "object",
+                "required": false
+            },
+            "vutruong1": {
+                "type": "object",
+                "required": false
+            },
+            "giai1": {
+                "type": "object",
+                "required": false
+            },
+            "vutruong2": {
+                "type": "object",
+                "required": false
+            },
+            "diachi": {
+                "type": "object",
+                "required": false
+            },
+            "diachidatphongthinghiem": {
+                "type": "object",
+                "required": false
+            },
+            "maso": {
+                "type": "object",
+                "required": false
+            },
+            "ngay": {
+                "type": "object",
+                "required": false
+            },
+            "Tentochuchoatdong": {
+                "type": "object",
+                "required": false
+            },
+            "noinhan": {
+                "type": "object",
+                "required": false
+            },
+            "giamdocso1": {
+                "type": "object",
+                "required": false
+            },
+            "giamdoc2": {
+                "type": "object",
+                "required": false
+            },
+             "text1": {
+                "type": "object",
+                "required": false
+            },
+            "ngayketthuc": {
+                "type": "object",
+                "required": false
+            },
+            "fax": {
+                "type": "object",
+                "required": false
+            },
+            "so": {
+                "type": "object",
+                "required": false
+            },
+            "dinhdanh": {
+                "type": "object",
+                "required": false
+            },
+            "tencoquan": {
+                "type": "object",
+                "required": false
+            },
+            "tencoquandaumoi": {
+                "type": "object",
+                "required": false
+            },
+            "dienthoai": {
+                "type": "object",
+                "required": false
+            },
+            "email": {
+                "type": "object",
+                "required": false
+            },
+            "ngaybatdau": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "giai2": {
+                "id": "giai2",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "giai2",
+                "label": "",
+                "type": "text"
+            },
+            "diadiem": {
+                "id": "diadiem",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "diadiem",
+                "label": "",
+                "type": "text"
+            },
+            "chanhvanphong": {
+                "id": "chanhvanphong",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "chanhvanphong",
+                "label": "",
+                "type": "text"
+            },
+            "kyten": {
+                "id": "kyten",
+                "fieldClass": "form-input-100",
+                "placeholder": "Người ký",
+                "name": "kyten",
+                "label": "",
+                "type": "text"
+            },
+            "sothanhvien": {
+                "id": "sothanhvien",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "sothanhvien",
+                "label": "",
+                "type": "text"
+            },
+            "cancuphaply": {
+                "id": "cancuphaply",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cancuphaply",
+                "label": "",
+                "type": "text"
+            },
+            "vutruong1": {
+                "id": "vutruong1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "vutruong1",
+                "label": "",
+                "type": "text"
+            },
+            "giai1": {
+                "id": "giai1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "giai1",
+                "label": "",
+                "type": "text"
+            },
+            "vutruong2": {
+                "id": "vutruong2",
+                "fieldClass": "form-input-100",
+                "placeholder": "Vụ trưởng",
+                "name": "vutruong2",
+                "label": "",
+                "type": "text"
+            },
+            "diachi": {
+                "id": "diachi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "diachi",
+                "label": "",
+                "type": "text"
+            },
+            "diachidatphongthinghiem": {
+                "id": "diachidatphongthinghiem",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "diachidatphongthinghiem",
+                "label": "",
+                "type": "text"
+            },
+            "maso": {
+                "id": "maso",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "maso",
+                "label": "",
+                "type": "text"
+            },
+            "ngay": {
+                "id": "ngay",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ngay",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+				"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+
+            },
+            "Tentochuchoatdong": {
+                "id": "Tentochuchoatdong",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "Tentochuchoatdong",
+                "label": "",
+                "type": "text"
+            },
+            "noinhan": {
+                "id": "noinhan",
+                "cols": "40",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "noinhan",
+                "label": "",
+                "type": "textarea",
+                "rows": "5",
+                "events": {}
+            },
+            "giamdocso1": {
+                "id": "giamdocso1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "giamdocso1",
+                "label": "",
+                "type": "text"
+            },
+            "giamdoc2": {
+                "id": "giamdoc2",
+                "fieldClass": "form-input-100",
+                "placeholder": "Giám đốc sở",
+                "name": "giamdoc2",
+                "label": "",
+                "type": "text"
+            },
+            "ngayketthuc": {
+                "id": "ngayketthuc",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ngayketthuc",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+             
+            "fax": {
+                "id": "fax",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "fax",
+                "label": "",
+                "type": "text"
+            },
+             "text1": {
+                "id": "text1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text1",
+                "label": "",
+                "type": "text"
+            },
+            "so": {
+                "id": "so",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "so",
+                "label": "",
+                "type": "text"
+            },
+            "dinhdanh": {
+                "id": "dinhdanh",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dinhdanh",
+                "label": "",
+                "type": "text"
+            },
+            "tencoquan": {
+                "id": "tencoquan",
+                "cols": "40",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tencoquan",
+                "label": "",
+                "type": "textarea",
+                "rows": "5"
+            },
+            "tencoquandaumoi": {
+                "id": "tencoquandaumoi",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "tencoquandaumoi",
+                "label": "",
+                "type": "text"
+            },
+            "dienthoai": {
+                "id": "dienthoai",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "dienthoai",
+                "label": "",
+                "type": "text"
+            },
+            "email": {
+                "id": "email",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "email",
+                "label": "",
+                "type": "text"
+            },
+            "ngaybatdau": {
+                "id": "ngaybatdau",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "ngaybatdau",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; text-align:justify;font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 90%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#so{width:100px!important;}#ngay{width:150px!important;}#ngaybatdau{width:150px!important;}#ngayketthuc{width:150px!important;}#sothanhvien{width:50px!important;}#diadiem{width:100px!important;}#giai1{width:200px!important;}#giai2{width:379px!important;}#vutruong2{width:250px!important;}#vutruong1{width:250px!important;}#giamdocso1{width:250px!important;}#chanhvanphong{width:206px!important;}#giamdoc2{width:250px!important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><table border='0' cellpadding='0' cellspacing='0' style='width: 90%;' margin-left:-8.8pt;border:none;><tbody><tr><td style='width:50%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;'><span style='font-family:times new roman,serif;'><span style='font-size:12.0pt;'>BỘ VĂN HOÁ, THỂ THAO VÀ DU LỊCH</span></span></p></td><td style='width:50%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:12.0pt;'>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></strong></p></td></tr><tr><td style='width:50%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>TỔNG CỤC THỂ DỤC THỂ THAO</span></span></strong></p><p align='center' style='text-align:center;'>__________________</p><p align='center' style='text-align:center;'><span style='font-family:times new roman,serif;'>Số: </span><span style='display: inline-table;' id='column-so' ></span><span style='font-family:times new roman,serif;'>/QĐ - TCTDTT</span></p></td><td style='width:50%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>Độc lập- Tự do- Hạnh phúc</span></strong></p><p align='center' style='text-align:center;'>________________</p><p align='center' style='text-align:right;'><em><span style='font-family:times new roman,serif;'>Hà Nội, ngày </span></em><span style='display: inline-table;' id='column-ngay' ></span></p></td></tr></tbody></table><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>QUYẾT ĐỊNH</span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>Về việc thành lập Ban tổ chức giải </span><span style='display: inline-table;' id='column-giai1' ></span>năm<span style='display: inline-table;' id='column-text1' ></span></strong></p><p align='center' style='text-align:center;'>______________________</p><br><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>TỔNG CỤC TRƯỞNG TỔNG CỤC THỂ DỤC THỂ THAO</span></strong></p><p>&nbsp;</p><p style='text-align:justify;'><span style='font-family:times new roman,serif;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Căn cứ Quyết định số 22/2014/QĐ-TTg ngày 13 tháng 3 năm 2014 của Thủ tướng Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Tổng cục Thể dục thể thao trực thuộc Bộ Văn hoá, Thể thao và Du lịch;</span></p><p style='text-align:justify;text-indent:.5in;'><span style='font-family:times new roman,serif;'>Xét đề nghị của </span><span style='display: inline-table;' id='column-vutruong1' ></span><span style='font-family:times new roman,serif;'> và </span><span style='display: inline-table;' id='column-giamdocso1' ></span><span style='font-family:times new roman,serif;'>.</span></p><p>&nbsp;</p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'>QUYẾT ĐỊNH:</span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p style='text-indent:.5in;'><strong><span style='font-family:times new roman,serif;'>Điều 1. </span></strong><span style='font-family:times new roman,serif;'>Thành lập Ban tổ chức giải </span><span style='display: inline-table;' id='column-giai2' ></span><span style='font-family:times new roman,serif;'> từ ngày </span><span style='display: inline-table;' id='column-ngaybatdau' ></span><span style='font-family:times new roman,serif;'> đến ngày </span><span style='display: inline-table;' id='column-ngayketthuc' ></span><span style='font-family:times new roman,serif;'> tại </span><span style='display: inline-table;' id='column-diadiem' ></span><span style='font-family:times new roman,serif;'> gồm </span><span style='display: inline-table;' id='column-sothanhvien' ></span><span style='font-family:times new roman,serif;'> &nbsp;thành viên (có danh sách kèm theo).</span></p><p style='text-indent:.5in;'><strong><span style='font-family:times new roman,serif;'>Điều 2.</span></strong><span style='font-family:times new roman,serif;'> Ban tổ chức giải có trách nhiệm tổ chức và điều hành thi đấu theo đúng Luật và Điều lệ quy định.</span></p><p style='text-indent:.5in;'><strong><span style='font-family:times new roman,serif;'>Điều 3. </span></strong><span style='font-family:times new roman,serif;'>Tổng cục Thể dục thể thao chi tiền ăn, ở, làm nhiệm vụ, di chuyển, lưu trú và các khoản chi khác theo đúng quy định từ nguồn kinh phí sự nghiệp tại Văn phòng cho các thành viên Ban tổ chức.</span></p><p style='margin-right:2.55pt;text-indent:.5in;'><strong><span style='font-family:times new roman,serif;'>Điều 4.</span></strong> <span style='display: inline-table;' id='column-chanhvanphong' ></span><span style='font-family:times new roman,serif;'></span><span style='font-family:times new roman,serif;'> </span><span style='font-family:times new roman,serif;'>, Thủ trưởng các đơn vị liên quan và các cá nhân có tên tại Điều 1 chịu trách nhiệm thi hành Quyết định này./.</span></p><table border='0' cellpadding='0' cellspacing='0' style='width: 90% ;border:none;' ><tbody><tr><td style='width:40%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p><strong><em><span style='font-family:times new roman,serif;'><span style='font-size:12.0pt;'>Nơi nhận:</span></span></em></strong></p><p><span style='display: inline-table;' id='column-noinhan' ></span></p></td><td style='width:50%%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>KT. TỔNG CỤC TRƯỞNG</span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style=''>PHÓ TỔNG CỤC TRƯỞNG</span></span></strong></p><p align='center' style='text-align:center;'>&nbsp;</p><p style='text-align:center;'> <span style='display: inline-table;' id='column-kyten' ></span></p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p><p style='text-align:center;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p></td></tr></tbody></table><p style='margin-right:2.55pt;text-indent:.5in;'>&nbsp;</p></div></div>",
+            "bindings": {
+                "giamdoc2": "column-giamdoc2",
+                "giai2": "column-giai2",
+                "ngayketthuc": "column-ngayketthuc",
+                "so": "column-so",
+                "diadiem": "column-diadiem",
+                "chanhvanphong": "column-chanhvanphong",
+                "kyten": "column-kyten",
+                "sothanhvien": "column-sothanhvien",
+                "giai1": "column-giai1",
+                "vutruong1": "column-vutruong1",
+                "vutruong2": "column-vutruong2",
+                "ngay": "column-ngay",
+                "noinhan": "column-noinhan",
+                "ngaybatdau": "column-ngaybatdau",
+                "giamdocso1": "column-giamdocso1",
+                "text1":"column-text1"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

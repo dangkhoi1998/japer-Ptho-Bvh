@@ -1,0 +1,358 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "camket": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi": {
+                "required": false,
+                "type": "object"
+            },
+            "dien_thoai": {
+                "required": false,
+                "type": "object"
+            },
+            "dinh_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "email": {
+                "required": false,
+                "type": "object"
+            },
+            "fax": {
+                "required": false,
+                "type": "object"
+            },
+            "muc_dich": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_dai_dien": {
+                "required": false,
+                "type": "object"
+            },
+            "nguoi_ky": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_dung": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_gia": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_gia2": {
+                "required": false,
+                "type": "object"
+            },
+            "so_hieu": {
+                "required": false,
+                "type": "object"
+            },
+            "so_luong": {
+                "required": false,
+                "type": "object"
+            },
+            "tai_lieu": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_to_chuc": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_to_chuc2": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_to_chuc_nhan": {
+                "required": false,
+                "type": "object"
+            },
+            "thoi_gian_dua_di": {
+                "required": false,
+                "type": "object"
+            },
+            "thoi_gian_trung_bay": {
+                "required": false,
+                "type": "object"
+            },
+            "thoi_gian_ve": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "camket": {
+                "cols": "100",
+                "placeholder": "",
+                "rows": "5",
+                "id": "camket",
+                "name": "camket",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "name": "dia_chi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dien_thoai": {
+                "id": "dien_thoai",
+                "name": "dien_thoai",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dinh_danh": {
+                "id": "dinh_danh",
+                "name": "dinh_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "(Tên địa phương)"
+            },
+            "email": {
+                "id": "email",
+                "name": "email",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "fax": {
+                "id": "fax",
+                "name": "fax",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "muc_dich": {
+                "cols": "100",
+                "placeholder": "(Nêu rõ mục đích đưa bảo vật quốc gia ra nước ngoài để: trưng bày, triển lãm; nghiên cứu hoặc bảo quản.)",
+                "rows": "5",
+                "id": "muc_dich",
+                "name": "muc_dich",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay": {
+                "placeholder": "ngày",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay",
+                "name": "ngay",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "nguoi_dai_dien": {
+                "id": "nguoi_dai_dien",
+                "name": "nguoi_dai_dien",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Người đại diện"
+            },
+            "nguoi_ky": {
+                "id": "nguoi_ky",
+                "name": "nguoi_ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Người ký"
+            },
+            "noi_dung": {
+                "cols": "100",
+                "placeholder": "(- Đối với bảo vật quốc gia được đưa ra nước ngoài để trưng bày, triển lãm: Nêu rõ mục đích, nội dung trưng bày, triển lãm;                                                                                                                                                                                - Đối với bảo vật quốc gia được đưa ra nước ngoài để nghiên cứu hoặc bảo quản: Nêu rõ mục đích/lý do cần nghiên cứu hoặc bảo quản và kết quả dự kiến.)",
+                "rows": "5",
+                "id": "noi_dung",
+                "name": "noi_dung",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "quoc_gia": {
+                "id": "quoc_gia",
+                "name": "quoc_gia",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "events": {
+                    "ready": function() {
+                        $('#quoc_gia').change(function() {
+                            var gt = $(this).val()
+                            $('#quoc_gia2').val(gt)
+                        });
+                    }
+                }
+            },
+            "quoc_gia2": {
+                "id": "quoc_gia2",
+                "name": "quoc_gia2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "(tên nước đưa bảo vật quốc gia đi)"
+            },
+            "so_hieu": {
+                "id": "so_hieu",
+                "name": "so_hieu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_luong": {
+                "id": "so_luong",
+                "name": "so_luong",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "(số lượng, theo Danh mục...)"
+            },
+            "tai_lieu": {
+                "id": "tai_lieu",
+                "name": "tai_lieu",
+                "type": "textarea",
+                "rows":"3",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_to_chuc": {
+                "cols": "40",
+                "rows": "2",
+                "id": "ten_to_chuc",
+                "name": "ten_to_chuc",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "TÊN TỔ CHỨC ĐỀ NGHỊ",
+                "events": {
+                    "ready": function() {
+                        $('#ten_to_chuc').change(function() {
+                            var gt = $(this).val()
+                            $('#ten_to_chuc2').val(gt)
+                        });
+                    }
+                }
+            },
+            "ten_to_chuc2": {
+                "id": "ten_to_chuc2",
+                "name": "ten_to_chuc2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "tên tổ chức"
+            },
+            "ten_to_chuc_nhan": {
+                "id": "ten_to_chuc_nhan",
+                "name": "ten_to_chuc_nhan",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "thoi_gian_dua_di": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "thoi_gian_dua_di",
+                "name": "thoi_gian_dua_di",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "thoi_gian_trung_bay": {
+                "id": "thoi_gian_trung_bay",
+                "name": "thoi_gian_trung_bay",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "thoi_gian_ve": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "thoi_gian_ve",
+                "name": "thoi_gian_ve",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 50%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong {font-family:Times New Roman; font-weight: bold;}#so_luong{width:200px!important}#ngay{width:100px!important}#dinh_danh{width:125px!important}#ten_to_chuc{width:250px!important}#thoi_gian_ve{width:150px!important}#thoi_gian_dua_di{width:150px!important}#thoi_gian_trung_bay{width:787px!important}#quoc_gia2{width:535px!important}#email{width:733px!important}#fax{width:357px!important}#quoc_gia{width:325px!important}#dien_thoai{width:287px!important}#dia_chi{width:309px!important}#nguoi_dai_dien{width:556px!important}#ten_to_chuc_nhan{width:647px!important}#ten_to_chuc2{width:240px!important}#camket{width:787px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;} textarea.form-control{height:80px;}</style><table border='0' cellpadding='0' cellspacing='0' style='border:none;margin:auto!important'><tbody><tr><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><span style='display: inline-table;' id='column-ten_to_chuc' ></span></p></td><td colspan='3' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;line-height:normal;'><strong><span style='60%'><span style=''>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</span><br><span style=''>Độc lập - Tự do - Hạnh phúc</span><br><span style=''>_________________</span><br><span style='display: inline-table;' id='column-dinh_danh' ></span><span style=''>, ngày </span><span style='display: inline-table;' id='column-ngay' ></span></span></strong></p></td></tr><tr><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;margin-top:-20px!important'><span style=''>____________</span></p></td><td colspan='3' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><strong></strong></p></td></tr><tr><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'>Số: <span style='display: inline-table;' id='column-so_hieu' ></span></p></td><td colspan='3' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;margin-top:-20px!important'></p></td></tr><tr><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><span style='letter-spacing:-.4pt;'><span style=''>V</span></span><span style=''>/v đề nghị đưa bảo vật quốc gia&nbsp; ra nước ngoài</span></p></td><td colspan='3' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:.0001pt;text-align:center;text-indent:0in;line-height:normal;'><span style='position:relative;top:3.0pt;'><span style='font-size:18px;'>Kính gửi: Bộ Văn hóa, Thể thao và Du lịch</span></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'>&nbsp;</p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;1. Căn cứ quy định của pháp luật về di sản văn hóa, trân&nbsp;</span><span style=''>tr</span><span style=''>ọng đề nghị Bộ Văn hóa, Thể thao và Du lịch thực hiện quy trình, thủ tục đề nghị Thủ tướng Chính phủ cho phép </span><span style='display: inline-table;' id='column-ten_to_chuc2' ></span> <sup><span style=''>1</span></sup> <span style=''>mang </span><span style='display: inline-table;' id='column-so_luong' ></span> <span style=''>bảo vật quốc gia ra nước ngoài.</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;2. Mục đích:</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style='display: inline-table;' id='column-muc_dich' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;3. Nội dung/Kết quả dự kiến:</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style='display: inline-table;' id='column-noi_dung' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;4. Thông tin về đối tác (bên tiếp nhận) bảo vật quốc gia tại nước ngoài:</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Tên tổ chức/cá nhân:</span> <span style='display: inline-table;' id='column-ten_to_chuc_nhan' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Người đứng đại diện theo pháp luật:</span> <span style='display: inline-table;' id='column-nguoi_dai_dien' ></span></p></td></tr><tr><td colspan='3' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Địa chỉ: </span><span style='display: inline-table;' id='column-dia_chi' ></span></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Quốc gia:</span> <span style='display: inline-table;' id='column-quoc_gia' ></span></p></td></tr><tr><td colspan='3' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Điện thoại: </span><span style='display: inline-table;' id='column-dien_thoai' ></span></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Fax:</span> <span style='display: inline-table;' id='column-fax' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Email:</span> <span style='display: inline-table;' id='column-email' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;5. Thời gian đưa bảo vật quốc gia đi</span> <span style='display: inline-table;' id='column-quoc_gia2' ></span><span style=''></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Thời gian trưng bày, triển lãm, nghiên cứu hoặc bảo quản ở nước ngoài:</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style='display: inline-table;' id='column-thoi_gian_trung_bay' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Th</span><span style=''>ờ</span><span style=''>i gian đưa đi:</span> <span style='display: inline-table;' id='column-thoi_gian_dua_di' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>- Th</span><span style=''>ờ</span><span style=''>i gian về đến Việt Nam:</span> <span style='display: inline-table;' id='column-thoi_gian_ve' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style=''>&emsp;&emsp;6. Cam kết đưa bảo vật quốc gia về Việt Nam sau khi hoàn thành việc trưng bày, triển lãm, nghiên cứu, hoặc bảo quản:</span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style='display: inline-table;' id='column-camket' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'>&nbsp;</p></td></tr><tr><td colspan='2' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><strong><em><span style=''>Tài liệu kèm theo:</span></em></strong></p></td><td colspan='2' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><strong><span style=''>T</span></strong><strong><span style=''>Ổ&nbsp;</span></strong><strong><span style=''>CHỨC Đ</span></strong><strong><span style=''>Ề&nbsp;</span></strong><strong><span style=''>NGHỊ</span></strong></p></td></tr><tr><td colspan='2' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'><span style='display: inline-table;' id='column-tai_lieu' ></span></p></td><td colspan='2' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><em><span style=''>(K</span></em><em><span style=''>ý</span></em><em><span style=''>, đ</span></em><em><span style=''>ó</span></em><em><span style=''>ng dấu, ghi rõ họ tên, chức vụ người ký)</span></em></p></td></tr><tr><td colspan='2' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'>&nbsp;</p></td><td colspan='2' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'>&nbsp;</p></td></tr><tr><td colspan='2' style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='text-indent:0in;'>&nbsp;</p></td><td colspan='2' style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;text-indent:0in;'><span style='display: inline-table;' id='column-nguoi_ky' ></span></p></td></tr><tr><td colspan='4' style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'></td></tr><tr height='0'><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td><td style='border:none;'>&nbsp;</td></tr></tbody></table><p style='text-indent:0in;'>&nbsp;</p></div></div>",
+            "bindings": {
+                "dinh_danh": "column-dinh_danh",
+                "ten_to_chuc2": "column-ten_to_chuc2",
+                "ten_to_chuc_nhan": "column-ten_to_chuc_nhan",
+                "fax": "column-fax",
+                "muc_dich": "column-muc_dich",
+                "nguoi_ky": "column-nguoi_ky",
+                "thoi_gian_trung_bay": "column-thoi_gian_trung_bay",
+                "dien_thoai": "column-dien_thoai",
+                "camket": "column-camket",
+                "quoc_gia2": "column-quoc_gia2",
+                "email": "column-email",
+                "thoi_gian_dua_di": "column-thoi_gian_dua_di",
+                "dia_chi": "column-dia_chi",
+                "so_luong": "column-so_luong",
+                "nguoi_dai_dien": "column-nguoi_dai_dien",
+                "thoi_gian_ve": "column-thoi_gian_ve",
+                "so_hieu": "column-so_hieu",
+                "ngay": "column-ngay",
+                "noi_dung": "column-noi_dung",
+                "quoc_gia": "column-quoc_gia",
+                "tai_lieu": "column-tai_lieu",
+                "ten_to_chuc": "column-ten_to_chuc"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

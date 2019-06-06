@@ -1,0 +1,342 @@
+﻿{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "cho_phep": {
+                "required": false,
+                "type": "object"
+            },
+            "chuc_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "cua_giay_phep": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_diem": {
+                "required": false,
+                "type": "object"
+            },
+            "dich_vu": {
+                "required": false,
+                "type": "object"
+            },
+            "ky_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_giay_phep": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_kich_ban": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_kich_ban2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_thang": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_thang2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_thang3": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_nhan": {
+                "required": false,
+                "type": "object"
+            },
+            "phim": {
+                "required": false,
+                "type": "object"
+            },
+            "so": {
+                "required": false,
+                "type": "object"
+            },
+            "so_giay_phep": {
+                "required": false,
+                "type": "object"
+            },
+            "so_kich_ban": {
+                "required": false,
+                "type": "object"
+            },
+            "so_kich_ban2": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_co_quan": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_tieng_viet": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "cho_phep": {
+                "id": "cho_phep",
+                "name": "cho_phep",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "chuc_danh": {
+                "id": "chuc_danh",
+                "name": "chuc_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "cua_giay_phep": {
+                "id": "cua_giay_phep",
+                "name": "cua_giay_phep",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dia_diem": {
+                "id": "dia_diem",
+                "name": "dia_diem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dich_vu": {
+                "id": "dich_vu",
+                "name": "dich_vu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ky_ten": {
+                "id": "ky_ten",
+                "name": "ky_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ngay_giay_phep": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_giay_phep",
+                "name": "ngay_giay_phep",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_kich_ban": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_kich_ban",
+                "name": "ngay_kich_ban",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_kich_ban2": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_kich_ban2",
+                "name": "ngay_kich_ban2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_thang": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_thang",
+                "name": "ngay_thang",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay_thang').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "ngay_thang2": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_thang2",
+                "name": "ngay_thang2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_thang3": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay_thang3",
+                "name": "ngay_thang3",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_nhan": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "3",
+                "id": "noi_nhan",
+                "name": "noi_nhan",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "phim": {
+                "id": "phim",
+                "name": "phim",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so": {
+                "id": "so",
+                "name": "so",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_giay_phep": {
+                "id": "so_giay_phep",
+                "name": "so_giay_phep",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_kich_ban": {
+                "id": "so_kich_ban",
+                "name": "so_kich_ban",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_kich_ban2": {
+                "id": "so_kich_ban2",
+                "name": "so_kich_ban2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_co_quan": {
+                "id": "ten_co_quan",
+                "name": "ten_co_quan",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_tieng_viet": {
+                "id": "ten_tieng_viet",
+                "name": "ten_tieng_viet",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid khoi' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>.khoi #ten_tieng_viet{width: 400px!important}#so_giay_phep{width: 154px!important;}#so{width: 50px!important;}#dia_diem{width: 100px!important;}#dia_chi{width: 683px!important;}#tieu_chuan{width: 100px!important;}#thoi_han{width: 100px!important;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} .has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><table border='1' cellpadding='0' cellspacing='0' style='width:100%;margin-left:-.6pt;border-collapse:collapse;border:none;' width='0'><tbody><tr><td style='width:40%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0px;'><span style='letter-spacing:-.3pt;'>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH</span></p><p align='center' style='margin-bottom:0px; text-align:center;'><strong>CỤC ĐIỆN ẢNH</strong></p><p align='center' style='text-align:center; margin-bottom:0px;'><strong><span style='font-size:4.0pt;'>______________________________</span></strong></p></td><td style='width:60%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:0px; text-align:center;'><strong><span style='letter-spacing:-.3pt;'>CỘNG HOÀ XÃ HỘI CHỦ NGHIÃ VIỆT NAM</span></strong></p><p align='center' style='margin-bottom:0px; text-align:center;'><strong>Độc lập - Tự do - Hạnh phúc</strong></p><p align='center' style='margin-bottom:0px; text-align:center;'><strong><span style='font-size:4.0pt;'>__________________________________________________________</span></strong></p></td></tr><tr><td style='width:40%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:6.0pt;text-align:center;'>Số: <span style='display: inline-table;' id='column-so' ></span> /QĐ-ĐA</p></td><td style='width:60%;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-bottom:6.0pt;text-align:center;'><span style='display: inline-table;' id='column-dia_diem' ></span><em>, ngày </em><span style='display: inline-table;' id='column-ngay_thang' ></span></p></td></tr></tbody></table><p align='center' style='margin-bottom:0px; margin-top:12.0pt;text-align:center;'><strong><span style=''>QUYẾT ĐỊNH</span></strong></p><p align='center' style='margin-bottom:0px; text-align:center;'><strong><span style=''>Về việc cung cấp dịch vụ làm phim cho nước ngoài</span></strong></p><p align='center' style='margin-bottom:0px; text-align:center;'><strong><span style='font-size:4.0pt;'>________________________________________________________</span></strong></p><p style='text-indent:.5in; text-align:justify;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Luật Điện ảnh số 62/2006/QH11 ngày 29 tháng 6 năm 2006 và Luật sửa đổi, bổ sung một số điều của Luật Điện ảnh số 31/2009/QH12 ngày 16 tháng 6 năm 2009;</span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:-2.0pt;margin-bottom:.0001pt;text-indent:27.0pt;  text-align:justify;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Căn cứ Quyết định số 4035/QĐ-BVHTTDL ngày 14 tháng 11 năm 2013 của Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Cục Điện ảnh;&nbsp;&nbsp;&nbsp; </span></p><p style='margin-top:6.0pt; text-align:justify;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Căn cứ Quy chế Dịch vụ và Hợp tác làm phim với nước ngoài do Bộ Văn hoá Thông tin ban hành kèm theo Quyết định số 1340/QĐ-ĐA ngày 29 tháng 9 năm 1992 của Bộ Văn hoá Thông tin (nay là Bộ Văn hóa, Thể thao và Du lịch);</span></p><p style='margin-top:6.0pt; text-align:justify;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='letter-spacing:-.1pt;'>Xét đề cương kịch bản </span></span><span style='display: inline-table;' id='column-phim' ></span> &nbsp;<span style='display: inline-table;' id='column-ten_tieng_viet' ></span><span style='letter-spacing:-.1pt;'><span style=''>; Đơn xin cấp giấy phép số </span></span><span style='display: inline-table;' id='column-so_giay_phep' ></span><span style='letter-spacing:-.1pt;'><span style=''> ngày </span></span><span style='display: inline-table;' id='column-ngay_giay_phep' ></span><span style='letter-spacing:-.1pt;'><span style=''> của </span></span><span style='display: inline-table;' id='column-cua_giay_phep' ></span><span style='letter-spacing:-.1pt;'><span style=''>; Giám định kịch bản số </span></span><span style='display: inline-table;' id='column-so_kich_ban' ></span><span style='letter-spacing:-.1pt;'><span style=''> ngày </span></span><span style='display: inline-table;' id='column-ngay_kich_ban' ></span><span style='letter-spacing:-.1pt;'><span style=''> của Cục Điện ảnh,</span></span></p><p align='center' style='margin-top:12.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;'><strong><span style=''>QUYẾT ĐỊNH:</span></strong></p><table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;'><tbody><tr><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-bottom:6.0pt;  text-align:justify;'><strong><span style=''>Điều 1.</span></strong><span style=''> Cho phép </span><span style='display: inline-table;' id='column-cho_phep' ></span><span style=''> cung cấp dịch vụ cho </span><span style='display: inline-table;' id='column-dich_vu' ></span><span style=''> theo đúng đề cương kịch bản và yêu cầu tại Giám định kịch bản số </span><span style='display: inline-table;' id='column-so_kich_ban2' ></span><span style=''> ngày </span><span style='display: inline-table;' id='column-ngay_kich_ban2' ></span><span style=''> của Cục Điện Ảnh. </span></p><p style='margin-bottom:6.0pt;text-indent:.5in;'><span style=''>Thời gian: Từ&nbsp; </span><span style='display: inline-table;' id='column-ngay_thang2' ></span><span style=''> đến </span><span style='display: inline-table;' id='column-ngay_thang3' ></span></p></td></tr><tr><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-indent:.5in; text-align:justify;'><strong><span style=''>Điều 2.</span></strong> <span style='display: inline-table;' id='column-ten_co_quan' ></span><span style=''> chịu trách nhiệm trực tiếp về nội dung các cảnh quay tại Việt Nam. Mọi vật liệu quay phim, ghi hình, thu tiếng cho bộ phim nói trên chỉ được xuất khỏi Việt Nam sau khi được Bộ Văn hoá, Thể thao và Du lịch và các cơ quan hữu quan của Việt Nam xem xét và cho phép.</span></p></td></tr><tr><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-indent:.5in;  text-align:justify;'><strong><span style=''>Điều 3.</span></strong><span style=''> Chánh Văn phòng Cục Điện ảnh, </span><span style='display: inline-table;' id='column-chuc_danh' ></span><span style=''> chịu trách nhiệm thi hành Quyết định này./.</span></p></td></tr></tbody></table><p align='left' style='text-align:left;'><span style=''><em><strong>Nơi nhận:</strong></em></span></p><p align='left' style='text-align:right; margin-right:100px;'><strong><span style=''>CỤC TRƯỞNG</span></strong></p>   <p><span style='display: inline-table;' id='column-noi_nhan' ></span></p><p style='margin-right: 50px; text-align:right;'> <span style='display: inline-table;' id='column-ky_ten' ></span></p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "cua_giay_phep": "column-cua_giay_phep",
+                "phim": "column-phim",
+                "ngay_thang2": "column-ngay_thang2",
+                "noi_nhan": "column-noi_nhan",
+                "ngay_thang3": "column-ngay_thang3",
+                "ngay_kich_ban2": "column-ngay_kich_ban2",
+                "so_giay_phep": "column-so_giay_phep",
+                "so": "column-so",
+                "ten_tieng_viet": "column-ten_tieng_viet",
+                "ten_co_quan": "column-ten_co_quan",
+                "so_kich_ban": "column-so_kich_ban",
+                "dich_vu": "column-dich_vu",
+                "ngay_thang": "column-ngay_thang",
+                "ky_ten": "column-ky_ten",
+                "chuc_danh": "column-chuc_danh",
+                "dia_diem": "column-dia_diem",
+                "so_kich_ban2": "column-so_kich_ban2",
+                "cho_phep": "column-cho_phep",
+                "ngay_kich_ban": "column-ngay_kich_ban",
+                "ngay_giay_phep": "column-ngay_giay_phep"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

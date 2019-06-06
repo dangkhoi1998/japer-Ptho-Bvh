@@ -1,0 +1,421 @@
+{
+    "schema": {
+        "properties": {
+            "text15": {
+                "type": "object",
+                "required": false
+            },
+            "text14": {
+                "type": "object",
+                "required": false
+            },
+            "text17": {
+                "type": "object",
+                "required": false
+            },
+            "text16": {
+                "type": "object",
+                "required": false
+            },
+            "text01": {
+                "type": "object",
+                "required": false
+            },
+            "text10": {
+                "type": "object",
+                "required": false
+            },
+            "text11": {
+                "type": "object",
+                "required": false
+            },
+            "text12": {
+                "type": "object",
+                "required": false
+            },
+            "text13": {
+                "type": "object",
+                "required": false
+            },
+            "cb1": {
+                "type": "object",
+                "required": false
+            },
+            "text0": {
+                "type": "object",
+                "required": false
+            },
+            "cb2": {
+                "type": "object",
+                "required": false
+            },
+            "cb5": {
+                "type": "object",
+                "required": false
+            },
+            "text3": {
+                "type": "object",
+                "required": false
+            },
+            "cb6": {
+                "type": "object",
+                "required": true
+            },
+            "text4": {
+                "type": "object",
+                "required": false
+            },
+            "text1": {
+                "type": "object",
+                "required": false
+            },
+            "cb3": {
+                "type": "object",
+                "required": false
+            },
+            "cb4": {
+                "type": "object",
+                "required": false
+            },
+            "text2": {
+                "type": "object",
+                "required": false
+            },
+            "text7": {
+                "type": "object",
+                "required": false
+            },
+            "cb9": {
+                "type": "object",
+                "required": false
+            },
+            "text8": {
+                "type": "object",
+                "required": false
+            },
+            "cb7": {
+                "type": "object",
+                "required": false
+            },
+            "text5": {
+                "type": "object",
+                "required": false
+            },
+            "text6": {
+                "type": "object",
+                "required": false
+            },
+            "cb8": {
+                "type": "object",
+                "required": false
+            },
+            "text9": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "text15": {
+                "id": "text15",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text15",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text14": {
+                "id": "text14",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text14",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text17": {
+                "id": "text17",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text17",
+                "label": "",
+                "type": "text"
+            },
+            "text16": {
+                "id": "text16",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text16",
+                "label": "",
+                "type": "text"
+            },
+            "text01": {
+                "id": "text01",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text01",
+                "label": "",
+                "type": "text"
+            },
+            "text10": {
+                "id": "text10",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text10",
+                "label": "",
+                "type": "text"
+            },
+            "text11": {
+                "id": "text11",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text11",
+                "label": "",
+                "type": "text"
+            },
+            "text12": {
+                "id": "text12",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text12",
+                "label": "",
+                "type": "text"
+            },
+            "text13": {
+                "id": "text13",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text13",
+                "label": "",
+                "type": "text"
+            },
+            "cb1": {
+                "id": "cb1",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb1",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text0": {
+                "id": "text0",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text0",
+                "label": "",
+                "type": "textarea"
+            },
+            "cb2": {
+                "id": "cb2",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb2",
+                "label": "",
+                "type": "checkbox"
+            },
+            "cb5": {
+                "id": "cb5",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb5",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text3": {
+                "id": "text3",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text3",
+                "label": "",
+                "type": "text"
+            },
+            "cb6": {
+                "id": "cb6",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb6",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text4": {
+                "id": "text4",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text4",
+                "label": "",
+                "type": "text"
+            },
+        "text1": {
+                "id": "text1",
+                "name": "text1",
+                "type": "date",
+                "fieldClass": "form-input-80",
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+        "events": {
+                    "ready": function(){
+                        var n = new Date();
+                        $('#text1').val(n.getDate()+'/'+(n.getMonth()+1)+'/'+n.getFullYear());
+                    }
+                }
+            },
+            
+
+
+
+
+
+            "cb3": {
+                "id": "cb3",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb3",
+                "label": "",
+                "type": "checkbox"
+            },
+            "cb4": {
+                "id": "cb4",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb4",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text2": {
+                "id": "text2",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text2",
+                "label": "",
+                "type": "text"
+            },
+            "text7": {
+                "id": "text7",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text7",
+                "label": "",
+                "type": "text"
+            },
+            "cb9": {
+                "id": "cb9",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb9",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text8": {
+                "id": "text8",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text8",
+                "label": "",
+                "type": "text"
+            },
+            "cb7": {
+                "id": "cb7",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb7",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text5": {
+                "id": "text5",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text5",
+                "label": "",
+                "type": "text"
+            },
+            "text6": {
+                "id": "text6",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text6",
+                "label": "",
+                "type": "text"
+            },
+            "cb8": {
+                "id": "cb8",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "cb8",
+                "label": "",
+                "type": "checkbox"
+            },
+            "text9": {
+                "id": "text9",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "name": "text9",
+                "label": "",
+                "type": "text"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 70%;position: relative;left: 40%; margin:0px auto;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'> #text2{width:555px!important}#text3{width:539px!important}#text4{width:550px!important}#text5{width:527px!important}#text6{width: 458px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><p>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:100%;margin-left:5.4pt;border-collapse:collapse;' width='780'><tbody><tr><td style='width:30%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;line-height:150%;'><span style='display: inline-table;' id='column-text0' ></span></p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>.....................</span></span></strong></p></td><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Độc lập - Tự do - Hạnh phúc </span></span></strong></p><p align='center' style='text-align:center;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>_____________________</span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><span style='display: inline-table;' id='column-text01' ></span><em><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>, ngày</span></span></em><em><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text1' ></span></em></p></td></tr></tbody></table><p align='center' style='text-align:center;line-height:150%;'>&nbsp;</p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>ĐƠN ĐỀ NGHỊ HỢP TÁC, LIÊN DOANH SẢN XUẤT PHIM,</span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>CUNG CẤP DỊCH VỤ SẢN XUẤT PHIM VỚI </span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>TỔ CHỨC, CÁ NHÂN NƯỚC NGOÀI</span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>__________________________</span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'>&nbsp;</p><p align='center' style='text-align:center;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Kính gửi: Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch</span></span></p><p style='line-height:150%;'>&nbsp;</p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Chúng tôi đề nghị Cục Điện ảnh cấp phép hợp tác/liên doanh sản xuất phim/cung cấp dịch vụ sản xuất phim cho nước ngoài như sau:</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>1. Thông tin về đối tác trong nước (Cơ sở sản xuất phim):</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Tên:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text2' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Địa chỉ:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text3' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>2. Thông tin về đối tác nước ngoài (Tổ chức, cá nhân nước ngoài):</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Tên:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text4' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Địa chỉ:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text5' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>3. Thông tin về phim:</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Tên gốc của phim:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text6' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Tên tiếng Việt của phim</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>: <span style='display: inline-table;' id='column-text7' ></span></p><table border='0' cellpadding='0' cellspacing='0' style='width: 678px;border-collapse:collapse;border:none;' width='728'><tbody><tr style='height:33px;'><td style='width:128px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Thể loại phim:</span></span></p></td><td style='width:104px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim truyện </span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb1' ></span></p></td><td style='width:140px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim truyện truyền hình</span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb4' ></span></p></td></tr><tr style='height:33px;'><td style='width:120px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'></td><td style='width:104px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim tài liệu</span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb2' ></span></p></td><td style='width:100px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim phóng sự&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb5' ></span></p></td></tr><tr style='height:33px;'><td style='width:120px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'></td><td style='width:104px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim ngắn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb3' ></span></p></td><td style='width:100px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim quảng cáo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p></td><td style='width:54px;padding:0in 5.4pt 0in 5.4pt;height:33px;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb6' ></span></p></td></tr></tbody></table><table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;border:none;'><tbody><tr><td style='width:167px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Chất liệu quay phim:</span></span></p></td><td style='width:132px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Phim 35mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p></td><td style='width:48px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb7' ></span></p></td><td style='width:78px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>DVD&nbsp; </span></span></p></td><td style='width:48px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb8' ></span></p></td><td style='width:72px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>HD</span></span></p></td><td style='width:48px;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p><span style='display: inline-table;' id='column-cb9' ></span></p></td></tr></tbody></table><p style='margin-left:.25in;text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Đạo diễn:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text8' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Quốc tịch:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text9' ></span></p><p style='margin-left:.25in;text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Biên kịch:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text10' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Quốc tịch:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text11' ></span></p><p style='margin-left:.25in;text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Nhà sản xuất</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>: <span style='display: inline-table;' id='column-text12' ></span> </span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Quốc tịch:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text13' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>4. Dự kiến thời gian sản xuất tại Việt Nam: Từ ngày</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text14' ></span></p><p style='line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>đến ngày</span></span> <span style='display: inline-table;' id='column-text15' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>5. Dự kiến địa điểm quay phim tại Việt Nam:</span></span><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'> <span style='display: inline-table;' id='column-text16' ></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>6. Các văn bản gửi kèm theo đơn này:</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>- Văn bản của đối tác nước ngoài đề nghị đối tác trong nước hợp tác, liên doanh sản xuất phim, cung cấp dịch vụ làm phim;</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>- Kịch bản hoàn chỉnh của phim;</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>- Tóm tắt kịch bản phim;</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>- Kế hoạch quay phim;</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>- Danh sách thành phần chính của đoàn làm phim (Họ tên, ngày tháng năm sinh, quốc tịch, số hộ chiếu, chức danh trong đoàn làm phim).</span></span></p><p style='text-indent:28.35pt;line-height:150%;'><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>Trong quá trình sản xuất phim, chúng tôi cam kết thực hiện nghiêm túc mọi quy định của luật pháp hiện hành của nước CHXHCN Việt Nam./.</span></span></p><p style='line-height:150%;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:70%;margin-left:-.05in;border-collapse:collapse;' width='783'><tbody><tr><td style='width:30%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='line-height:150%;'>&nbsp;</p></td><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>&nbsp;ĐẠI DIỆN THEO PHÁP LUẬT CỦA </span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><strong><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>CƠ QUAN, TỔ CHỨC ĐỀ NGHỊ </span></span></strong></p><p align='center' style='text-align:center;line-height:150%;'><em><span style='font-family:times new roman,serif;'><span style='font-size:13.0pt;'>(Ký, đóng dấu, ghi rõ họ tên)</span></span></em></p><p align='center' style='text-align:center;line-height:150%;'><span style='display: inline-table;' id='column-text17' ></span></p><p align='center' style='text-align:center;line-height:150%;'>&nbsp;</p><p align='center' style='text-align:center;'>&nbsp;</p></td></tr></tbody></table><p align='right' style='text-align:right;'>&nbsp;</p></div></div>",
+            "bindings": {
+                "text15": "column-text15",
+                "text14": "column-text14",
+                "text17": "column-text17",
+                "text16": "column-text16",
+                "text01": "column-text01",
+                "text10": "column-text10",
+                "text11": "column-text11",
+                "text12": "column-text12",
+                "text13": "column-text13",
+                "cb1": "column-cb1",
+                "text0": "column-text0",
+                "cb2": "column-cb2",
+                "text3": "column-text3",
+                "cb5": "column-cb5",
+                "text4": "column-text4",
+                "cb6": "column-cb6",
+                "text1": "column-text1",
+                "cb3": "column-cb3",
+                "cb4": "column-cb4",
+                "text2": "column-text2",
+                "text7": "column-text7",
+                "cb9": "column-cb9",
+                "text8": "column-text8",
+                "cb7": "column-cb7",
+                "text5": "column-text5",
+                "cb8": "column-cb8",
+                "text6": "column-text6",
+                "text9": "column-text9"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

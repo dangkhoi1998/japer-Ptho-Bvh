@@ -1,0 +1,201 @@
+{
+    "schema": {
+        "properties": {
+            "textarea1": {
+                "type": "object",
+                "required": false
+            },
+            "text3": {
+                "type": "object",
+                "required": false
+            },
+            "text4": {
+                "type": "object",
+                "required": false
+            },
+            "text1": {
+                "type": "object",
+                "required": false
+            },
+            "text2": {
+                "type": "object",
+                "required": false
+            },
+            "text7": {
+                "type": "object",
+                "required": false
+            },
+            "text10": {
+                "type": "object",
+                "required": false
+            },
+            "text8": {
+                "type": "object",
+                "required": false
+            },
+            "text11": {
+                "type": "object",
+                "required": false
+            },
+            "text5": {
+                "type": "object",
+                "required": false
+            },
+            "text12": {
+                "type": "object",
+                "required": false
+            },
+            "text6": {
+                "type": "object",
+                "required": false
+            },
+            "textarea2": {
+                "type": "object",
+                "required": false
+            },
+            "text9": {
+                "type": "object",
+                "required": false
+            }
+        },
+        "required": false,
+        "type": "object"
+    },
+    "options": {
+        "legendStyle": "",
+        "type": "object",
+        "fields": {
+            "textarea1": {
+                "id": "textarea1",
+                "fieldClass": "form-input-100",
+                "name": "textarea1",
+                "label": "",
+                "type": "textarea",
+                "rows": "1"
+            },
+            "text3": {
+                "id": "text3",
+                "fieldClass": "form-input-100",
+                "name": "text3",
+                "label": "",
+                "type": "text"
+            },
+            "text4": {
+                "id": "text4",
+                "fieldClass": "form-input-100",
+                "name": "text4",
+                "label": "",
+                "type": "text"
+            },
+            "text1": {
+                "id": "text1",
+                "fieldClass": "form-input-100",
+                "name": "text1",
+                "label": "",
+                "type": "text"
+            },
+            "text2": {
+                "id": "text2",
+                "fieldClass": "form-input-100",
+                "name": "text2",
+                "label": "",
+                "type": "text"
+            },
+            "text7": {
+                "id": "text7",
+                "fieldClass": "form-input-100",
+                "name": "text7",
+                "label": "",
+                "type": "text"
+            },
+            "text10": {
+                "id": "text10",
+                "fieldClass": "form-input-100",
+                "name": "text10",
+                "label": "",
+                "type": "text"
+            },
+            "text8": {
+                "id": "text8",
+                "fieldClass": "form-input-100",
+                "name": "text8",
+                "label": "",
+                "type": "text"
+            },
+            "text11": {
+                "id": "text11",
+                "fieldClass": "form-input-100",
+                "name": "text11",
+                "label": "",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "picker": {
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                }
+            },
+            "text5": {
+                "id": "text5",
+                "fieldClass": "form-input-100",
+                "name": "text5",
+                "label": "",
+                "type": "text"
+            },
+            "text12": {
+                "id": "text12",
+                "fieldClass": "form-input-100",
+                "name": "text12",
+                "label": "",
+                "type": "text"
+            },
+            "text6": {
+                "id": "text6",
+                "fieldClass": "form-input-100",
+                "name": "text6",
+                "label": "",
+                "type": "text"
+            },
+            "textarea2": {
+                "id": "textarea2",
+                "fieldClass": "form-input-100",
+                "name": "textarea2",
+                "label": "",
+                "type": "textarea",
+                "rows": "1"
+            },
+            "text9": {
+                "id": "text9",
+                "fieldClass": "form-input-100",
+                "name": "text9",
+                "label": "",
+                "type": "text"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 90%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>#text1{width:200px!important}#text2{width:200px!important}#text3{width:200px!important}#text4{width:200px!important}#text5{width:200px!important}#text6{width:200px!important}#text7{width:200px!important}#text8{width:200px!important}#text9{width:200px!important}#text10{width:100px!important}#text11{width:100px!important}#text12{width:100px!important}#textarea1{width:200px!important}#textarea2{width:200px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><p>&nbsp;</p><table border='1' cellpadding='0' cellspacing='0' style='margin-left:-15.9pt;border-collapse:collapse;border:none;' width='0'><tbody><tr><td style='width:655px;border:none;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br />Độc lập - Tự do - Hạnh phúc<br />.........................</span></span></p><p align='center' style='margin-top:6.0pt;text-align:center;'>&nbsp;</p><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>BẢN CÔNG BỐ HỢP QUY</span></span></p><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Số </span></span><span style='display: inline-table;' id='column-text1' ></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Tên tổ chức, cá nhân: </span></span><span style='display: inline-table;' id='column-text2' ></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Địa chỉ:</span></span><span style='display: inline-table;' id='column-text3' ></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Điện thoại:</span></span><span style='display: inline-table;' id='column-text4' ></span><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'> Fax: </span></span><span style='display: inline-table;' id='column-text5' ></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>E-mail:</span></span><span style='display: inline-table;' id='column-text6' ></span></p><p align='center' style='margin-top:6.0pt;text-align:center;'>&nbsp;</p><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>CÔNG BỐ:</span></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Giống cây trồng (loài, tên, cấp giống, đặc tính của giống) </span></span></p><p style='margin-top:6.0pt;text-indent:27.0pt;'><span style='display: inline-table;' id='column-text7' ></span></p><p style='margin-top:6.0pt;text-align:justify;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Phù hợp với quy chuẩn kỹ thuật (<em>số hiệu, ký hiệu, tên gọi</em>)</span></span></p><p style='margin-top:6.0pt;text-align:justify;text-indent:27.0pt;'><span style='display: inline-table;' id='column-textarea1' ></span></p><p style='margin-top:6.0pt;text-align:justify;text-indent:27.0pt;'><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Thông tin bổ sung (<em>căn cứ công bố hợp quy (kết quả chứng nhận của tổ chức chứng nhận/tự đánh giá), phương thức đánh giá sự phù hợp: phương thức 5/phương thức 7...</em>):</span></span></p><p style='margin-top:6.0pt;text-align:justify;text-indent:27.0pt;'><span style='display: inline-table;' id='column-textarea2' ></span></p><p style='margin-top:6.0pt;text-align:justify;text-indent:27.0pt;'><span style='display: inline-table;' id='column-text8' ></span><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'> cam kết và chịu trách nhiệm về tính phù hợp của chất lượng </span></span><span style='display: inline-table;' id='column-text9' ></span><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'> do mình sản xuất, nhập khẩu.</span></span></p><table border='0' cellpadding='0' cellspacing='0' style='width:'90%';border-collapse:collapse;border:none;'><tbody><tr><td style='width:40%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;'>&nbsp;</p></td><td style='width:60%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='display: inline-table;' id='column-text10' ></span><em><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>, ngày </span></span></em><span style='display: inline-table;' id='column-text11' ></span><br /><span style='font-weight:normal;'><span style='font-family:times new roman,serif;'>Đại diện Tổ chức, cá nhân<br />(Ký tên, chức vụ, đóng dấu)</span></span></p><p align='center' style='margin-top:6.0pt;text-align:center;'><span style='display: inline-table;' id='column-text12' ></span></p><p style='margin-top:6.0pt;'>&nbsp;</p></td></tr></tbody></table><p style='margin-top:6.0pt;'>&nbsp;</p></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "text3": "column-text3",
+                "text4": "column-text4",
+                "text1": "column-text1",
+                "text2": "column-text2",
+                "text7": "column-text7",
+                "text8": "column-text8",
+                "text5": "column-text5",
+                "text6": "column-text6",
+                "text9": "column-text9",
+                "textarea1": "column-textarea1",
+                "text10": "column-text10",
+                "text11": "column-text11",
+                "text12": "column-text12",
+                "textarea2": "column-textarea2"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

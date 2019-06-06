@@ -1,0 +1,435 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "Dia_danh": {
+                "required": false,
+                "type": "object"
+            },
+            "Tencoquan1": {
+                "required": false,
+                "type": "object"
+            },
+            "Tencoquan2": {
+                "required": false,
+                "type": "object"
+            },
+            "Tentochuc1": {
+                "required": false,
+                "type": "object"
+            },
+            "chude": {
+                "required": false,
+                "type": "object"
+            },
+            "diachi": {
+                "required": false,
+                "type": "object"
+            },
+            "diadiem": {
+                "required": false,
+                "type": "object"
+            },
+            "kyten": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay3": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay4": {
+                "required": false,
+                "type": "object"
+            },
+            "ngaycap": {
+                "required": false,
+                "type": "object"
+            },
+            "ngaycap1": {
+                "required": false,
+                "type": "object"
+            },
+            "noicap": {
+                "required": false,
+                "type": "object"
+            },
+            "noicap1": {
+                "required": false,
+                "type": "object"
+            },
+            "noinhan": {
+                "required": false,
+                "type": "object"
+            },
+            "quocgia": {
+                "required": false,
+                "type": "object"
+            },
+            "so": {
+                "required": false,
+                "type": "object"
+            },
+            "socmt": {
+                "required": false,
+                "type": "object"
+            },
+            "sohochieu": {
+                "required": false,
+                "type": "object"
+            },
+            "soluongtacgia": {
+                "required": false,
+                "type": "object"
+            },
+            "soluongtacpham": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_diachi": {
+                "required": false,
+                "type": "object"
+            },
+            "tencoquan": {
+                "required": false,
+                "type": "object"
+            },
+            "tentochuc": {
+                "required": false,
+                "type": "object"
+            },
+            "tentrienlam": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "Dia_danh": {
+                "id": "Dia_danh",
+                "name": "Dia_danh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                
+            },
+            "Tencoquan1": {
+                
+                "id": "Tencoquan1",
+                "name": "Tencoquan1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "Tencoquan2": {
+                
+                "id": "Tencoquan2",
+                "name": "Tencoquan2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "Tentochuc1": {
+                
+                "id": "Tentochuc1",
+                "name": "Tentochuc1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "chude": {
+                "cols": "40",
+                "placeholder": "",
+                "rows": "5",
+                "id": "chude",
+                "name": "chude",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "diachi": {
+               
+                "id": "diachi",
+                "name": "diachi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "diadiem": {
+                
+                "id": "diadiem",
+                "name": "diadiem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "kyten": {
+                
+                "id": "kyten",
+                "name": "kyten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay1": {
+            "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay1",
+                "name": "ngay1",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                 "events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay1').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+                
+            "ngay2": {
+                
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay2",
+                "name": "ngay2",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay3": {
+                
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay3",
+                "name": "ngay3",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay4": {
+                
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngay4",
+                "name": "ngay4",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngaycap": {
+               
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngaycap",
+                "name": "ngaycap",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngaycap1": {
+                
+                "dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+                "id": "ngaycap1",
+                "name": "ngaycap1",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noicap": {
+                
+                "id": "noicap",
+                "name": "noicap",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noicap1": {
+                
+                "id": "noicap1",
+                "name": "noicap1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noinhan": {
+                "cols": "40",
+                
+                "rows": "5",
+                "id": "noinhan",
+                "name": "noinhan",
+                "type": "textarea",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "quocgia": {
+                
+                "id": "quocgia",
+                "name": "quocgia",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "so": {
+                
+                "id": "so",
+                "name": "so",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "socmt": {
+                
+                "id": "socmt",
+                "name": "socmt",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "sohochieu": {
+                
+                "id": "sohochieu",
+                "name": "sohochieu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "soluongtacgia": {
+                
+                "id": "soluongtacgia",
+                "name": "soluongtacgia",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "soluongtacpham": {
+               
+                "id": "soluongtacpham",
+                "name": "soluongtacpham",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ten_diachi": {
+                "placeholder": "",
+                "id": "ten_diachi",
+                "name": "ten_diachi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tencoquan": {
+               
+                "id": "tencoquan",
+                "name": "tencoquan",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "tentochuc": {
+                "id": "tentochuc",
+                "name": "tentochuc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "tentrienlam": {
+               
+                "id": "tentrienlam",
+                "name": "tentrienlam",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100"
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid news' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%;position: relative;left: 54%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family: Times New Roman; font-weight: bold;} .news #tencoquan{width: 200px !important; }#so{width: 50px !important}#Dia_danh{width: 80px !important}#ngay1{width: 200px !important}#tentochuc{width: 200px !important}#ngay2{width: 100% !important}#Tencoquan1{width: 200px !important}#Tentochuc1{width: 750px !important}#diachi{width: 650px !important}#socmt{width: 200px !important}#ngaycap{width: 200px !important}#noicap{width: 200px !important}#sohochieu{width: 200px !important}#ngaycap1{width: 200px !important}#noicap1{width: 200px !important}#tentrienlam{width: 600px!important}#chude{width: 740px !important}#ten_diachi{width: 750px !important}#diadiem{width: 200px !important}#quocgia{width: 200px !important}#ngay3{width: 200px !important}#ngay4{width: 200px !important}#soluongtacpham{width: 200px !important}#soluongtacgia{width: 200px !important}#noinhan{width: 250px !important}#Tencoquan2{width: 200px !important}#chuky{width: 200px !important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}  body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field input{height: 25px!important;}</style><table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;'><tbody><tr><td style='width:57%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;text-align:center;'><b>BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH<br>Cục Mỹ thuật, Nhiếp ảnh và Triển lãm </b><br /> <br/>---------</p></td><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;text-align:center;font-size: 15.5px;'><strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br /><strong><span style='font-size:15.0pt;font-size: 15px'>Độc lập - Tự do - Hạnh phúc </span></strong><br /><strong>---------------</strong></p></td></tr><tr><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='center' style='margin-top:6.0pt;text-align:center;'><span style=''>Số: </span><span style='display: inline-table;' id='column-so' ></span><span style=''>/GP</span></p></td><td style='width:50%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p align='right' style='margin-top:6.0pt;text-align:right;'><span style='display: inline-table;' id='column-Dia_danh' ></span><em><span style=''>, ngày </span></em><span style='display: inline-table;' id='column-ngay1' ></span></p></td></tr></tbody></table><p style='margin-top:6.0pt;'>&nbsp;</p><p align='center' style='margin-top:6.0pt;font-size: 15.5px; text-align:center;'><strong>GIẤY PHÉP ĐƯA TÁC PHẨM NHIẾP ẢNH TỪ VIỆT NAM RA NƯỚC NGOÀI TRIỂN LÃM</strong></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>Căn cứ Nghị định số </span><span style=''>72</span><span style=''>/2016/NĐ-CP ngày</span><span style=''> 01</span><span style=''>&nbsp;tháng</span><span style=''>&nbsp;7</span><span style=''>&nbsp;năm 2016 của Chính phủ quy định về hoạt động nhiếp ảnh,</span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>Xét đơn đề nghị cấp giấy phép </span><span style=''>đưa </span><span style=''>tác phẩm nhiếp ảnh </span><span style=''>từ </span><span style=''>Việt Nam </span><span style=''>ra nước ngoài triển lãm của </span><span style='display: inline-table;' id='column-tentochuc' ></span> <span style=''>ngày </span><span style='display: inline-table;' id='column-ngay2' ></span><span style=''>.</span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style='display: inline-table;' id='column-Tencoquan1' ></span> <span style=''>cấp giấy phép </span><span style=''>đưa </span><span style=''>tác phẩm nhiếp ảnh </span><span style=''>từ </span><span style=''>Việt Nam </span><span style=''>ra nước ngoài triển lãm </span><span style=''>với các nội dung sau:</span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>1. Tên tổ chức, cá nhân </span><span style=''>được </span><span style=''>cấp giấy phép (viết chữ in hoa): </span></p><p><span style='display: inline-table;' id='column-Tentochuc1' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Địa chỉ:</span> <span style='display: inline-table;' id='column-diachi' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Giấy Chứng minh thư nhân dân/Thẻ căn cước công dân (đối với cá nhân Việt Nam): </span><span style=''>S</span><span style=''>ố </span><span style='display: inline-table;' id='column-socmt' ></span> <span style=''>ngày cấp </span><span style='display: inline-table;' id='column-ngaycap' ></span> <span style=''>nơi cấp </span><span style='display: inline-table;' id='column-noicap' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Hộ chiếu (đối với cá nhân là người Việt Nam sinh sống tại nước ngoài và người nước ngoài):</span><span style=''> S</span><span style=''>ố </span><span style='display: inline-table;' id='column-sohochieu' ></span> <span style=''>ngày cấp </span><span style='display: inline-table;' id='column-ngaycap1' ></span> <span style=''>nơi cấp </span><span style='display: inline-table;' id='column-noicap1' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>2. Tên triển lãm: </span><span style='display: inline-table;' id='column-tentrienlam' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Chủ đề, nội dung triển lãm: <br> </span><span style='display: inline-table;' id='column-chude' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Tên, địa chỉ, số điện thoại của tổ chức nước ngoài tổ chức triển lãm: </span><span style='display: inline-table;' id='column-ten_diachi' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Địa điểm tổ chức triển lãm: </span><span style='display: inline-table;' id='column-diadiem' ></span><span style=''> Quốc gia: </span><span style='display: inline-table;' id='column-quocgia' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Thời gian triển lãm: Từ ngày </span><span style='display: inline-table;' id='column-ngay3' ></span> <span style=''>đến ngày </span><span style='display: inline-table;' id='column-ngay4' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- </span><span style=''>Số lượng tác phẩm (có danh sách kèm theo): </span><span style='display: inline-table;' id='column-soluongtacpham' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>- Số lượng tác giả (có danh sách kèm theo)</span><span style=''>:</span> <span style='display: inline-table;' id='column-soluongtacgia' ></span></p><p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;'><span style=''>Tổ chức, cá nhân được cấp phép có trách nhiệm thực hiện đúng các nội dung trong giấy phép này và các quy định khác có liên quan khi đưa tác phẩm nhiếp ảnh từ Việt Nam ra nước ngoài triển lãm…</span><span style=''>.</span><span style=''>/…</span><span style=''>.</span></p><p style='margin-top:6.0pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='border-collapse:collapse;'><tbody><tr><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><p style='margin-top:6.0pt;font-size: 15px'><br /><strong><em>Nơi nhận:</em></strong><br /><span style='display: inline-table;' id='column-noinhan' ></span></p></td><td style='width:100%;padding:0in 5.4pt 0in 5.4pt;vertical-align:top;'><br><p align='center' style='margin-top:6.0pt;text-align:center;'><b> CỤC TRƯỞNG <b> <br /><strong></p><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-kyten' ></span></p></td></tr></tbody></table><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "diadiem": "column-diadiem",
+                "kyten": "column-kyten",
+                "socmt": "column-socmt",
+                "sohochieu": "column-sohochieu",
+                "tentrienlam": "column-tentrienlam",
+                "diachi": "column-diachi",
+                "Tencoquan1": "column-Tencoquan1",
+                "ngaycap1": "column-ngaycap1",
+                "soluongtacgia": "column-soluongtacgia",
+                "ngaycap": "column-ngaycap",
+                "noicap": "column-noicap",
+                "noinhan": "column-noinhan",
+                "Tencoquan2": "column-Tencoquan2",
+                "tentochuc": "column-tentochuc",
+                "soluongtacpham": "column-soluongtacpham",
+                "ten_diachi": "column-ten_diachi",
+                "so": "column-so",
+                "Tentochuc1": "column-Tentochuc1",
+                "chude": "column-chude",
+                "tencoquan": "column-tencoquan",
+                "quocgia": "column-quocgia",
+                "Dia_danh": "column-Dia_danh",
+                "noicap1": "column-noicap1",
+                "ngay2": "column-ngay2",
+                "ngay1": "column-ngay1",
+                "ngay4": "column-ngay4",
+                "ngay3": "column-ngay3"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2019-01-08T14:35:16 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DOC_01" pageWidth="595" pageHeight="842" columnWidth="483" leftMargin="56" rightMargin="56" topMargin="56" bottomMargin="56" uuid="18b440a8-d06d-46f8-85db-23846111d254">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="cm"/>
+	<subDataset name="thanh_phan" uuid="20f4166c-179f-48e1-9013-439a073bc78e">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="Dataset1" uuid="53eb646e-b3c7-4e8d-b4d6-4065f5e28bc5">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString language="json">
+		<![CDATA[opencps]]>
+	</queryString>
+	<field name="sequenceRole" class="java.lang.String">
+		<fieldDescription><![CDATA[sequenceRole]]></fieldDescription>
+	</field>
+	<field name="documentCode" class="java.lang.String">
+		<fieldDescription><![CDATA[documentCode]]></fieldDescription>
+	</field>
+	<field name="complementNote" class="java.lang.String">
+		<fieldDescription><![CDATA[complementNote]]></fieldDescription>
+	</field>
+	<field name="complementDoc" class="java.lang.String">
+		<fieldDescription><![CDATA[complementDoc]]></fieldDescription>
+	</field>
+	<field name="complementDate" class="java.lang.String">
+		<fieldDescription><![CDATA[complementDate]]></fieldDescription>
+	</field>
+	<field name="urlBarcode" class="java.lang.String">
+		<fieldDescription><![CDATA[urlBarcode]]></fieldDescription>
+	</field>
+	<field name="urlQRCode" class="java.lang.String">
+		<fieldDescription><![CDATA[urlQRCode]]></fieldDescription>
+	</field>
+	<field name="durationCount" class="java.lang.String">
+		<fieldDescription><![CDATA[durationCount]]></fieldDescription>
+	</field>
+	<field name="durationUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[durationUnit]]></fieldDescription>
+	</field>
+	<field name="sampleCount" class="java.lang.String">
+		<fieldDescription><![CDATA[sampleCount]]></fieldDescription>
+	</field>
+	<field name="dossierMarks" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierMarks]]></fieldDescription>
+	</field>
+	<field name="registerBookCode" class="java.lang.String">
+		<fieldDescription><![CDATA[registerBookCode]]></fieldDescription>
+	</field>
+	<field name="dossierId" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierId]]></fieldDescription>
+	</field>
+	<field name="groupId" class="java.lang.String">
+		<fieldDescription><![CDATA[groupId]]></fieldDescription>
+	</field>
+	<field name="createDate" class="java.lang.String">
+		<fieldDescription><![CDATA[createDate]]></fieldDescription>
+	</field>
+	<field name="modifiedDate" class="java.lang.String">
+		<fieldDescription><![CDATA[modifiedDate]]></fieldDescription>
+	</field>
+	<field name="referenceUid" class="java.lang.String">
+		<fieldDescription><![CDATA[referenceUid]]></fieldDescription>
+	</field>
+	<field name="counter" class="java.lang.String">
+		<fieldDescription><![CDATA[counter]]></fieldDescription>
+	</field>
+	<field name="serviceCode" class="java.lang.String">
+		<fieldDescription><![CDATA[serviceCode]]></fieldDescription>
+	</field>
+	<field name="serviceName" class="java.lang.String">
+		<fieldDescription><![CDATA[serviceName]]></fieldDescription>
+	</field>
+	<field name="govAgencyCode" class="java.lang.String">
+		<fieldDescription><![CDATA[govAgencyCode]]></fieldDescription>
+	</field>
+	<field name="govAgencyName" class="java.lang.String">
+		<fieldDescription><![CDATA[govAgencyName]]></fieldDescription>
+	</field>
+	<field name="dossierTemplateNo" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierTemplateNo]]></fieldDescription>
+	</field>
+	<field name="applicantName" class="java.lang.String">
+		<fieldDescription><![CDATA[applicantName]]></fieldDescription>
+	</field>
+	<field name="applicantIdType" class="java.lang.String">
+		<fieldDescription><![CDATA[applicantIdType]]></fieldDescription>
+	</field>
+	<field name="applicantIdNo" class="java.lang.String">
+		<fieldDescription><![CDATA[applicantIdNo]]></fieldDescription>
+	</field>
+	<field name="applicantIdDate" class="java.lang.String">
+		<fieldDescription><![CDATA[applicantIdDate]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<fieldDescription><![CDATA[address]]></fieldDescription>
+	</field>
+	<field name="cityCode" class="java.lang.String">
+		<fieldDescription><![CDATA[cityCode]]></fieldDescription>
+	</field>
+	<field name="cityName" class="java.lang.String">
+		<fieldDescription><![CDATA[cityName]]></fieldDescription>
+	</field>
+	<field name="districtCode" class="java.lang.String">
+		<fieldDescription><![CDATA[districtCode]]></fieldDescription>
+	</field>
+	<field name="districtName" class="java.lang.String">
+		<fieldDescription><![CDATA[districtName]]></fieldDescription>
+	</field>
+	<field name="wardCode" class="java.lang.String">
+		<fieldDescription><![CDATA[wardCode]]></fieldDescription>
+	</field>
+	<field name="wardName" class="java.lang.String">
+		<fieldDescription><![CDATA[wardName]]></fieldDescription>
+	</field>
+	<field name="contactName" class="java.lang.String">
+		<fieldDescription><![CDATA[contactName]]></fieldDescription>
+	</field>
+	<field name="contactTelNo" class="java.lang.String">
+		<fieldDescription><![CDATA[contactTelNo]]></fieldDescription>
+	</field>
+	<field name="contactEmail" class="java.lang.String">
+		<fieldDescription><![CDATA[contactEmail]]></fieldDescription>
+	</field>
+	<field name="dossierNote" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierNote]]></fieldDescription>
+	</field>
+	<field name="submissionNote" class="java.lang.String">
+		<fieldDescription><![CDATA[submissionNote]]></fieldDescription>
+	</field>
+	<field name="briefNote" class="java.lang.String">
+		<fieldDescription><![CDATA[briefNote]]></fieldDescription>
+	</field>
+	<field name="dossierNo" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierNo]]></fieldDescription>
+	</field>
+	<field name="submitting" class="java.lang.String">
+		<fieldDescription><![CDATA[submitting]]></fieldDescription>
+	</field>
+	<field name="submitDate" class="java.lang.String">
+		<fieldDescription><![CDATA[submitDate]]></fieldDescription>
+	</field>
+	<field name="receiveDate" class="java.lang.String">
+		<fieldDescription><![CDATA[receiveDate]]></fieldDescription>
+	</field>
+	<field name="dueDate" class="java.lang.String">
+		<fieldDescription><![CDATA[dueDate]]></fieldDescription>
+	</field>
+	<field name="finishDate" class="java.lang.String">
+		<fieldDescription><![CDATA[finishDate]]></fieldDescription>
+	</field>
+	<field name="cancellingDate" class="java.lang.String">
+		<fieldDescription><![CDATA[cancellingDate]]></fieldDescription>
+	</field>
+	<field name="correctingDate" class="java.lang.String">
+		<fieldDescription><![CDATA[correctingDate]]></fieldDescription>
+	</field>
+	<field name="dossierStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierStatus]]></fieldDescription>
+	</field>
+	<field name="dossierStatusText" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierStatusText]]></fieldDescription>
+	</field>
+	<field name="dossierSubStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierSubStatus]]></fieldDescription>
+	</field>
+	<field name="dossierSubStatusText" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierSubStatusText]]></fieldDescription>
+	</field>
+	<field name="viaPostal" class="java.lang.String">
+		<fieldDescription><![CDATA[viaPostal]]></fieldDescription>
+	</field>
+	<field name="postalAddress" class="java.lang.String">
+		<fieldDescription><![CDATA[postalAddress]]></fieldDescription>
+	</field>
+	<field name="postalCityCode" class="java.lang.String">
+		<fieldDescription><![CDATA[postalCityCode]]></fieldDescription>
+	</field>
+	<field name="postalCityName" class="java.lang.String">
+		<fieldDescription><![CDATA[postalCityName]]></fieldDescription>
+	</field>
+	<field name="postalTelNo" class="java.lang.String">
+		<fieldDescription><![CDATA[postalTelNo]]></fieldDescription>
+	</field>
+	<field name="permission" class="java.lang.String">
+		<fieldDescription><![CDATA[permission]]></fieldDescription>
+	</field>
+	<field name="lastActionDate" class="java.lang.String">
+		<fieldDescription><![CDATA[lastActionDate]]></fieldDescription>
+	</field>
+	<field name="lastActionCode" class="java.lang.String">
+		<fieldDescription><![CDATA[lastActionCode]]></fieldDescription>
+	</field>
+	<field name="lastActionName" class="java.lang.String">
+		<fieldDescription><![CDATA[lastActionName]]></fieldDescription>
+	</field>
+	<field name="lastActionUser" class="java.lang.String">
+		<fieldDescription><![CDATA[lastActionUser]]></fieldDescription>
+	</field>
+	<field name="lastActionNote" class="java.lang.String">
+		<fieldDescription><![CDATA[lastActionNote]]></fieldDescription>
+	</field>
+	<field name="stepCode" class="java.lang.String">
+		<fieldDescription><![CDATA[stepCode]]></fieldDescription>
+	</field>
+	<field name="stepName" class="java.lang.String">
+		<fieldDescription><![CDATA[stepName]]></fieldDescription>
+	</field>
+	<field name="stepDuedate" class="java.lang.String">
+		<fieldDescription><![CDATA[stepDuedate]]></fieldDescription>
+	</field>
+	<field name="stepOverdue" class="java.lang.String">
+		<fieldDescription><![CDATA[stepOverdue]]></fieldDescription>
+	</field>
+	<field name="visited" class="java.lang.String">
+		<fieldDescription><![CDATA[visited]]></fieldDescription>
+	</field>
+	<field name="pending" class="java.lang.String">
+		<fieldDescription><![CDATA[pending]]></fieldDescription>
+	</field>
+	<field name="applicantNote" class="java.lang.String">
+		<fieldDescription><![CDATA[applicantNote]]></fieldDescription>
+	</field>
+	<field name="online" class="java.lang.String">
+		<fieldDescription><![CDATA[online]]></fieldDescription>
+	</field>
+	<field name="dossierOverdue" class="java.lang.String">
+		<fieldDescription><![CDATA[dossierOverdue]]></fieldDescription>
+	</field>
+	<field name="hasPassword" class="java.lang.String">
+		<fieldDescription><![CDATA[hasPassword]]></fieldDescription>
+	</field>
+	<field name="serverNo" class="java.lang.String">
+		<fieldDescription><![CDATA[serverNo]]></fieldDescription>
+	</field>
+	<field name="endorsementDate" class="java.lang.String">
+		<fieldDescription><![CDATA[endorsementDate]]></fieldDescription>
+	</field>
+	<field name="lockState" class="java.lang.String">
+		<fieldDescription><![CDATA[lockState]]></fieldDescription>
+	</field>
+	<field name="statusReg" class="java.lang.String">
+		<fieldDescription><![CDATA[statusReg]]></fieldDescription>
+	</field>
+	<field name="processBlock" class="java.lang.String">
+		<fieldDescription><![CDATA[processBlock]]></fieldDescription>
+	</field>
+	<field name="processUnit" class="java.lang.String">
+		<fieldDescription><![CDATA[processUnit]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="419" splitType="Stretch">
+			<staticText>
+				<reportElement positionType="Float" x="60" y="26" width="120" height="10" uuid="a31e7832-6e0f-4b34-8ab4-007b7696d760"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[   ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="61" width="480" height="22" uuid="0acce6fb-29d6-405a-9e31-0ea7e3d47975">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="13.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[THÔNG BÁO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="305" y="26" width="120" height="10" uuid="6cdf9c94-3ace-4d27-b6d2-86cba8d0eace"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[   ]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="0" width="250" height="21" uuid="6ae841dc-154c-4e91-862e-8e8e5f141652">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{govAgencyName} != null ? $F{govAgencyName}.toUpperCase() : "TÊN CỤC")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="0" width="230" height="21" uuid="acd4b82a-5d71-4128-a8bf-70544866710a">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="250" y="37" width="230" height="21" uuid="9253fa97-5927-41d9-8e37-6688f5216396">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Right" markup="html">
+					<font fontName="DejaVu Sans" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Hà Nội, ngày " + (new SimpleDateFormat("dd").format(new Date())) + " tháng " + (new SimpleDateFormat("MM").format(new Date())) +" năm " + (new SimpleDateFormat("yyyy").format(new Date()))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="119" width="480" height="21" uuid="365c18d1-bcf2-47f5-8fe9-4f304485c3b7">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Kính gửi:</b>  "+($F{applicantName} != null ? $F{applicantName} : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="141" width="480" height="21" uuid="3e936a34-d2fb-4dc6-a30f-91f4c0f774f8">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2" firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ngày "+ ($F{receiveDate} != null ?( ($F{receiveDate}.split(" ")[0]).split("/")[0] + " tháng " + ($F{receiveDate}.split(" ")[0]).split("/")[1] + " năm " + ($F{receiveDate}.split(" ")[0]).split("/")[2]) : ".....tháng....năm…………… ") +" "+ ($F{govAgencyName} != null ? $F{govAgencyName}: "") + " tiếp nhận của ông, bà (tổ chức) "+($F{applicantName} != null ? $F{applicantName} : "")+" hồ sơ đề nghị giải quyết "+($F{serviceName} != null ? $F{serviceName} : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="1" y="285" width="480" height="21" uuid="3d9dbda0-41ba-41bb-84ea-79337edb238e">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Rất mong ông/bà (hoặc tổ chức) quan tâm phối hợp, hoàn thành việc bổ sung tại Bộ phận tiếp nhận và trả kết quả trước ngày "+($F{complementDate} != null ? $F{complementDate} : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="1" y="84" width="480" height="22" uuid="af2f6d0f-866d-45e4-a693-f2de1596be30">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" size="13.5" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Về việc bổ sung hồ sơ]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="170" width="480" height="21" uuid="231acf72-e67c-452f-9057-d20ddfb0f7f3">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Mã hồ sơ: " + ($F{dossierNo} != null ? $F{dossierNo} : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="191" width="481" height="21" uuid="71544d1d-dd5f-432e-993d-7dc303dc8f14">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Thời gian hẹn trả kết quả giải quyết hồ sơ: " +($F{dueDate} != null ?( ($F{dueDate}.split(" ")[1]).split(":")[0] + " giờ " + ($F{dueDate}.split(" ")[1]).split(":")[1] + " phút, ngày " + ($F{dueDate}.split(" ")[0]).split("/")[0] + " tháng " + ($F{dueDate}.split(" ")[0]).split("/")[1] + " năm " + ($F{dueDate}.split(" ")[0]).split("/")[2]) : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="212" width="480" height="21" uuid="e0dee70b-9360-4ead-b0aa-af371db134d9">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Sau khi thẩm định, để hoàn chỉnh hồ sơ, tạo điều kiện cho cơ quan giải quyết thủ tục hành chính đúng quy định và đảm bảo thời hạn, đề nghị ông/bà (tổ chức) vui lòng bổ sung các giấy tờ (hoặc điều chỉnh một số nội dung) trong hồ sơ như sau:"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="233" width="480" height="26" uuid="79bceb86-167d-45a6-ac98-c4752f48970b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{complementDoc} != null ?$F{complementDoc}.replaceAll("\n", "<br>" ) : ""]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="259" width="480" height="26" uuid="5f72aed8-6cd6-4db1-a597-f4f5b1026b88"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Căn cứ đề nghị bổ sung: " + ($F{complementNote} != null ?$F{complementNote} : "")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="308" width="480" height="26" uuid="b7f82b56-ab0c-4c3b-b6f5-36251cb03986"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Trân trọng./."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="250" y="334" width="230" height="20" uuid="bcec1763-a3d5-49b3-8444-d4f03413298f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐẠI DIỆN ĐƠN VỊ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="250" y="354" width="230" height="20" uuid="76270144-e2b0-43d4-a81b-5d681101e269"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký và ghi rõ họ tên)]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="37" width="250" height="21" uuid="1b6890d8-4824-4f34-9ac2-6a2da23d5cff">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="DejaVu Sans"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Số: " + ($F{documentCode} != null ? $F{documentCode} : "    ") +"/TB"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,198 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "ky_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_don": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_don2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_don3": {
+                "required": false,
+                "type": "object"
+            },
+            "so_don": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_thu_tuc": {
+                "required": false,
+                "type": "object"
+            },
+            "text1": {
+                "required": false,
+                "type": "object"
+            },
+            "text2": {
+                "required": false,
+                "type": "object"
+            },
+            "text3": {
+                "required": false,
+                "type": "object"
+            },
+            "textarea": {
+                "required": false,
+                "type": "object"
+            },
+            "to_chuc": {
+                "required": false,
+                "type": "object"
+            },
+            "to_chuc2": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "ky_ten": {
+                "id": "ky_ten",
+                "name": "ky_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "ngay_don": {
+                "id": "ngay_don",
+                "name": "ngay_don",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+				"events": {
+                    "ready": function(){
+                        var n = new Date();
+                        $('#ngay_don').val(n.getDate()+'/'+(n.getMonth()+1)+'/'+n.getFullYear());
+                    }
+                }
+            },
+            "ngay_don2": {
+                "id": "ngay_don2",
+                "name": "ngay_don2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+            },
+            "ngay_don3": {
+                "id": "ngay_don3",
+                "name": "ngay_don3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"dateFormat": "DD/MM/YYYY",
+                "picker": {
+                    "locale": "vi_VN",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY",
+                    "extraFormats": []
+                },
+            },
+            "so_don": {
+                "id": "so_don",
+                "name": "so_don",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "ten_thu_tuc": {
+                "id": "ten_thu_tuc",
+                "name": "ten_thu_tuc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "text1": {
+                "id": "text1",
+                "name": "text1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "text2": {
+                "id": "text2",
+                "name": "text2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "text3": {
+                "id": "text3",
+                "name": "text3",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "textarea": {
+                "id": "textarea",
+                "name": "textarea",
+                "type": "textarea",
+				"rows": "3",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "to_chuc": {
+                "id": "to_chuc",
+                "name": "to_chuc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            },
+            "to_chuc2": {
+                "id": "to_chuc2",
+                "name": "to_chuc2",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid hung-pho' style='font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 70%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'><style type='text/css'>.hung-pho #textarea{width: 800px!important; font-size: 19px;}.hung-pho #textarea{width: 800px!important; font-size: 18px;}.hung-pho #so_don{width: 100px !important;}#text1{width: 270px !important; text-transform: uppercase;} #ngay_don{width: 100px !important;}#to_chuc{width: 300px !important;}#to_chuc2{width: 270px !important;}#ngay_don2{width: 250px !important;}.style-cps-form select{-webkit-appearance: menulist; border-style: inset;}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important; font-size: 19px; } input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;}</style><table align='center' border='0' cellpadding='0' cellspacing='0' style='width:100%;border-collapse:collapse;' width='643'><tbody><tr><td style='width: 40%; padding:0cm 0cm 0cm 0cm;vertical-align:top;'><p align='center' style='text-align:center;'><span style='display: inline-table;' id='column-text1' ></span></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>--------------</span></span></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Số: </span></span><span style='display: inline-table;' id='column-so_don' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>/TB</span></span></p></td><td style='width: 60%; padding:0cm 0cm 0cm 0cm;vertical-align:top;'><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:3.4pt;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><span style='border:none windowtext 1.0pt;padding:0cm;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br />Độc lập - Tự do - Hạnh phúc</span></span></span></strong><br /><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>--------------------</span></span></p><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:right;line-height:normal;'><em><span style='border:none windowtext 1.0pt;padding:0cm;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Hà Nội ,ngày </span></span></span></em><span style='display: inline-table;' id='column-ngay_don' ></span></p></td></tr></tbody></table><div style='clear:both;'>&nbsp;</div><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><span style='border:none windowtext 1.0pt;padding:0cm;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>PHIẾU BÁO YÊU CẦU BỔ SUNG HỒ SƠ</span></span></span></strong></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><em><span style='border:none windowtext 1.0pt;padding:0cm;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Kính gửi:</span></span></span></em></strong><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>&nbsp;Ông/Bà/Tổ chức: </span></span><span style='display: inline-table;' id='column-to_chuc' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;'><span style='display: inline-table;' id='column-text2' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> có nhận được đơn của Ông/Bà/Tổ chức </span></span><span style='display: inline-table;' id='column-to_chuc2' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> </span></span><span style='font-size:14.0pt;'> ngày </span><span style='display: inline-table;' id='column-ngay_don2' ></span> <span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>đề nghị cấp: </span></span><span style='display: inline-table;' id='column-ten_thu_tuc' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:normal;'>&nbsp;</p><p style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:normal;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Để </span></span><span style='display: inline-table;' id='column-text3' ></span><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'> có đủ cơ sở giải quyết cấp theo yêu cầu, đề nghị Ông/Bà/Tổ chức bổ sung các văn bản sau đây trước ngày </span></span><span style='display: inline-table;' id='column-ngay_don3' ></span>:</p><p><span style='display: inline-table;' id='column-textarea' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:justify;line-height:normal;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>Trân trọng!</span></span></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:100%;border-collapse:collapse;' width='585'><tbody><tr><td style='width: 40%; padding:0cm 0cm 0cm 0cm;vertical-align:top;'>&nbsp;</td><td style='padding:0cm 0cm 0cm 0cm;vertical-align:top;'><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><strong><span style='border:none windowtext 1.0pt;padding:0cm;'><span style='font-family:times new roman,serif;'><span style='font-size:14.0pt;'>ĐẠI DIỆN ĐƠN VỊ</span></span></span></strong></p><br><br><br><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;line-height:normal;'><span style='display: inline-table;' id='column-ky_ten' ></span></p></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p></div></div>",
+            "bindings": {
+                "text3": "column-text3",
+                "ngay_don3": "column-ngay_don3",
+                "textarea": "column-textarea",
+                "ngay_don2": "column-ngay_don2",
+                "text1": "column-text1",
+                "ten_thu_tuc": "column-ten_thu_tuc",
+                "text2": "column-text2",
+                "so_don": "column-so_don",
+                "to_chuc2": "column-to_chuc2",
+                "to_chuc": "column-to_chuc",
+                "ky_ten": "column-ky_ten",
+                "ngay_don": "column-ngay_don"
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}

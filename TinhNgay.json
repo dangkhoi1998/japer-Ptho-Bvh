@@ -1,0 +1,195 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "ngaySinh": {
+                "type": "string",
+                "required": false
+            },
+            "loaiGiayPhepValue": {
+                "type": "string",
+                "required": false
+            },
+            "cucTruongCucDSVN": {
+                "type": "string",
+                "required": false
+            },
+            "loaiGiayPhep": {
+                "type": "string",
+                "required": false
+            },
+            "_subjectName": {
+                "type": "string",
+                "required": false
+            },
+            "cityCodeLabel": {
+                "type": "string",
+                "required": false
+            },
+            "noiCongTac": {
+                "type": "string",
+                "required": false
+            },
+            "soGiayPhep": {
+                "type": "string",
+                "required": false
+            },
+            "ngayCap": {
+                "type": "string",
+                "required": false
+            },
+            "ngayCapHetHan": {
+                "type": "string",
+                "required": false
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "ngaySinh": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "id": "ngaySinh",
+                "name": "ngaySinh",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "picker": {
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "extraFormats": []
+                }
+            },
+            "cucTruongCucDSVN": {
+                "id": "cucTruongCucDSVN",
+                "name": "cucTruongCucDSVN",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "loaiGiayPhepValue": {
+                "id": "loaiGiayPhepValue",
+                "name": "loaiGiayPhepValue",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "loaiGiayPhep": {
+                "id": "loaiGiayPhep",
+                "name": "loaiGiayPhep",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "",
+                "events": {
+                    "ready": function(){
+                        var loai = $('#loaiGiayPhepValue').val();
+                        if(loai == 'DS_LGP_02'){
+                            $('#loaiGiayPhep').val('Chuyên Dùng');
+                        }
+                        if(loai == 'DS_LGP_01'){
+                            $('#loaiGiayPhep').val('DIEZEL');
+                        }
+                        
+                        
+                    }
+                }
+            },
+            "_subjectName": {
+                "id": "_subjectName",
+                "name": "_subjectName",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "cityCodeLabel": {
+                "id": "cityCodeLabel",
+                "name": "cityCodeLabel",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+               
+            },
+            "noiCongTac": {
+                "id": "noiCongTac",
+                "name": "noiCongTac",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "soGiayPhep": {
+                "id": "soGiayPhep",
+                "name": "soGiayPhep",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+        "ngayCap": {
+            "placeholder": "",
+                "dateFormat": "DD/MM/YYYY",
+                "id": "ngayCap",
+                "name": "ngayCap",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "picker": {
+                    "useCurrent": false,
+                    "format": "DD/MM/YYYY",
+                    "locale": "vi_VN",
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "extraFormats": []
+                }
+            },
+        "ngayCapHetHan": {
+            "placeholder": "",
+                "id": "ngayCapHetHan",
+                "name": "ngayCapHetHan",
+                "dateFormat": "DD/MM/YYYY",
+                "type": "date",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "events": {
+                    "ready": function(){
+                        var n = new Date();
+                        nam = n.getFullYear();
+                        nam = nam + 10;
+                        ngay = n.getDate();
+                        thang = n.getMonth() + 1;
+                        tg = ngay+'/'+thang+'/'+nam;
+                        console.log(tg);
+                        $('#ngayCapHetHan').val(tg);
+                }
+            }
+            }
+        }
+    },
+    "view": {
+        "parent": "bootstrap-edit",
+        "layout": {
+            "template": "<div class='alpacaa row-fluid'><div class='row-fluid' style='font-family: ‘Times New Roman’, Times, serif; font-size:14px; text-rendering: optimizeLegibility;width: 80%;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style>body .alpacaa.alpaca-field .alpaca-field-select select{border: 1px dashed !important; height:25px!important;} .alpacaa .alpaca-field input {border-bottom: 1px dashed; border-left:none; border-right:none; border-top:none; line-height: 25px!important;}  div.row-fluid > p{padding-left: 35px !important;}.alpaca-layout-binding-holder{margin-bottom: 5px;} .aui p{margin: 0 0 0px !important;} ul{list-style: none !important;}.aui .form-group, .aui .control-group{margin-bottom: 2px !important;} .alpaca-field tr, .alpaca-field td, .alpaca-field th, .alpaca-field table{border:0px !important;} .alpacaa textarea {border: 1px solid !important;} #loaiGiayPhep{text-align:center; width: 400px !important;} #_subjectName{width: 562px !important;} #noiCongTac{width: 537px !important;} #ngaySinh{width: 556px !important;} #ngayCap{width: 209px !important;} #soGiayPhep{width: 200px !important;} .alpacaa .alpaca-field-valid:before{display:none;} .alpacaa .alpaca-field-valid:after {display:none;} body .alpacaa.alpaca-field .has-error.alpaca-field-text:before{display:none;}</style><div style=' text-align: center;' class='row-fluid'><strong><span>GIẤY PHÉP LÁI TÀU</span></strong></div><div style='text-align: center; display:inline-block; margin-left:220px;' class='row-fluid'><span id='col-loaiGiayPhep'> </span></div><br><br><div style='text-align: center;' class='row-fluid'><span><strong>Cục trưởng Cục Đường Sắt Việt Nam </strong></span></div><div style='margin-left:100px; margin-right:100px;' class='row-fluid'><span><strong>Cấp cho: </strong></span><span class='span12' style='display:inline-block;' id='_subjectName'></span></div><div style='margin-left:100px; margin-right:100px;' class='row-fluid'><span><strong>Ngày cấp: </strong></span><span class='span12' style='display:inline-block;' id='ngaySinh'></span></div><div style='margin-left:100px; margin-right:100px;' class='row-fluid'><span><strong>Nơi công tác: </strong></span><span class='span12' style='display:inline-block;' id='col-noiCongTac'></span></div><br><div style='font-size:13px; width: 50%; display:inline;' class='row-fluid' ><div style='float:left; text-align:center; '><span><strong>Số giấy phép: </strong></span><span style='display:inline-block;' id='col-soGiayPhep'></span></div><div style='float:right; font-size:13px; '><span style='display:inline-block'></span><strong>Ngày cấp: </strong><span style='display:inline-block' id='col-ngayCap'></span><br><span style='display:inline-block;'><strong>Ngày hết hạn: &nbsp; </strong></span><span style='display:inline-block;' id='col-ngayCapHetHan'></span></div><div style='display:none;' id='loaiGiayPhepValue'></div></div></div>",
+            "bindings": {
+                "ngaySinh": "col-ngaySinh",
+                "loaiGiayPhep": "col-loaiGiayPhep",
+                "loaiGiayPhepValue": "col-loaiGiayPhepValue",
+                "cucTruongCucDSVN": "col-cucTruongCucDSVN",
+                "_subjectName": "_subjectName",
+                "cityCodeLabel": "col-cityCodeLabel",
+                "noiCongTac": "col-noiCongTac",
+                "soGiayPhep": "col-soGiayPhep",
+                "ngayCap": "col-ngayCap",
+                "ngayCapHetHan": "col-ngayCapHetHan"
+            }
+        }
+    }
+}

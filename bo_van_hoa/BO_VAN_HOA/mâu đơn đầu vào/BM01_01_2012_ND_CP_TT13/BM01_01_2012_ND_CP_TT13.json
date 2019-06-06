@@ -1,0 +1,476 @@
+{
+    "schema": {
+        "type": "object",
+        "required": false,
+        "properties": {
+            "Dia_diem1": {
+                "required": false,
+                "type": "object"
+            },
+            "chu_ky": {
+                "required": false,
+                "type": "object"
+            },
+			"email": {
+                "required": false,
+                "type": "object"
+            },
+            "chuc_vu": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_chi": {
+                "required": false,
+                "type": "object"
+            },
+            "dia_diem": {
+                "required": false,
+                "type": "object"
+            },
+            "location": {
+                "required": false,
+                "type": "object"
+            },
+            "diadiem_suutam": {
+                "required": false,
+                "type": "object"
+            },
+            "dien_thoai": {
+                "required": false,
+                "type": "object"
+            },
+            "dien_thoai1": {
+                "required": false,
+                "type": "object"
+            },
+            "doi_tuong": {
+                "required": false,
+                "type": "object"
+            },
+            "ho_ten": {
+                "required": false,
+                "type": "object"
+            },
+            "kinh_gui": {
+                "required": false,
+                "type": "object"
+            },
+            "kinh_gui1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay": {
+                "required": false,
+                "type": "object"
+            },
+			"ngay2": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_cap1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_hethan": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_hethan1": {
+                "required": false,
+                "type": "object"
+            },
+            "ngay_sinh": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_cap": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_cap1": {
+                "required": false,
+                "type": "object"
+            },
+            "noi_sinh": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_tich": {
+                "required": false,
+                "type": "object"
+            },
+            "quoc_tich1": {
+                "required": false,
+                "type": "object"
+            },
+            "so_hochieu": {
+                "required": false,
+                "type": "object"
+            },
+            "so_hochieu1": {
+                "required": false,
+                "type": "object"
+            },
+            "ten_tc": {
+                "required": false,
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "type": "object",
+        "legendStyle": "",
+        "fields": {
+            "Dia_diem1": {
+                "id": "Dia_diem1",
+                "name": "Dia_diem1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": "Địa điểm"
+            },
+            "chu_ky": {
+                "id": "chu_ky",
+                "name": "chu_ky",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Chữ ký"
+            },
+            "chuc_vu": {
+                "id": "chuc_vu",
+                "name": "chuc_vu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dia_chi": {
+                "id": "dia_chi",
+                "name": "dia_chi",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+			"email": {
+                "id": "email",
+                "name": "email",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dia_diem": {
+                "id": "dia_diem",
+                "name": "dia_diem",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Địa điểm"
+            },
+			"location": {
+                "id": "location",
+                "name": "location",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Location"
+            },
+            "dia_diem1": {
+                "id": "dia_diem1",
+                "name": "dia_diem1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100 text-input-center",
+                "placeholder": "Location"
+            },
+            "diadiem_suutam": {
+                "id": "diadiem_suutam",
+                "name": "diadiem_suutam",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dien_thoai": {
+                "id": "dien_thoai",
+                "name": "dien_thoai",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "dien_thoai1": {
+                "id": "dien_thoai1",
+                "name": "dien_thoai1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "doi_tuong": {
+                "id": "doi_tuong",
+                "name": "doi_tuong",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ho_ten": {
+                "id": "ho_ten",
+                "name": "ho_ten",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "kinh_gui": {
+                "id": "kinh_gui",
+                "name": "kinh_gui",
+                "fieldClass": "form-input-100",
+                "type": "textarea",
+                 "label": "",
+                "placeholder": "",
+                "rows":"2"
+            },
+            "ngay": {
+                "placeholder": "Ngày/Date",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay",
+                "name": "ngay",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "ngay2": {
+                "placeholder": "Ngày/Date",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay2",
+                "name": "ngay2",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100",
+				"events": {
+                    "ready": function(){
+                        var d = new Date();
+                        var ng = d.getDate();
+                        var thang = d.getMonth()+1;
+                        var y=d.getFullYear();
+                        $('#ngay2').val(ng+"/"+thang+"/"+y);
+                    }
+                }
+            },
+            "ngay_cap": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay_cap",
+                "name": "ngay_cap",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_cap1": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay_cap1",
+                "name": "ngay_cap1",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_hethan": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay_hethan",
+                "name": "ngay_hethan",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_hethan1": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay_hethan1",
+                "name": "ngay_hethan1",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "ngay_sinh": {
+                "placeholder": "",
+                "dateFormat": "DD/MM/YYYY ",
+                "picker": {
+                    "locale": "en_US",
+                    "useCurrent": false,
+                    "dayViewHeaderFormat": "MMMM YYYY",
+                    "format": "DD/MM/YYYY ",
+                    "extraFormats": ["MM/DD/YYYY hh:mm:ss a", "MM/DD/YYYY HH:mm", "MM/DD/YYYY"]
+                },
+                "id": "ngay_sinh",
+                "name": "ngay_sinh",
+                "type": "datetime",
+                "label": "",
+                "fieldClass": "form-input-100"
+            },
+            "noi_cap": {
+                "id": "noi_cap",
+                "name": "noi_cap",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "noi_cap1": {
+                "id": "noi_cap1",
+                "name": "noi_cap1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "noi_sinh": {
+                "id": "noi_sinh",
+                "name": "noi_sinh",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "quoc_tich": {
+                "id": "quoc_tich",
+                "name": "quoc_tich",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "quoc_tich1": {
+                "id": "quoc_tich1",
+                "name": "quoc_tich1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_hochieu": {
+                "id": "so_hochieu",
+                "name": "so_hochieu",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "so_hochieu1": {
+                "id": "so_hochieu1",
+                "name": "so_hochieu1",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            },
+            "ten_tc": {
+                "id": "ten_tc",
+                "name": "ten_tc",
+                "type": "text",
+                "label": "",
+                "fieldClass": "form-input-100",
+                "placeholder": ""
+            }
+        }
+    },
+    "view": {
+        "layout": {
+            "template": "<div class='row-fluid'><div class='row-fluid' style='font-size:15px; line-height:25px; font-family: Times New Roman, Times, serif;text-rendering: optimizeLegibility;width: 80%; padding-left: 25px; padding-right: 25px;position: relative;left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);'><style type='text/css'>body strong{font-family:Times New Roman;font-weight:bold;}#email{width:180px!important}#diadiem_suutam{width:757px!important}#doi_tuong{width:787px!important}#quoc_tich{width:372px!important}#ho_ten{width:367px!important}#dien_thoai1{width:100px!important}#ngay_cap{width:150px!important}#so_hochieu1{width:158px!important}#quoc_tich1{width:150px!important}#chuc_vu{width:605px!important}#dien_thoai{width:166px!important}#dia_chi{width:349px!important}#noi_sinh{width:366px!important}#ngay_sinh{width:220px!important}#kinh_gui{width:600px!important}#noi_cap1{width:237px!important}#noi_cap{width:288px!important}.has-error.alpaca-field-text:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:red}.alpaca-container-item input{border-bottom: 0px !important;} input:focus{outline:none}.alpaca-field-text,.alpaca-field-date,.alpaca-field-datetime{position:relative;}.alpaca-field-text:before, .alpaca-field-date:before, .alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%;height:1px;background-color:#ccc} .notBBAT .alpaca-field-text:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-date:before, .notBBAT .alpaca-field-datetime:before, .notBBAT.alpaca-field-text:before, .notBBAT.alpaca-field-date:before, .notBBAT.alpaca-field-datetime:before{content:'';position:absolute;bottom:3px;left:0;width:100%!important;height:0px;background-color:#ccc} .alpaca-layout-binding-holder{margin-bottom: -15px !important;} p .form-group, p .control-group{margin-bottom: 1px !important;}p{text-indent: 0pt !important;}ul{list-style: none;}.alpaca-field li .form-group, .alpaca-field li .control-group{margin-bottom: 0px !important;} .alpaca-field .row-fluid table td{padding: 5px 10px 0px 10px !important;} body b, body label, body .label, body strong{font-family: Times New Roman, Times, serif; font-weight:bold;} .alpaca-field .alpaca-field-select select{border: 1px solid!important; height: 25px!important;} .alpaca-field input{height: 25px!important; width:100%;} body .alpaca-field textarea{border: 1px dashed #70706c; width:100%;} textarea.form-control{height:100px;}</style><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:191.4pt;'><span style='display: inline-table;' id='column-dia_diem' ></span><em><span style=''>, ngày(date) </span></em><span style='display: inline-table;width : 90px;' id='column-ngay' ></span></p><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:191.4pt;'></p><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;text-indent:135.0pt;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='display: inline-table;margin-left: 68%;' id='column-dia_diem1' ></span><em><span style=''></span></em><span style='display: inline-table;width : 90px;' id='column-ngay1' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'>&nbsp;</p><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>ĐƠN ĐỀ NGHỊ </span></strong></p><p align='right' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>APPLICATION FOR</span></strong></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>Cấp giấy phép nghiên cứu, sưu tầm di sản văn hóa phi vật thể</span></strong></p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>A license to research on and collect intangible cultural heritage</span></strong></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'>&nbsp;</p><p align='center' style='text-align:center;'>Kính gửi/To: <span style='display: inline-table;' id='column-kinh_gui' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Tên tổ chức/cá nhân đề nghị (<em>viết chữ in hoa</em>)/ Name of Applicant (Organization and/or Individual (<em>in capital letters</em>): </span><span style='display: inline-table;width: 100%;' id='column-ten_tc' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Ngày tháng năm sinh (<em>đối với cá nhân</em>)/ Date of birth (<em>for individual</em>): </span><span style='display: inline-table;width:294px;' id='column-ngay_sinh' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nơi sinh (<em>đối với cá nhân</em>)/ Place of birth (<em>for individual</em>): </span><span style='display: inline-table;width : 120px;' id='column-noi_sinh' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Quốc tịch (<em>đối với cá nhân</em>)/ Nationality (<em>for individual</em>): </span><span style='display: inline-table;width : 300px;' id='column-quoc_tich' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hộ chiếu (<em>đối với cá nhân</em>): Số: </span><span style='display: inline-table;' id='column-so_hochieu' ></span><span style=''> Ngày cấp: </span><span style='display: inline-table;width : 0px' id='column-ngay_cap' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style='display: inline-table;width : 0px' id='column-ngay_cap' ></span><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nơi cấp: </span><span style='display: inline-table;' id='column-noi_cap' ></span><span style=''> Ngày hết hạn: </span><span style='display: inline-table;width: 177px;' id='column-ngay_hethan' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Passport (<em>for individual</em>): No: </span><span style='display: inline-table;' id='column-so_hochieu1' ></span><span style=''> Date of issue: </span><span style='display: inline-table;width :90px;' id='column-ngay_cap1' ></span><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place of issue: </span><span style='display: inline-table;width : 174px;' id='column-noi_cap1' ></span><span style=''> Date of expiry: </span><span style='display: inline-table;width : 186px;' id='column-ngay_hethan1' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Địa chỉ (<em>trụ sở chính đối với tổ chức/nơi thường trú đối với cá nhân</em>)/ Address <em>(headquarter of organization/residential address of individual</em>): </span><span style='display: inline-table;' id='column-dia_chi' ></span><span style=''>&nbsp; Điện thoại/Tel: </span><span style='display: inline-table;width:95px;' id='column-dien_thoai' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Người đại diện theo pháp luật (<em>đối với tổ chức</em>)/ Legal representative (<em>of organization)</em>:</span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Họ và tên (<em>viết chữ in hoa</em>)/ Full name (<em>in capital letters</em>): </span><span style='display: inline-table;' id='column-ho_ten' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Chức vụ/Position: </span><span style='display: inline-table;' id='column-chuc_vu' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Quốc tịch/Nationality: </span><span style='display: inline-table;' id='column-quoc_tich1' ></span><span style=''> Điện thoại/Tel: </span><span style='display: inline-table;' id='column-dien_thoai1' ></span><span style=''>&nbsp; Email: </span><span style='display: inline-table;width:95px;' id='column-email' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Loại hình, đối tượng di sản văn hóa phi vật thể đề nghị được nghiên cứu, sưu tầm/ Types, objects of intangible cultural heritage that are applied for research and collection: </span><span style='display: inline-table;' id='column-doi_tuong' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'><span style=''>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Địa điểm tiến hành nghiên cứu, sưu tầm/ Research and collection site: </span><span style='display: inline-table;' id='column-diadiem_suutam' ></span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;'><span style='text-align: justify'>&nbsp;&nbsp;&nbsp;5. Đề nghị Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch </span><span style='text-align: justify'> cấp giấy phép nghiên cứu, sưu tầm di sản văn hóa phi vật thể/ We propose that the Minister of </span><span style=''>Culture, Sports and Tourism/</span><span style='text-align: justify;'> issue a license for the research on and/ or collection of the intangible cultural heritage.</span></p><p style='margin-bottom:0cm;text-align: justify;margin-bottom:.0001pt;'><span style='text-align: justify;'>&nbsp;&nbsp;&nbsp;&nbsp;6. Cam kết/ We hereby commit: Chịu trách nhiệm về tính chính xác của hồ sơ đề nghị cấp giấy phép và sẽ thực hiện nghiên cứu, sưu tầm theo quy định của pháp luật Việt Nam/ To take full responsibility for the accuracy of the content of this application and we will undertake the research and collection in accordance with the Vietnamese laws.</span></p><p style='margin-bottom:0cm;margin-bottom:.0001pt;'>&nbsp;</p><table border='0' cellpadding='0' cellspacing='0' style='width:100%!important;' width='100%'><tbody><tr><td style='width:50%;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p style='margin-top:0cm;margin-right:-10.95pt;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-indent:-9.0pt;'>&nbsp;</p><p style='margin-top:0cm;margin-right:-10.95pt;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-indent:-9.0pt;'>&nbsp;</p><p align='center' style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:center;'>&nbsp;</p></td><td style='width:50%;padding:0cm 5.4pt 0cm 5.4pt;vertical-align:top;'><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>TỔ CHỨC/CÁ NHÂN ĐỀ NGHỊ CẤP GIẤY PHÉP</span></strong></p><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><strong><span style=''>ORGANIZATION OR INDIVIDUALS APPLYING FOR THE LICENSE</span></strong></p><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><em><span style=''>Ký, đóng dấu, ghi rõ họ tên (đối với tổ chức)</span></em></p><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><em><span style=''>Signed, sealed, and name (in case of organization)</span></em></p><p align='center' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><em><span style=''>Ký, ghi rõ họ tên (đối với cá nhân)</span></em></p><p align='right' style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:-9.55pt;margin-bottom:.0001pt;text-align:center;'><em><span style=''>Signed, sealed, and full name (in case of individuals)</span></em></p></td></tr></tbody></table><p>&nbsp;</p><p>&nbsp;</p><p><span style='display: inline-table;margin-left:67%;width:220px;' id='column-chu_ky' ></span></p></div></div>",
+            "bindings": {
+                "ngay_hethan1": "column-ngay_hethan1",
+                "chuc_vu": "column-chuc_vu",
+				"chu_ky": "column-chu_ky",
+                "noi_cap": "column-noi_cap",
+                "so_hochieu1": "column-so_hochieu1",
+                "so_hochieu": "column-so_hochieu",
+                "ngay_cap": "column-ngay_cap",
+                "ngay_sinh": "column-ngay_sinh",
+                "noi_cap1": "column-noi_cap1",
+                "dien_thoai": "column-dien_thoai",
+                "doi_tuong": "column-doi_tuong",
+                "ngay_hethan": "column-ngay_hethan",
+                "ten_tc": "column-ten_tc",
+                "noi_sinh": "column-noi_sinh",
+                "diadiem_suutam": "column-diadiem_suutam",
+                "dia_diem": "column-dia_diem",
+				"location": "column-location",
+                "dien_thoai1": "column-dien_thoai1",
+                "dia_diem1": "column-dia_diem1",
+				"email": "column-email",
+                "kinh_gui": "column-kinh_gui",
+                "dia_chi": "column-dia_chi",
+                "ngay_cap1": "column-ngay_cap1",
+                "ngay": "column-ngay",
+				"ngay2": "column-ngay2",
+                "quoc_tich": "column-quoc_tich",
+				 "quoc_tich1": "column-quoc_tich1",
+                "ho_ten": "column-ho_ten",
+                "ngay1": "column-ngay1",
+               
+            }
+        },
+        "parent": "bootstrap-edit",
+        "fields": {}
+    }
+}
